@@ -1,0 +1,108 @@
+@import 'tailwind-preset-mantine';
+@import '@mantine/notifications/styles.layer.css';
+@import '@mantine/dates/styles.layer.css';
+
+@theme {
+  --transition-duration: 250ms;
+  --default-transition-duration: 250ms;
+}
+
+:root {
+  --spacing: 4px;
+}
+
+@layer mantine {
+  ul,
+  ol {
+    list-style: revert;
+  }
+
+  .red-box {
+    @apply rounded-sm border border-t-4 border-x-gray-200 border-b-gray-200 border-t-red-600 px-4 sm:px-8 py-12;
+  }
+
+  .blue-box {
+    @apply rounded-sm border border-t-4 border-x-gray-200 border-b-gray-200 border-t-[#133C5C] p-4 md:p-6;
+  }
+
+  .mantine-Container-root {
+    @apply px-4 sm:px-16 lg:px-4;
+  }
+
+  .list-triangle {
+    padding-left: 20px;
+    position: relative;
+    list-style: none;
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 13px;
+      height: 20px;
+      background: url('../assets/triangle.svg') no-repeat center/contain;
+    }
+  }
+}
+
+@layer components {
+  .mantine-Container-root {
+    &[data-size='lg'] {
+      max-width: 1200px;
+    }
+  }
+
+  .mantine-Anchor-root,
+  .mantine-UnstyledButton-root {
+    transition: all 0.25s ease-out;
+  }
+
+  .mantine-Button-root {
+    font-weight: bold;
+  }
+
+  .mantine-ActionIcon-root {
+    &[data-size='xl'] {
+      min-height: 42px;
+      height: 42px;
+    }
+  }
+
+  .mantine-Input-input {
+    font-size: 16px;
+  }
+
+  .mantine-Divider-root {
+    border-color: var(--mantine-color-gray-1);
+  }
+
+  .mantine-InputWrapper-label {
+    font-weight: normal;
+    margin-bottom: 4px;
+  }
+
+  .mantine-Input-input.StripeElement {
+    display: flex;
+  }
+
+  .mantine-Modal-title {
+    font-family: var(--mantine-font-family-headings);
+    font-weight: bold;
+
+    @media (width > 48em) {
+      font-size: 32px;
+    }
+  }
+}
+
+body {
+  color: #2b2b2b;
+
+  @media print {
+    .no-print,
+    .no-print * {
+      display: none !important;
+    }
+  }
+}

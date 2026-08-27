@@ -1,0 +1,1769 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-05-29 18:24+0700\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/modules/test/TestCompletion.tsx:161
+msgid "(see example)"
+msgstr "(see example)"
+
+#: src/contexts/TestProvider.tsx:51
+msgid "1 hour time limit"
+msgstr "1 hour time limit"
+
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:24
+msgid "100% fully online. Take the ACPT anytime, anywhere. No appointment required."
+msgstr "100% fully online. Take the ACPT anytime, anywhere. No appointment required."
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:24
+msgid "100% online. No appointment required."
+msgstr "100% online. No appointment required."
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:16
+msgid "40 minutes"
+msgstr "40 minutes"
+
+#: src/modules/test/TestWelcome.tsx:16
+msgid "40-minute time limit"
+msgstr "40-minute time limit"
+
+#: src/modules/test/TestWelcome.tsx:17
+#: src/contexts/TestProvider.tsx:51
+msgid "50 multiple choice questions"
+msgstr "50 multiple choice questions"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:20
+msgid "50 multiple-choice questions"
+msgstr "50 multiple-choice questions"
+
+#: src/modules/user/certificate/CertificateFile.tsx:47
+msgid "A certified ACPT tutor is a proven expert in academic support, having demonstrated excellence in subject matter knowledge, teaching strategies, and hands-on tutoring ability."
+msgstr "A certified ACPT tutor is a proven expert in academic support, having demonstrated excellence in subject matter knowledge, teaching strategies, and hands-on tutoring ability."
+
+#: src/modules/faq/FAQPage.tsx:26
+msgid "A computer-adaptive test adjusts the difficulty of questions based on your answers in real time for a more precise evaluation."
+msgstr "A computer-adaptive test adjusts the difficulty of questions based on your answers in real time for a more precise evaluation."
+
+#: src/modules/faq/FAQPage.tsx:84
+msgid "A stable internet connection, an updated browser (such as Chrome, Firefox, or Safari), and any internet-connected device."
+msgstr "A stable internet connection, an updated browser (such as Chrome, Firefox, or Safari), and any internet-connected device."
+
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:45
+msgid "About the ACPT"
+msgstr "About the ACPT"
+
+#: src/modules/organization/OrgSubscribe/OrgSubscribe.tsx:30
+msgid "Academic Institution"
+msgstr "Academic Institution"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:51
+msgid "Accessibility"
+msgstr "Accessibility"
+
+#: src/modules/contact/ContactPage.tsx:39
+msgid "Accessibility Request"
+msgstr "Accessibility Request"
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:14
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:27
+msgid "Accessible"
+msgstr "Accessible"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:52
+msgid "Accommodations are available upon request"
+msgstr "Accommodations are available upon request"
+
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:28
+msgid "Accommodations are available upon request to test takers with disabilities, ensuring fairness and equality."
+msgstr "Accommodations are available upon request to test takers with disabilities, ensuring fairness and equality."
+
+#: src/modules/landing/LandingBenefits/LandingBenefits.tsx:23
+msgid "According to industry data, certified tutors earn 30% more compared to tutors without formal certification."
+msgstr "According to industry data, certified tutors earn 30% more compared to tutors without formal certification."
+
+#: src/modules/auth/RegisterPage.tsx:72
+msgid "Account created but sign in failed. Please try logging in."
+msgstr "Account created but sign in failed. Please try logging in."
+
+#: src/modules/auth/ForgotPage.tsx:52
+msgid "Account doesn't exist."
+msgstr "Account doesn't exist."
+
+#: src/modules/organization/OrgPage.tsx:22
+#: src/modules/organization/OrgBanner/OrgBanner.tsx:15
+msgid "ACPT for organizations"
+msgstr "ACPT for organizations"
+
+#: src/modules/landing/LandingBanner/LandingBanner.tsx:40
+msgid "ACPT for your organization"
+msgstr "ACPT for your organization"
+
+#: src/modules/landing/LandingFormat/LandingFormat.tsx:23
+msgid "ACPT Format Changes"
+msgstr "ACPT Format Changes"
+
+#: src/modules/landing/LandingGuide/LandingGuide.tsx:15
+msgid "ACPT Study Guide"
+msgstr "ACPT Study Guide"
+
+#: src/modules/user/account/TestTable.tsx:158
+msgid "Action"
+msgstr "Action"
+
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:35
+msgid "Adaptive"
+msgstr "Adaptive"
+
+#: src/components/Header/UserMenu.tsx:55
+msgid "Admin"
+msgstr "Admin"
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:23
+msgid "Advanced security protocols and computer-adaptive technology work together to prevent cheating and deliver results you can trust."
+msgstr "Advanced security protocols and computer-adaptive technology work together to prevent cheating and deliver results you can trust."
+
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:19
+msgid "Affordable"
+msgstr "Affordable"
+
+#: src/modules/organization/OrgContact/OrgContact.tsx:23
+msgid "After registration, you’ll gain free access to our secure ACPT Score Verification System"
+msgstr "After registration, you’ll gain free access to our secure ACPT Score Verification System"
+
+#: src/modules/faq/FAQPage.tsx:134
+msgid "After the exam"
+msgstr "After the exam"
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:31
+msgid "Align your organization with a globally recognized certification and demonstrate a commitment to educational quality and professionalism."
+msgstr "Align your organization with a globally recognized certification and demonstrate a commitment to educational quality and professionalism."
+
+#: src/modules/test/TestPage.tsx:49
+msgid "All progress will be lost. Are you sure you want to quit?"
+msgstr "All progress will be lost. Are you sure you want to quit?"
+
+#: src/modules/auth/RegisterPage.tsx:96
+msgid "Already have an account?"
+msgstr "Already have an account?"
+
+#: src/modules/auth/RegisterPage.tsx:58
+msgid "An account already exists with this E-mail address - please log in."
+msgstr "An account already exists with this E-mail address - please log in."
+
+#: src/modules/auth/LoginPage.tsx:68
+#: src/modules/auth/LoginPage.tsx:70
+msgid "An error occurred during sign in"
+msgstr "An error occurred during sign in"
+
+#: src/modules/user/account/TestTable.tsx:95
+#: src/modules/user/account/TestTable.tsx:102
+#: src/modules/test/TestCompletion.tsx:72
+#: src/modules/test/TestCompletion.tsx:78
+msgid "An error occurred while creating the certificate. Please try again."
+msgstr "An error occurred while creating the certificate. Please try again."
+
+#: src/modules/auth/RegisterPage.tsx:60
+#: src/modules/auth/RegisterPage.tsx:79
+msgid "An error occurred while creating your account."
+msgstr "An error occurred while creating your account."
+
+#: src/modules/certificate/CertificatePage.tsx:53
+msgid "An error occurred while fetching the certificate data"
+msgstr "An error occurred while fetching the certificate data"
+
+#: src/modules/user/account/AccountInfo.tsx:103
+msgid "An error occurred while updating your account information."
+msgstr "An error occurred while updating your account information."
+
+#: src/modules/test/TestCertificate.tsx:55
+msgid "An error occurred while uploading the certificate. Please try again."
+msgstr "An error occurred while uploading the certificate. Please try again."
+
+#: src/modules/test/TestPage.tsx:111
+msgid "An exam of this language does not exist"
+msgstr "An exam of this language does not exist"
+
+#: src/modules/test/TestCertificate.tsx:61
+#: src/modules/payment/PaymentForm.tsx:124
+msgid "An unknown error occurred."
+msgstr "An unknown error occurred."
+
+#: src/modules/auth/ResetPage.tsx:35
+#: src/modules/auth/ForgotPage.tsx:54
+#: src/modules/auth/ForgotPage.tsx:57
+#: src/modules/auth/ForgotPage.tsx:81
+msgid "An unknown error occurred. Try again later."
+msgstr "An unknown error occurred. Try again later."
+
+#: src/modules/organization/OrgContact/OrgContact.tsx:25
+msgid "and a streamlined API for receiving exam results directly."
+msgstr "and a streamlined API for receiving exam results directly."
+
+#: src/modules/landing/LandingBenefits/LandingBenefits.tsx:14
+msgid "Attract more clients"
+msgstr "Attract more clients"
+
+#: src/modules/payment/PaymentPage.tsx:66
+msgid "Back"
+msgstr "Back"
+
+#: src/modules/auth/ForgotPage.tsx:127
+msgid "Back to Log In"
+msgstr "Back to Log In"
+
+#: src/modules/faq/FAQPage.tsx:72
+msgid "Before the exam"
+msgstr "Before the exam"
+
+#: src/modules/landing/LandingBenefits/LandingBenefits.tsx:32
+msgid "Benefits of ACPT certification"
+msgstr "Benefits of ACPT certification"
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:30
+msgid "Brand Credibility"
+msgstr "Brand Credibility"
+
+#: src/modules/payment/PaymentPage.tsx:130
+msgid "Buy Now"
+msgstr "Buy Now"
+
+#: src/modules/faq/FAQPage.tsx:182
+msgid "Can I get a certificate for an old score?"
+msgstr "Can I get a certificate for an old score?"
+
+#: src/modules/faq/FAQPage.tsx:116
+msgid "Can I pause the exam after starting it?"
+msgstr "Can I pause the exam after starting it?"
+
+#: src/modules/faq/FAQPage.tsx:87
+msgid "Can I take the ACPT on a tablet or smartphone?"
+msgstr "Can I take the ACPT on a tablet or smartphone?"
+
+#: src/modules/faq/FAQPage.tsx:62
+msgid "Can I update my profile information?"
+msgstr "Can I update my profile information?"
+
+#: src/modules/faq/FAQPage.tsx:128
+msgid "Can I use notes or a calculator during the ACPT?"
+msgstr "Can I use notes or a calculator during the ACPT?"
+
+#: src/modules/faq/FAQPage.tsx:178
+msgid "Can others verify my certificate?"
+msgstr "Can others verify my certificate?"
+
+#: src/modules/test/TestWelcome.tsx:63
+#: src/modules/test/TestPage.tsx:52
+#: src/modules/test/ModalWebcam.tsx:54
+msgid "Cancel"
+msgstr "Cancel"
+
+#: src/modules/test/ModalWebcam.tsx:31
+msgid "Capture & upload picture directly from your webcam."
+msgstr "Capture & upload picture directly from your webcam."
+
+#: src/modules/test/ModalWebcam.tsx:58
+msgid "Capture Photo"
+msgstr "Capture Photo"
+
+#: src/modules/payment/PaymentForm.tsx:220
+msgid "Card Expiry"
+msgstr "Card Expiry"
+
+#: src/modules/payment/PaymentForm.tsx:200
+msgid "Card Number"
+msgstr "Card Number"
+
+#: src/modules/user/certificate/UserCertificatePage.tsx:77
+#: src/modules/certificate/CertificatePage.tsx:65
+msgid "Certificate"
+msgstr "Certificate"
+
+#: src/modules/test/TestCompletion.tsx:267
+msgid "Certificate Example"
+msgstr "Certificate Example"
+
+#: src/modules/user/certificate/CertificateFile.tsx:60
+msgid "Certificate ID Number"
+msgstr "Certificate ID Number"
+
+#: src/modules/user/account/TestTable.tsx:142
+#: src/components/Footer/FooterCertificate.tsx:34
+msgid "Certificate Number"
+msgstr "Certificate Number"
+
+#: src/modules/user/certificate/CertificateFile.tsx:63
+msgid "Certificate URL"
+msgstr "Certificate URL"
+
+#: src/contexts/TestProvider.tsx:57
+msgid "Certificate will be created once you complete this exam"
+msgstr "Certificate will be created once you complete this exam"
+
+#: src/modules/faq/FAQPage.tsx:163
+msgid "Certificates"
+msgstr "Certificates"
+
+#: src/modules/user/account/AccountInfo.tsx:131
+msgid "CHANGE PASSWORD"
+msgstr "CHANGE PASSWORD"
+
+#: src/modules/auth/ForgotPage.tsx:94
+msgid "Check your email"
+msgstr "Check your email"
+
+#: src/modules/faq/FAQPage.tsx:59
+msgid "Click the \"Register\" button, fill in your details, and verify your email."
+msgstr "Click the \"Register\" button, fill in your details, and verify your email."
+
+#: src/modules/auth/ForgotPage.tsx:119
+msgid "Click to resend"
+msgstr "Click to resend"
+
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:16
+msgid "Complete the ACPT exam in 40 minutes and receive your score immediately."
+msgstr "Complete the ACPT exam in 40 minutes and receive your score immediately."
+
+#: src/modules/auth/ResetPage.tsx:89
+#: src/modules/auth/RegisterPage.tsx:129
+msgid "Confirm Password"
+msgstr "Confirm Password"
+
+#: src/modules/test/TestCompletion.tsx:126
+msgid "Congratulations!"
+msgstr "Congratulations!"
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:26
+msgid "Consistency"
+msgstr "Consistency"
+
+#: src/modules/organization/OrgContact/OrgContact.tsx:38
+#: src/modules/contact/ContactPage.tsx:44
+#: src/modules/contact/ContactPage.tsx:48
+#: src/components/Footer/PublicFooter.tsx:34
+msgid "Contact Us"
+msgstr "Contact Us"
+
+#: src/modules/test/TestCertificate.tsx:78
+msgid "Continue"
+msgstr "Continue"
+
+#: src/modules/test/TestCertificate.tsx:73
+msgid "Continue to Payment"
+msgstr "Continue to Payment"
+
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:23
+msgid "Convenient"
+msgstr "Convenient"
+
+#: src/components/Footer/PublicFooter.tsx:26
+msgid "Cookie"
+msgstr "Cookie"
+
+#: src/modules/term/CookiePage.tsx:13
+msgid "Cookie Policy"
+msgstr "Cookie Policy"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:27
+msgid "Cost"
+msgstr "Cost"
+
+#: src/modules/payment/PaymentForm.tsx:173
+msgid "Country"
+msgstr "Country"
+
+#: src/modules/auth/RegisterPage.tsx:88
+#: src/modules/auth/RegisterPage.tsx:136
+msgid "Create Account"
+msgstr "Create Account"
+
+#: src/modules/auth/LoginPage.tsx:98
+msgid "Create an Account"
+msgstr "Create an Account"
+
+#: src/modules/auth/ResetPage.tsx:45
+#: src/modules/auth/ResetPage.tsx:69
+msgid "Create new password"
+msgstr "Create new password"
+
+#: src/modules/auth/RegisterPage.tsx:88
+#: src/modules/auth/RegisterPage.tsx:91
+msgid "Create your account"
+msgstr "Create your account"
+
+#: src/modules/payment/PaymentForm.tsx:181
+msgid "Credit or Debit Card"
+msgstr "Credit or Debit Card"
+
+#: src/modules/faq/FAQPage.tsx:100
+msgid "Currently, the ACPT is available in English and Turkish, with additional languages planned for future release."
+msgstr "Currently, the ACPT is available in English and Turkish, with additional languages planned for future release."
+
+#: src/modules/admin/dashboard/DashboardPage.tsx:296
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: src/modules/user/account/TestTable.tsx:113
+msgid "Date"
+msgstr "Date"
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:55
+msgid "Designed to set the global benchmark for tutor certification, the ACPT provides a comprehensive evaluation of each candidate’s subject knowledge, pedagogical skill, and practical tutoring ability—the core competencies required to deliver high-quality academic support. It’s more than a test—it’s a mark of excellence."
+msgstr "Designed to set the global benchmark for tutor certification, the ACPT provides a comprehensive evaluation of each candidate’s subject knowledge, pedagogical skill, and practical tutoring ability—the core competencies required to deliver high-quality academic support. It’s more than a test—it’s a mark of excellence."
+
+#: src/modules/contact/ContactPage.tsx:87
+msgid "Details"
+msgstr "Details"
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:19
+msgid "Developed using rigorous psychometric standards to eliminate regional, cultural, and ethnic bias—ensuring a fair and equitable evaluation for every test-taker."
+msgstr "Developed using rigorous psychometric standards to eliminate regional, cultural, and ethnic bias—ensuring a fair and equitable evaluation for every test-taker."
+
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:32
+msgid "Developed using the most rigorous vetting process to remove regional, ethnic, or cultural biases."
+msgstr "Developed using the most rigorous vetting process to remove regional, ethnic, or cultural biases."
+
+#: src/modules/auth/ForgotPage.tsx:107
+msgid "Didn’t receive the email?"
+msgstr "Didn’t receive the email?"
+
+#: src/modules/faq/FAQPage.tsx:174
+msgid "Does ACPT certification expire?"
+msgstr "Does ACPT certification expire?"
+
+#: src/modules/faq/FAQPage.tsx:112
+msgid "Does the ACPT have a time limit?"
+msgstr "Does the ACPT have a time limit?"
+
+#: src/modules/user/certificate/CertificateFile.tsx:69
+msgid "Download PDF"
+msgstr "Download PDF"
+
+#: src/modules/test/TestCompletion.tsx:135
+#: src/modules/payment/PaymentPage.tsx:50
+msgid "Downloadable as a PDF"
+msgstr "Downloadable as a PDF"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:15
+msgid "Duration"
+msgstr "Duration"
+
+#: src/modules/faq/FAQPage.tsx:109
+msgid "During the exam"
+msgstr "During the exam"
+
+#: src/modules/payment/PaymentForm.tsx:193
+msgid "e.g Jogn Smith"
+msgstr "e.g Jogn Smith"
+
+#: src/modules/organization/OrgWho/OrgWho.tsx:22
+msgid "EdTech Companies"
+msgstr "EdTech Companies"
+
+#: src/modules/organization/OrgWho/OrgWho.tsx:14
+msgid "Educational Institutions"
+msgstr "Educational Institutions"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:58
+msgid "Effective teaching strategies, and instructional best practices"
+msgstr "Effective teaching strategies, and instructional best practices"
+
+#: src/modules/contact/ContactPage.tsx:83
+#: src/modules/auth/RegisterPage.tsx:123
+#: src/modules/auth/ForgotPage.tsx:148
+msgid "Email"
+msgstr "Email"
+
+#: src/modules/user/account/AccountInfo.tsx:128
+#: src/modules/organization/OrgSubscribe/OrgSubscribe.tsx:24
+#: src/modules/organization/OrgGuide/OrgGuide.tsx:22
+#: src/modules/landing/LandingSubscribe/LandingSubscribe.tsx:27
+#: src/modules/landing/LandingGuide/LandingGuide.tsx:25
+#: src/modules/auth/LoginPage.tsx:107
+msgid "Email Address"
+msgstr "Email Address"
+
+#: src/modules/landing/LandingWho/LandingWho.tsx:27
+msgid "Employed Tutors"
+msgstr "Employed Tutors"
+
+#: src/modules/organization/OrgSubscribe/OrgSubscribe.tsx:26
+msgid "Employer"
+msgstr "Employer"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:48
+msgid "English, Turkish"
+msgstr "English, Turkish"
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:19
+msgid "Ensure that your hires meet a verified, research-backed standard of academic and instructional excellence."
+msgstr "Ensure that your hires meet a verified, research-backed standard of academic and instructional excellence."
+
+#: src/modules/auth/ForgotPage.tsx:138
+msgid "Enter the email address for your account and we’ll send you a temporary link to reset your password."
+msgstr "Enter the email address for your account and we’ll send you a temporary link to reset your password."
+
+#: src/modules/landing/LandingWho/LandingWho.tsx:23
+msgid "Entrepreneurs"
+msgstr "Entrepreneurs"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:55
+msgid "Exam Content"
+msgstr "Exam Content"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:77
+msgid "Exam Details"
+msgstr "Exam Details"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:31
+msgid "Exam Results"
+msgstr "Exam Results"
+
+#: src/modules/admin/user/ModalUpdateExam.tsx:37
+msgid "Exam updated successfully!"
+msgstr "Exam updated successfully!"
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:35
+msgid "Expand your recruitment pool to include certified professionals from around the world, all verified through a consistent benchmark."
+msgstr "Expand your recruitment pool to include certified professionals from around the world, all verified through a consistent benchmark."
+
+#: src/modules/admin/user/UserEdit.tsx:55
+msgid "Failed to update user."
+msgstr "Failed to update user."
+
+#: src/components/Header/PublicHeader.tsx:33
+#: src/components/Footer/PublicFooter.tsx:30
+msgid "FAQ"
+msgstr "FAQ"
+
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:15
+msgid "Fast"
+msgstr "Fast"
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:14
+msgid "Faster Onboarding"
+msgstr "Faster Onboarding"
+
+#: src/modules/contact/ContactPage.tsx:79
+msgid "First name"
+msgstr "First name"
+
+#: src/modules/user/account/AccountInfo.tsx:124
+#: src/modules/organization/OrgSubscribe/OrgSubscribe.tsx:16
+#: src/modules/landing/LandingSubscribe/LandingSubscribe.tsx:23
+#: src/modules/auth/RegisterPage.tsx:115
+msgid "First Name"
+msgstr "First Name"
+
+#: src/modules/auth/RegisterPage.tsx:29
+msgid "First name is required"
+msgstr "First name is required"
+
+#: src/modules/contact/ContactPage.tsx:16
+msgid "For all general questions, feedback, or support:"
+msgstr "For all general questions, feedback, or support:"
+
+#: src/modules/contact/ContactPage.tsx:31
+msgid "For legal notices, policy-related queries, or regulatory matters:"
+msgstr "For legal notices, policy-related queries, or regulatory matters:"
+
+#: src/modules/contact/ContactPage.tsx:21
+msgid "For press requests, interviews, or media kits:"
+msgstr "For press requests, interviews, or media kits:"
+
+#: src/modules/auth/LoginPage.tsx:117
+#: src/modules/auth/ForgotPage.tsx:90
+msgid "Forgot password?"
+msgstr "Forgot password?"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:23
+msgid "Format"
+msgstr "Format"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:28
+msgid "Free"
+msgstr "Free"
+
+#: src/modules/test/TestCompletion.tsx:184
+#: src/modules/test/TestCompletion.tsx:240
+#: src/modules/test/TestCompletion.tsx:270
+msgid "FREE"
+msgstr "FREE"
+
+#: src/modules/landing/LandingWho/LandingWho.tsx:15
+msgid "Freelancers"
+msgstr "Freelancers"
+
+#: src/modules/faq/FAQPage.tsx:192
+msgid "Frequently Asked Questions"
+msgstr "Frequently Asked Questions"
+
+#: src/modules/faq/FAQPage.tsx:18
+msgid "General"
+msgstr "General"
+
+#: src/modules/user/account/AccountInfo.tsx:121
+msgid "GENERAL INFO"
+msgstr "GENERAL INFO"
+
+#: src/modules/contact/ContactPage.tsx:39
+msgid "General Inquiry"
+msgstr "General Inquiry"
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:34
+msgid "Global Talent Access"
+msgstr "Global Talent Access"
+
+#: src/modules/organization/OrgSubscribe/OrgSubscribe.tsx:28
+msgid "Government"
+msgstr "Government"
+
+#: src/modules/organization/OrgWho/OrgWho.tsx:26
+msgid "Government Agencies"
+msgstr "Government Agencies"
+
+#: src/modules/organization/OrgWho/OrgWho.tsx:27
+msgid "Government regulators that require a standardized, evidence-based framework to promote accountability and establish consistent oversight across the academic tutoring industry."
+msgstr "Government regulators that require a standardized, evidence-based framework to promote accountability and establish consistent oversight across the academic tutoring industry."
+
+#: src/modules/organization/OrgGuide/OrgGuide.tsx:15
+msgid "Guidebook for Professional Organizations"
+msgstr "Guidebook for Professional Organizations"
+
+#: src/modules/contact/ContactPage.tsx:15
+msgid "Help & Support"
+msgstr "Help & Support"
+
+#: src/modules/test/TestPage.tsx:89
+msgid "Hide Timer"
+msgstr "Hide Timer"
+
+#: src/modules/landing/LandingWho/LandingWho.tsx:20
+msgid "High school or college students who want to gain real-world experience and build their academic credibility."
+msgstr "High school or college students who want to gain real-world experience and build their academic credibility."
+
+#: src/modules/faq/FAQPage.tsx:170
+msgid "How can I share my certificate?"
+msgstr "How can I share my certificate?"
+
+#: src/modules/faq/FAQPage.tsx:166
+msgid "How can I show that I passed the ACPT?"
+msgstr "How can I show that I passed the ACPT?"
+
+#: src/modules/faq/FAQPage.tsx:79
+msgid "How do I prepare for the exam?"
+msgstr "How do I prepare for the exam?"
+
+#: src/modules/faq/FAQPage.tsx:58
+msgid "How do I register an account?"
+msgstr "How do I register an account?"
+
+#: src/modules/faq/FAQPage.tsx:37
+msgid "How do I verify someone's ACPT certification?"
+msgstr "How do I verify someone's ACPT certification?"
+
+#: src/modules/faq/FAQPage.tsx:137
+msgid "How is the ACPT scored?"
+msgstr "How is the ACPT scored?"
+
+#: src/modules/faq/FAQPage.tsx:75
+msgid "How many questions are on the exam?"
+msgstr "How many questions are on the exam?"
+
+#: src/modules/faq/FAQPage.tsx:46
+msgid "How much does the exam cost?"
+msgstr "How much does the exam cost?"
+
+#: src/modules/faq/FAQPage.tsx:153
+msgid "How often can I take the exam?"
+msgstr "How often can I take the exam?"
+
+#: src/modules/landing/LandingSubscribe/LandingSubscribe.tsx:29
+msgid "I agree to the Privacy policy"
+msgstr "I agree to the Privacy policy"
+
+#: src/modules/faq/FAQPage.tsx:121
+msgid "If you lose your internet connection or close the browser, the session will end and your progress will be lost. You will need to retake the exam."
+msgstr "If you lose your internet connection or close the browser, the session will end and your progress will be lost. You will need to retake the exam."
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:22
+msgid "Improved Client Trust"
+msgstr "Improved Client Trust"
+
+#: src/components/Footer/FooterCertificate.tsx:27
+msgid "In order to verify a tutor’s certification, please enter the Certification number provided on the tutor’s certificate."
+msgstr "In order to verify a tutor’s certification, please enter the Certification number provided on the tutor’s certificate."
+
+#: src/modules/landing/LandingBenefits/LandingBenefits.tsx:19
+msgid "In the crowded tutoring industry, being certified sets you apart by proving you have the skills clients are looking for."
+msgstr "In the crowded tutoring industry, being certified sets you apart by proving you have the skills clients are looking for."
+
+#: src/modules/landing/LandingBenefits/LandingBenefits.tsx:36
+msgid "In the ever-growing tutoring industry, tutors need a way to distinguish themselves as qualified, competent professionals. ACPT certification offers more than just validation—it provides a competitive edge in the growing and evolving tutoring industry. Here are some of the key benefits:"
+msgstr "In the ever-growing tutoring industry, tutors need a way to distinguish themselves as qualified, competent professionals. ACPT certification offers more than just validation—it provides a competitive edge in the growing and evolving tutoring industry. Here are some of the key benefits:"
+
+#: src/modules/payment/PaymentPage.tsx:52
+msgid "Includes certificate ID number"
+msgstr "Includes certificate ID number"
+
+#: src/modules/landing/LandingBenefits/LandingBenefits.tsx:22
+msgid "Increase earning power"
+msgstr "Increase earning power"
+
+#: src/modules/landing/LandingWho/LandingWho.tsx:24
+msgid "Independent tutors running their own businesses who want to stand out in a competitive market."
+msgstr "Independent tutors running their own businesses who want to stand out in a competitive market."
+
+#: src/modules/landing/LandingWho/LandingWho.tsx:32
+msgid "Individuals looking to strengthen their resumes and increase their job opportunities."
+msgstr "Individuals looking to strengthen their resumes and increase their job opportunities."
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:30
+msgid "Innovative"
+msgstr "Innovative"
+
+#: src/modules/contact/ContactPage.tsx:26
+msgid "Interested in recognizing the ACPT or integrating with our API?"
+msgstr "Interested in recognizing the ACPT or integrating with our API?"
+
+#: src/utils/const.ts:17
+msgid "Invalid email"
+msgstr "Invalid email"
+
+#: src/modules/faq/FAQPage.tsx:95
+msgid "Is the ACPT accessible for test takers with disabilities?"
+msgstr "Is the ACPT accessible for test takers with disabilities?"
+
+#: src/modules/faq/FAQPage.tsx:103
+msgid "Is the ACPT valid in my country?"
+msgstr "Is the ACPT valid in my country?"
+
+#: src/modules/landing/LandingWho/LandingWho.tsx:31
+msgid "Job Seekers"
+msgstr "Job Seekers"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:47
+msgid "Languages"
+msgstr "Languages"
+
+#: src/modules/contact/ContactPage.tsx:81
+msgid "Last name"
+msgstr "Last name"
+
+#: src/modules/user/account/AccountInfo.tsx:126
+#: src/modules/organization/OrgSubscribe/OrgSubscribe.tsx:18
+#: src/modules/landing/LandingSubscribe/LandingSubscribe.tsx:25
+#: src/modules/auth/RegisterPage.tsx:121
+msgid "Last Name"
+msgstr "Last Name"
+
+#: src/modules/auth/RegisterPage.tsx:30
+msgid "Last name is required"
+msgstr "Last name is required"
+
+#: src/modules/term/PrivacyPage.tsx:13
+msgid "Last revised on February 24, 2025."
+msgstr "Last revised on February 24, 2025."
+
+#: src/modules/contact/ContactPage.tsx:39
+msgid "Legal & Regulatory"
+msgstr "Legal & Regulatory"
+
+#: src/modules/contact/ContactPage.tsx:30
+msgid "Legal and Regulatory Affairs"
+msgstr "Legal and Regulatory Affairs"
+
+#: src/modules/auth/ResetPage.tsx:62
+msgid "Log In"
+msgstr "Log In"
+
+#: src/api/auth.ts:101
+msgid "Login failed - this E-mail is associated with a Google Authentication account."
+msgstr "Login failed - this E-mail is associated with a Google Authentication account."
+
+#: src/components/Header/UserMenu.tsx:64
+msgid "Logout"
+msgstr "Logout"
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:27
+msgid "Maintain uniform standards of tutor quality across branches, franchises, or international markets."
+msgstr "Maintain uniform standards of tutor quality across branches, franchises, or international markets."
+
+#: src/modules/contact/ContactPage.tsx:20
+#: src/modules/contact/ContactPage.tsx:39
+msgid "Media Inquiries"
+msgstr "Media Inquiries"
+
+#: src/modules/faq/FAQPage.tsx:92
+msgid "Most modern browsers are supported, including Google Chrome, Mozilla Firefox, Safari, and Microsoft Edge. Make sure your browser is up to date for the best experience."
+msgstr "Most modern browsers are supported, including Google Chrome, Mozilla Firefox, Safari, and Microsoft Edge. Make sure your browser is up to date for the best experience."
+
+#: src/modules/user/account/AccountInfo.tsx:149
+msgid "Must be at least 8 characters"
+msgstr "Must be at least 8 characters"
+
+#: src/modules/user/account/UserAccountPage.tsx:45
+#: src/components/Header/UserMenu.tsx:60
+msgid "My Account"
+msgstr "My Account"
+
+#: src/modules/user/account/UserAccountPage.tsx:29
+#: src/modules/user/account/TestTable.tsx:220
+msgid "My Tests"
+msgstr "My Tests"
+
+#: src/modules/payment/PaymentForm.tsx:192
+msgid "Name on Card"
+msgstr "Name on Card"
+
+#: src/modules/user/account/AccountInfo.tsx:143
+msgid "New Password"
+msgstr "New Password"
+
+#: src/modules/auth/LoginPage.tsx:87
+msgid "New to ACPT?"
+msgstr "New to ACPT?"
+
+#: src/modules/test/TestContent.tsx:108
+msgid "Next"
+msgstr "Next"
+
+#: src/modules/test/TestCompletion.tsx:253
+msgid "No limit on the number of retakes"
+msgstr "No limit on the number of retakes"
+
+#: src/components/Table/ReactTable.tsx:146
+msgid "No results"
+msgstr "No results"
+
+#: src/modules/faq/FAQPage.tsx:117
+msgid "No. Once you begin the ACPT, it must be completed in one uninterrupted 40-minute session. If the session is interrupted, your progress will be lost."
+msgstr "No. Once you begin the ACPT, it must be completed in one uninterrupted 40-minute session. If the session is interrupted, your progress will be lost."
+
+#: src/modules/faq/FAQPage.tsx:129
+msgid "No. The use of notes, devices, or assistance from others is strictly prohibited."
+msgstr "No. The use of notes, devices, or assistance from others is strictly prohibited."
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:23
+msgid "Offer parents, students, and clients peace of mind knowing your tutors are certified and held to high standards."
+msgstr "Offer parents, students, and clients peace of mind knowing your tutors are certified and held to high standards."
+
+#: src/modules/payment/PaymentPage.tsx:112
+msgid "Official Certificate"
+msgstr "Official Certificate"
+
+#: src/contexts/TestProvider.tsx:51
+msgid "Official certificate available"
+msgstr "Official certificate available"
+
+#: src/modules/user/account/AccountInfo.tsx:136
+msgid "Old Password"
+msgstr "Old Password"
+
+#: src/modules/user/account/AccountInfo.tsx:50
+msgid "Old password is incorrect"
+msgstr "Old password is incorrect"
+
+#: src/modules/user/account/AccountInfo.tsx:41
+msgid "Old password is required to change your password"
+msgstr "Old password is required to change your password"
+
+#: src/modules/faq/FAQPage.tsx:167
+msgid "Once you pass the ACPT, you'll have the option to obtain an official certificate that you can download, share digitally, or present to employers, clients, or institutions as proof of your achievement."
+msgstr "Once you pass the ACPT, you'll have the option to obtain an official certificate that you can download, share digitally, or present to employers, clients, or institutions as proof of your achievement."
+
+#: src/modules/organization/OrgSubscribe/OrgSubscribe.tsx:22
+msgid "Organization"
+msgstr "Organization"
+
+#: src/modules/contact/ContactPage.tsx:25
+#: src/modules/contact/ContactPage.tsx:39
+#: src/components/Header/PublicHeader.tsx:29
+msgid "Organizations"
+msgstr "Organizations"
+
+#: src/modules/organization/OrgWho/OrgWho.tsx:23
+msgid "Organizations offering test prep services, educational apps, or other services that integrate human tutoring as part of the learning experience."
+msgstr "Organizations offering test prep services, educational apps, or other services that integrate human tutoring as part of the learning experience."
+
+#: src/modules/organization/OrgWho/OrgWho.tsx:19
+msgid "Organizations that hire online or in-house tutors, connect tutors with students, or operate tutoring marketplaces."
+msgstr "Organizations that hire online or in-house tutors, connect tutors with students, or operate tutoring marketplaces."
+
+#: src/modules/organization/OrgWho/OrgWho.tsx:31
+msgid "Organizations that uphold professional standards and formally recognize qualified tutors."
+msgstr "Organizations that uphold professional standards and formally recognize qualified tutors."
+
+#: src/modules/auth/ResetPage.tsx:82
+#: src/modules/auth/RegisterPage.tsx:125
+#: src/modules/auth/LoginPage.tsx:113
+msgid "Password"
+msgstr "Password"
+
+#: src/utils/const.ts:18
+msgid "Password must be at least 8 characters"
+msgstr "Password must be at least 8 characters"
+
+#: src/modules/user/account/AccountInfo.tsx:36
+msgid "Password must be at least 8 characters long"
+msgstr "Password must be at least 8 characters long"
+
+#: src/modules/auth/ResetPage.tsx:23
+#: src/modules/auth/RegisterPage.tsx:32
+msgid "Password must have at least 8 characters"
+msgstr "Password must have at least 8 characters"
+
+#: src/modules/auth/ResetPage.tsx:51
+msgid "Password reset"
+msgstr "Password reset"
+
+#: src/modules/auth/ForgotPage.tsx:48
+#: src/modules/auth/ForgotPage.tsx:77
+msgid "Password reset link has been sent to your email."
+msgstr "Password reset link has been sent to your email."
+
+#: src/modules/auth/ResetPage.tsx:24
+#: src/modules/auth/RegisterPage.tsx:33
+msgid "Passwords did not match"
+msgstr "Passwords did not match"
+
+#: src/modules/payment/PaymentForm.tsx:116
+msgid "Payment failed. Please try again."
+msgstr "Payment failed. Please try again."
+
+#: src/modules/payment/PaymentPage.tsx:61
+#: src/modules/payment/PaymentPage.tsx:66
+msgid "Payment Information"
+msgstr "Payment Information"
+
+#: src/modules/payment/PaymentForm.tsx:188
+msgid "Payment Method"
+msgstr "Payment Method"
+
+#: src/modules/payment/PaymentPage.tsx:74
+msgid "Payment not found"
+msgstr "Payment not found"
+
+#: src/modules/user/account/UserAccountPage.tsx:34
+msgid "Personal Info"
+msgstr "Personal Info"
+
+#: src/modules/user/account/AccountInfo.tsx:116
+msgid "Personal Information"
+msgstr "Personal Information"
+
+#: src/modules/payment/PaymentPage.tsx:53
+msgid "Personalized certificate URL"
+msgstr "Personalized certificate URL"
+
+#: src/modules/test/TestCompletion.tsx:159
+msgid "Personalized URL linked to your live certificate page"
+msgstr "Personalized URL linked to your live certificate page"
+
+#: src/modules/auth/ForgotPage.tsx:102
+msgid "Please click the verification link to access the password reset form."
+msgstr "Please click the verification link to access the password reset form."
+
+#: src/modules/test/TestContent.tsx:39
+msgid "Please select an option"
+msgstr "Please select an option"
+
+#: src/modules/contact/ContactPage.tsx:62
+msgid "Please use the emails below to contact us, or submit your enquiry via the form provided."
+msgstr "Please use the emails below to contact us, or submit your enquiry via the form provided."
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:63
+msgid "Policies"
+msgstr "Policies"
+
+#: src/modules/organization/OrgSubscribe/OrgSubscribe.tsx:20
+msgid "Position"
+msgstr "Position"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:59
+msgid "Practical tutoring skills, including communication, adaptability, and real-world problem-solving in tutoring scenarios"
+msgstr "Practical tutoring skills, including communication, adaptability, and real-world problem-solving in tutoring scenarios"
+
+#: src/modules/test/TestContent.tsx:95
+msgid "Previous"
+msgstr "Previous"
+
+#: src/components/Footer/PublicFooter.tsx:22
+msgid "Privacy"
+msgstr "Privacy"
+
+#: src/modules/term/PrivacyPage.tsx:13
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+#: src/modules/user/account/TestTable.tsx:183
+msgid "Processing..."
+msgstr "Processing..."
+
+#: src/modules/organization/OrgWho/OrgWho.tsx:30
+msgid "Professional & Industry Associations"
+msgstr "Professional & Industry Associations"
+
+#: src/modules/organization/OrgSubscribe/OrgSubscribe.tsx:32
+msgid "Professional Association"
+msgstr "Professional Association"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:67
+msgid "Progress will be lost if the exam session is interrupted or disconnected."
+msgstr "Progress will be lost if the exam session is interrupted or disconnected."
+
+#: src/modules/user/account/TestTable.tsx:183
+msgid "Purchase"
+msgstr "Purchase"
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:18
+msgid "Quality Assurance"
+msgstr "Quality Assurance"
+
+#: src/modules/test/TestContent.tsx:55
+msgid "Question"
+msgstr "Question"
+
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:36
+msgid "Question difficulty dynamically adjusts based on your responses, ensuring an accurate evaluation."
+msgstr "Question difficulty dynamically adjusts based on your responses, ensuring an accurate evaluation."
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:19
+msgid "Question Type"
+msgstr "Question Type"
+
+#: src/modules/test/TestPage.tsx:48
+#: src/modules/test/TestPage.tsx:93
+msgid "Quit Test"
+msgstr "Quit Test"
+
+#: src/modules/contact/ContactPage.tsx:85
+msgid "Reason for enquiry"
+msgstr "Reason for enquiry"
+
+#: src/modules/user/certificate/CertificateFile.tsx:54
+msgid "Recognized by leading organizations worldwide, the ACPT sets a global benchmark for tutoring quality. A certified ACPT tutor represents a trusted, top-tier educator committed to student success."
+msgstr "Recognized by leading organizations worldwide, the ACPT sets a global benchmark for tutoring quality. A certified ACPT tutor represents a trusted, top-tier educator committed to student success."
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:48
+msgid "Recognizing the ACPT isn’t just a mark of educational integrity—it’s a strategic advantage. Whether you’re a tutoring agency, educational platform, or academic institution, accepting ACPT-certified professionals ensures you’re working with individuals who meet the highest standards in tutoring excellence. From improving hiring efficiency to enhancing your brand’s credibility, the ACPT delivers measurable value across every stage of the recruitment and service process."
+msgstr "Recognizing the ACPT isn’t just a mark of educational integrity—it’s a strategic advantage. Whether you’re a tutoring agency, educational platform, or academic institution, accepting ACPT-certified professionals ensures you’re working with individuals who meet the highest standards in tutoring excellence. From improving hiring efficiency to enhancing your brand’s credibility, the ACPT delivers measurable value across every stage of the recruitment and service process."
+
+#: src/modules/organization/OrgContact/OrgContact.tsx:21
+msgid "Register today to become an official ACPT-recognized organization."
+msgstr "Register today to become an official ACPT-recognized organization."
+
+#: src/modules/faq/FAQPage.tsx:43
+msgid "Registration"
+msgstr "Registration"
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:26
+msgid "Reliable"
+msgstr "Reliable"
+
+#: src/modules/organization/OrgGuide/OrgGuide.tsx:26
+#: src/modules/landing/LandingGuide/LandingGuide.tsx:29
+msgid "Request Guide"
+msgstr "Request Guide"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:35
+msgid "Requirements"
+msgstr "Requirements"
+
+#: src/modules/auth/ForgotPage.tsx:113
+msgid "Resend link in"
+msgstr "Resend link in"
+
+#: src/modules/auth/ResetPage.tsx:96
+msgid "Reset Password"
+msgstr "Reset Password"
+
+#: src/modules/auth/ForgotPage.tsx:90
+#: src/modules/auth/ForgotPage.tsx:134
+msgid "Reset Your Password"
+msgstr "Reset Your Password"
+
+#: src/modules/test/TestCompletion.tsx:302
+msgid "Restart Test"
+msgstr "Restart Test"
+
+#: src/modules/test/TestWelcome.tsx:18
+msgid "Results are delivered immediately after finishing the exam."
+msgstr "Results are delivered immediately after finishing the exam."
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:32
+msgid "Results are delivered immediately upon completion of exam"
+msgstr "Results are delivered immediately upon completion of exam"
+
+#: src/modules/test/TestCompletion.tsx:194
+#: src/modules/test/TestCompletion.tsx:280
+msgid "Results are saved in your profile for 1 year"
+msgstr "Results are saved in your profile for 1 year"
+
+#: src/modules/test/TestCompletion.tsx:250
+msgid "Retake immediately after completion"
+msgstr "Retake immediately after completion"
+
+#: src/modules/test/TestCompletion.tsx:261
+msgid "Retake now"
+msgstr "Retake now"
+
+#: src/modules/test/TestCompletion.tsx:245
+msgid "Retake the exam"
+msgstr "Retake the exam"
+
+#: src/modules/test/TestCompletion.tsx:283
+msgid "Retake the exam at any time"
+msgstr "Retake the exam at any time"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:39
+msgid "Retakes"
+msgstr "Retakes"
+
+#: src/components/Table/TableTotal.tsx:16
+msgid "row(s)"
+msgstr "row(s)"
+
+#: src/modules/user/account/AccountInfo.tsx:154
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: src/modules/test/TestCompletion.tsx:208
+#: src/modules/test/TestCompletion.tsx:295
+msgid "Save for later"
+msgstr "Save for later"
+
+#: src/modules/test/TestCompletion.tsx:189
+#: src/modules/test/TestCompletion.tsx:275
+msgid "Save your results for later"
+msgstr "Save your results for later"
+
+#: src/modules/user/account/TestTable.tsx:118
+msgid "Score"
+msgstr "Score"
+
+#: src/modules/organization/OrgScore/OrgScore.tsx:15
+msgid "Score Verification System"
+msgstr "Score Verification System"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:43
+msgid "Scoring"
+msgstr "Scoring"
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:34
+msgid "Seamless"
+msgstr "Seamless"
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:22
+msgid "Secure"
+msgstr "Secure"
+
+#: src/modules/payment/PaymentForm.tsx:239
+msgid "Security Code"
+msgstr "Security Code"
+
+#: src/modules/test/TestCompletion.tsx:140
+#: src/modules/test/TestCompletion.tsx:232
+msgid "Select an option below to continue."
+msgstr "Select an option below to continue."
+
+#: src/modules/contact/ContactPage.tsx:91
+msgid "Send an enquiry"
+msgstr "Send an enquiry"
+
+#: src/modules/auth/ForgotPage.tsx:162
+msgid "Send Reset Email"
+msgstr "Send Reset Email"
+
+#: src/modules/test/TestCompletion.tsx:168
+msgid "Shareable on LinkedIn"
+msgstr "Shareable on LinkedIn"
+
+#: src/modules/test/TestPage.tsx:89
+msgid "Show Timer"
+msgstr "Show Timer"
+
+#: src/modules/auth/RegisterPage.tsx:107
+#: src/modules/auth/LoginPage.tsx:79
+#: src/modules/auth/LoginPage.tsx:123
+#: src/modules/auth/ForgotPage.tsx:156
+msgid "Sign In"
+msgstr "Sign In"
+
+#: src/components/Header/PublicHeader.tsx:72
+msgid "Sign In / Register"
+msgstr "Sign In / Register"
+
+#: src/modules/auth/LoginPage.tsx:79
+#: src/modules/auth/LoginPage.tsx:82
+msgid "Sign in to your account"
+msgstr "Sign in to your account"
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:15
+msgid "Skip baseline training by hiring tutors who already meet core competency requirements—saving time and resources."
+msgstr "Skip baseline training by hiring tutors who already meet core competency requirements—saving time and resources."
+
+#: src/modules/landing/LandingBenefits/LandingBenefits.tsx:18
+msgid "Stand out from the crowd"
+msgstr "Stand out from the crowd"
+
+#: src/modules/organization/OrgContact/OrgContact.tsx:17
+msgid "Start Accepting Results"
+msgstr "Start Accepting Results"
+
+#: src/modules/test/TestWelcome.tsx:73
+msgid "Start Test"
+msgstr "Start Test"
+
+#: src/modules/landing/LandingWho/LandingWho.tsx:65
+#: src/modules/landing/LandingExam/LandingExam.tsx:109
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:71
+msgid "Start The Exam"
+msgstr "Start The Exam"
+
+#: src/modules/landing/LandingSubscribe/LandingSubscribe.tsx:17
+msgid "Stay informed with the latest news, updates, and resources related to the ACPT, delivered directly to your inbox."
+msgstr "Stay informed with the latest news, updates, and resources related to the ACPT, delivered directly to your inbox."
+
+#: src/modules/landing/LandingWho/LandingWho.tsx:19
+msgid "Students"
+msgstr "Students"
+
+#: src/modules/landing/LandingBenefits/LandingBenefits.tsx:15
+msgid "Studies show that certified tutors are 40% more likely to be chosen by clients seeking to hire a professional tutor."
+msgstr "Studies show that certified tutors are 40% more likely to be chosen by clients seeking to hire a professional tutor."
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:57
+msgid "Subject matter from core academic areas relevant to K–12 tutoring"
+msgstr "Subject matter from core academic areas relevant to K–12 tutoring"
+
+#: src/modules/test/TestContent.tsx:100
+#: src/modules/organization/OrgSubscribe/OrgSubscribe.tsx:36
+msgid "Submit"
+msgstr "Submit"
+
+#: src/modules/landing/LandingSubscribe/LandingSubscribe.tsx:33
+msgid "Subscribe"
+msgstr "Subscribe"
+
+#: src/modules/organization/OrgSubscribe/OrgSubscribe.tsx:13
+msgid "Subscribe to our organization newsletter"
+msgstr "Subscribe to our organization newsletter"
+
+#: src/modules/landing/LandingSubscribe/LandingSubscribe.tsx:13
+msgid "Subscribe to the ACPT newsletter"
+msgstr "Subscribe to the ACPT newsletter"
+
+#: src/modules/auth/LoginPage.tsx:54
+msgid "Successfully signed in!"
+msgstr "Successfully signed in!"
+
+#: src/modules/user/account/TestTable.tsx:224
+msgid "Take a Test"
+msgstr "Take a Test"
+
+#: src/modules/test/TestImageUpload.tsx:93
+msgid "Take Photo"
+msgstr "Take Photo"
+
+#: src/modules/landing/LandingBanner/LandingBanner.tsx:32
+msgid "Take the ACPT exam now"
+msgstr "Take the ACPT exam now"
+
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:20
+msgid "Taking the ACPT is absolutely free, and you can retake the exam once per day."
+msgstr "Taking the ACPT is absolutely free, and you can retake the exam once per day."
+
+#: src/components/Footer/PublicFooter.tsx:18
+msgid "Terms"
+msgstr "Terms"
+
+#: src/modules/term/TermsPage.tsx:14
+msgid "Terms and Conditions of Service"
+msgstr "Terms and Conditions of Service"
+
+#: src/modules/test/TestCompletion.tsx:218
+msgid "Test Completed"
+msgstr "Test Completed"
+
+#: src/modules/user/account/TestTable.tsx:138
+msgid "Test Language"
+msgstr "Test Language"
+
+#: src/components/Header/PublicHeader.tsx:25
+msgid "Test Takers"
+msgstr "Test Takers"
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:35
+msgid "The ACPT API offers seamless integration, enabling fast and reliable score verification to streamline your recruitment process with confidence and efficiency."
+msgstr "The ACPT API offers seamless integration, enabling fast and reliable score verification to streamline your recruitment process with confidence and efficiency."
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:44
+msgid "The ACPT at a glance"
+msgstr "The ACPT at a glance"
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:27
+msgid "The ACPT certifies tutors with proven expertise. Accepting it ensures you hire professionals who meet the highest standards in tutoring excellence."
+msgstr "The ACPT certifies tutors with proven expertise. Accepting it ensures you hire professionals who meet the highest standards in tutoring excellence."
+
+#: src/modules/faq/FAQPage.tsx:76
+msgid "The ACPT consists of 50 multiple-choice questions."
+msgstr "The ACPT consists of 50 multiple-choice questions."
+
+#: src/modules/faq/FAQPage.tsx:30
+msgid "The ACPT covers K–12 subject knowledge, effective teaching strategies, instructional best practices, and practical tutoring scenarios that test your communication skills, adaptability, and problem-solving abilities."
+msgstr "The ACPT covers K–12 subject knowledge, effective teaching strategies, instructional best practices, and practical tutoring scenarios that test your communication skills, adaptability, and problem-solving abilities."
+
+#: src/modules/landing/LandingFormat/LandingFormat.tsx:32
+msgid "The ACPT has transitioned from Paper-Based Testing (PBT) to Computer-Based Testing (CBT). Starting February 2025, all exams will be delivered exclusively in the CBT format. This shift enables faster results, stronger security, and a more accessible testing experience for all candidates."
+msgstr "The ACPT has transitioned from Paper-Based Testing (PBT) to Computer-Based Testing (CBT). Starting February 2025, all exams will be delivered exclusively in the CBT format. This shift enables faster results, stronger security, and a more accessible testing experience for all candidates."
+
+#: src/modules/organization/OrgPage.tsx:23
+msgid "The ACPT helps you identify and verify top-tier tutoring talent with ease. Built on advanced assessment science, the ACPT ensures tutors meet the highest standards in subject knowledge, pedagogy, and professionalism. Integrating ACPT into your hiring or recognition process means choosing excellence you can trust."
+msgstr "The ACPT helps you identify and verify top-tier tutoring talent with ease. Built on advanced assessment science, the ACPT ensures tutors meet the highest standards in subject knowledge, pedagogy, and professionalism. Integrating ACPT into your hiring or recognition process means choosing excellence you can trust."
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:31
+msgid "The ACPT integrates the latest research in pedagogy, psychometrics and Al to deliver the most accurate and reliable assessment results."
+msgstr "The ACPT integrates the latest research in pedagogy, psychometrics and Al to deliver the most accurate and reliable assessment results."
+
+#: src/modules/landing/LandingWho/LandingWho.tsx:44
+msgid "The ACPT is designed for anyone looking to prove their tutoring ability, build professional credibility, and open doors to new opportunities in the education field. Whether you’re just starting out or already an experienced tutor, the ACPT gives you a proven way to set yourself apart and gain recognition in the tutoring profession. The ACPT is ideal for:"
+msgstr "The ACPT is designed for anyone looking to prove their tutoring ability, build professional credibility, and open doors to new opportunities in the education field. Whether you’re just starting out or already an experienced tutor, the ACPT gives you a proven way to set yourself apart and gain recognition in the tutoring profession. The ACPT is ideal for:"
+
+#: src/modules/faq/FAQPage.tsx:47
+msgid "The ACPT is entirely free, and you can retake the exam once per day at no charge."
+msgstr "The ACPT is entirely free, and you can retake the exam once per day at no charge."
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:15
+msgid "The ACPT is free, fully online, and offered in multiple languages—expanding your applicant pool to include diverse, qualified candidates around the world."
+msgstr "The ACPT is free, fully online, and offered in multiple languages—expanding your applicant pool to include diverse, qualified candidates around the world."
+
+#: src/modules/faq/FAQPage.tsx:51
+msgid "The ACPT is now delivered exclusively online. The written version is no longer available. This shift allows for faster results, stronger security, and a more accessible experience for all test takers."
+msgstr "The ACPT is now delivered exclusively online. The written version is no longer available. This shift allows for faster results, stronger security, and a more accessible experience for all test takers."
+
+#: src/modules/faq/FAQPage.tsx:34
+msgid "The ACPT is recognized globally by academic institutions, tutoring companies, freelance platforms, government agencies, and professional associations."
+msgstr "The ACPT is recognized globally by academic institutions, tutoring companies, freelance platforms, government agencies, and professional associations."
+
+#: src/modules/landing/LandingBanner/LandingBanner.tsx:22
+msgid "The ACPT is the gold standard for professional tutors worldwide. Backed by rigorous research, this 40-minute exam is completely free and verifies the skills, knowledge, and teaching ability needed to deliver exceptional academic tutoring."
+msgstr "The ACPT is the gold standard for professional tutors worldwide. Backed by rigorous research, this 40-minute exam is completely free and verifies the skills, knowledge, and teaching ability needed to deliver exceptional academic tutoring."
+
+#: src/modules/organization/OrgScore/OrgScore.tsx:19
+msgid "The ACPT Score Verification System provides organizations with secure, real-time access to candidate results through our robust API. Designed for seamless integration, the API allows organizations to instantly verify a tutor’s certification status, score, and exam date. This streamlined process eliminates the need for manual checks."
+msgstr "The ACPT Score Verification System provides organizations with secure, real-time access to candidate results through our robust API. Designed for seamless integration, the API allows organizations to instantly verify a tutor’s certification status, score, and exam date. This streamlined process eliminates the need for manual checks."
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:48
+msgid "The Advanced Certified Professional Tutor (ACPT) exam is a computer-adaptive test backed by rigorous research in pedagogy, psychometrics, Al, and machine learning."
+msgstr "The Advanced Certified Professional Tutor (ACPT) exam is a computer-adaptive test backed by rigorous research in pedagogy, psychometrics, Al, and machine learning."
+
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:49
+msgid "The Advanced Certified Professional Tutor (ACPT) exam is a computer-adaptive test that customizes the assessment to your individual proficiency level. It covers key areas including subject matter knowledge, teaching methods, and practical tutoring skills, ensuring a comprehensive evaluation of your skills. Here are its key attributes:"
+msgstr "The Advanced Certified Professional Tutor (ACPT) exam is a computer-adaptive test that customizes the assessment to your individual proficiency level. It covers key areas including subject matter knowledge, teaching methods, and practical tutoring skills, ensuring a comprehensive evaluation of your skills. Here are its key attributes:"
+
+#: src/modules/faq/FAQPage.tsx:22
+msgid "The Advanced Certified Professional Tutor (ACPT) exam is a globally recognized exam that evaluates tutors' subject knowledge, teaching ability, and professional skills through a computer-adaptive test."
+msgstr "The Advanced Certified Professional Tutor (ACPT) exam is a globally recognized exam that evaluates tutors' subject knowledge, teaching ability, and professional skills through a computer-adaptive test."
+
+#: src/modules/test/TestWelcome.tsx:25
+msgid "The exam must be completed in a single session. If you disconnect or exit early, your progress will not be saved."
+msgstr "The exam must be completed in a single session. If you disconnect or exit early, your progress will not be saved."
+
+#: src/modules/faq/FAQPage.tsx:55
+msgid "The platform is accessible 24/7, except during scheduled maintenance periods. You can take the exam at any time. No appointment is needed."
+msgstr "The platform is accessible 24/7, except during scheduled maintenance periods. You can take the exam at any time. No appointment is needed."
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:44
+msgid "The score range is 0–100. A passing score is 75"
+msgstr "The score range is 0–100. A passing score is 75"
+
+#: src/modules/landing/LandingBanner/LandingBanner.tsx:18
+msgid "The Standard of Excellence"
+msgstr "The Standard of Excellence"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:65
+msgid "The use of notes, devices, or assistance from others is prohibited."
+msgstr "The use of notes, devices, or assistance from others is prohibited."
+
+#: src/modules/term/TermsPage.tsx:15
+msgid "These Terms were last revised on October 14th, 2024."
+msgstr "These Terms were last revised on October 14th, 2024."
+
+#: src/contexts/TestProvider.tsx:52
+msgid "Things to Remember"
+msgstr "Things to Remember"
+
+#: src/modules/test/TestWelcome.tsx:48
+msgid "Things to Remember:"
+msgstr "Things to Remember:"
+
+#: src/utils/const.ts:16
+msgid "This field is required"
+msgstr "This field is required"
+
+#: src/modules/test/TestWelcome.tsx:27
+msgid "This is a closed-book exam. The use of notes, websites, devices, or assistance from others is prohibited."
+msgstr "This is a closed-book exam. The use of notes, websites, devices, or assistance from others is prohibited."
+
+#: src/hooks/useAuthStatus.ts:23
+msgid "This user has been deleted."
+msgstr "This user has been deleted."
+
+#: src/modules/test/TestCompletion.tsx:297
+msgid "Time Expired. Please retake the exam."
+msgstr "Time Expired. Please retake the exam."
+
+#: src/contexts/TestProvider.tsx:259
+msgid "Time remaining: {timeUntilRetake}"
+msgstr "Time remaining: {timeUntilRetake}"
+
+#: src/modules/payment/PaymentPage.tsx:122
+msgid "Total"
+msgstr "Total"
+
+#: src/modules/organization/OrgWho/OrgWho.tsx:18
+msgid "Tutoring Agencies & Platforms"
+msgstr "Tutoring Agencies & Platforms"
+
+#: src/modules/landing/LandingWho/LandingWho.tsx:28
+msgid "Tutors employed by organizations that require the ACPT as part of their hiring or training process."
+msgstr "Tutors employed by organizations that require the ACPT as part of their hiring or training process."
+
+#: src/modules/landing/LandingWho/LandingWho.tsx:16
+msgid "Tutors on freelance tutoring platforms who want to boost their profiles and attract more clients."
+msgstr "Tutors on freelance tutoring platforms who want to boost their profiles and attract more clients."
+
+#: src/modules/test/TestWelcome.tsx:26
+msgid "Unanswered or incomplete questions are marked as incorrect. It's important to answer all questions within the time limit."
+msgstr "Unanswered or incomplete questions are marked as incorrect. It's important to answer all questions within the time limit."
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:66
+msgid "Unanswered or incomplete questions are scored as incorrect."
+msgstr "Unanswered or incomplete questions are scored as incorrect."
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:18
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:31
+msgid "Unbiased"
+msgstr "Unbiased"
+
+#: src/modules/test/TestCompletion.tsx:156
+msgid "Unique certificate ID number"
+msgstr "Unique certificate ID number"
+
+#: src/modules/organization/OrgWho/OrgWho.tsx:15
+msgid "Universities, colleges, and schools that provide tutoring services."
+msgstr "Universities, colleges, and schools that provide tutoring services."
+
+#: src/modules/test/TestCompletion.tsx:138
+msgid "Unlock your personalized certificate now or save your results for later."
+msgstr "Unlock your personalized certificate now or save your results for later."
+
+#: src/modules/admin/user/ModalUpdateExam.tsx:70
+msgid "Update"
+msgstr "Update"
+
+#: src/modules/admin/user/ModalUpdateExam.tsx:70
+msgid "Update"
+msgstr "Update"
+
+#: src/modules/test/TestCompletion.tsx:176
+msgid "Upgrade now"
+msgstr "Upgrade now"
+
+#: src/modules/test/TestCompletion.tsx:151
+msgid "Upgrade to a certificate"
+msgstr "Upgrade to a certificate"
+
+#: src/modules/test/TestCompletion.tsx:197
+msgid "Upgrade to a certificate at any time"
+msgstr "Upgrade to a certificate at any time"
+
+#: src/modules/test/TestImageUpload.tsx:89
+msgid "Upload Image"
+msgstr "Upload Image"
+
+#: src/modules/faq/FAQPage.tsx:67
+msgid "Use the \"Forgot Password\" link on the login page to reset your password via email."
+msgstr "Use the \"Forgot Password\" link on the login page to reset your password via email."
+
+#: src/modules/auth/LoginPage.tsx:43
+msgid "User not found"
+msgstr "User not found"
+
+#: src/modules/admin/user/UserEdit.tsx:49
+msgid "User updated successfully!"
+msgstr "User updated successfully!"
+
+#: src/modules/admin/user/UsersPage.tsx:172
+msgid "Users"
+msgstr "Users"
+
+#: src/modules/payment/PaymentPage.tsx:50
+msgid "Valid for 2 years"
+msgstr "Valid for 2 years"
+
+#: src/components/Footer/FooterCertificate.tsx:38
+msgid "Verify"
+msgstr "Verify"
+
+#: src/components/Footer/FooterCertificate.tsx:23
+msgid "Verify A Certificate"
+msgstr "Verify A Certificate"
+
+#: src/modules/user/account/TestTable.tsx:171
+msgid "View"
+msgstr "View"
+
+#: src/modules/test/TestCompletion.tsx:290
+msgid "View My Results"
+msgstr "View My Results"
+
+#: src/modules/contact/ContactPage.tsx:58
+msgid "We are here to help"
+msgstr "We are here to help"
+
+#: src/modules/user/certificate/UserCertificatePage.tsx:84
+#: src/modules/certificate/CertificatePage.tsx:77
+msgid "We had an issue retrieving your exam information - please reach out to support for assistance."
+msgstr "We had an issue retrieving your exam information - please reach out to support for assistance."
+
+#: src/modules/auth/ForgotPage.tsx:98
+msgid "We sent a verification link to"
+msgstr "We sent a verification link to"
+
+#: src/modules/test/TestImageUpload.tsx:97
+msgid "Webcam"
+msgstr "Webcam"
+
+#: src/modules/test/TestWelcome.tsx:36
+#: src/modules/test/TestPage.tsx:69
+#: src/contexts/TestProvider.tsx:50
+msgid "Welcome to the ACPT"
+msgstr "Welcome to the ACPT"
+
+#: src/modules/faq/FAQPage.tsx:91
+msgid "What browsers are supported?"
+msgstr "What browsers are supported?"
+
+#: src/modules/faq/FAQPage.tsx:66
+msgid "What happens if I forget my password?"
+msgstr "What happens if I forget my password?"
+
+#: src/modules/faq/FAQPage.tsx:120
+msgid "What happens if I lose internet connection during the test?"
+msgstr "What happens if I lose internet connection during the test?"
+
+#: src/modules/faq/FAQPage.tsx:149
+msgid "What happens if I pass the ACPT?"
+msgstr "What happens if I pass the ACPT?"
+
+#: src/modules/faq/FAQPage.tsx:145
+msgid "What if I fail the ACPT?"
+msgstr "What if I fail the ACPT?"
+
+#: src/modules/faq/FAQPage.tsx:25
+msgid "What is a computer-adaptive test?"
+msgstr "What is a computer-adaptive test?"
+
+#: src/modules/faq/FAQPage.tsx:21
+msgid "What is the ACPT?"
+msgstr "What is the ACPT?"
+
+#: src/modules/faq/FAQPage.tsx:99
+msgid "What languages is the exam available in?"
+msgstr "What languages is the exam available in?"
+
+#: src/modules/faq/FAQPage.tsx:83
+msgid "What technical requirements are there?"
+msgstr "What technical requirements are there?"
+
+#: src/modules/faq/FAQPage.tsx:29
+msgid "What topics are covered in the exam?"
+msgstr "What topics are covered in the exam?"
+
+#: src/modules/faq/FAQPage.tsx:54
+msgid "When can I take the exam?"
+msgstr "When can I take the exam?"
+
+#: src/modules/faq/FAQPage.tsx:141
+msgid "When will I get my results?"
+msgstr "When will I get my results?"
+
+#: src/modules/faq/FAQPage.tsx:50
+msgid "Where can I take the exam?"
+msgstr "Where can I take the exam?"
+
+#: src/modules/organization/OrgWho/OrgWho.tsx:40
+msgid "Who accepts the ACPT?"
+msgstr "Who accepts the ACPT?"
+
+#: src/modules/landing/LandingWho/LandingWho.tsx:41
+msgid "Who is the ACPT for?"
+msgstr "Who is the ACPT for?"
+
+#: src/modules/faq/FAQPage.tsx:33
+msgid "Who recognizes the ACPT certification?"
+msgstr "Who recognizes the ACPT certification?"
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:44
+msgid "Why accept the ACPT"
+msgstr "Why accept the ACPT"
+
+#: src/modules/faq/FAQPage.tsx:157
+msgid "Will my scores be saved?"
+msgstr "Will my scores be saved?"
+
+#: src/modules/faq/FAQPage.tsx:124
+msgid "Will unanswered or incomplete questions affect my score?"
+msgstr "Will unanswered or incomplete questions affect my score?"
+
+#: src/modules/auth/LoginPage.tsx:47
+msgid "Wrong email or password"
+msgstr "Wrong email or password"
+
+#: src/modules/auth/LoginPage.tsx:45
+msgid "Wrong password"
+msgstr "Wrong password"
+
+#: src/modules/faq/FAQPage.tsx:175
+msgid "Yes, ACPT certification is valid for two years. After that, you'll need to retake the exam to maintain your certified status and ensure your skills remain up to date."
+msgstr "Yes, ACPT certification is valid for two years. After that, you'll need to retake the exam to maintain your certified status and ensure your skills remain up to date."
+
+#: src/modules/faq/FAQPage.tsx:88
+msgid "Yes, as long as your device has a supported browser and a stable internet connection."
+msgstr "Yes, as long as your device has a supported browser and a stable internet connection."
+
+#: src/modules/test/TestPage.tsx:51
+msgid "Yes, Quit Test"
+msgstr "Yes, Quit Test"
+
+#: src/modules/faq/FAQPage.tsx:113
+msgid "Yes, the ACPT has a 40-minute time limit. A timer is displayed during the exam, but you can hide it if you find it distracting."
+msgstr "Yes, the ACPT has a 40-minute time limit. A timer is displayed during the exam, but you can hide it if you find it distracting."
+
+#: src/modules/faq/FAQPage.tsx:104
+msgid "Yes, the ACPT is globally recognized and accepted across all regions and education systems. However, some organizations may require you to take the exam in your native language, so it's best to check their specific requirements."
+msgstr "Yes, the ACPT is globally recognized and accepted across all regions and education systems. However, some organizations may require you to take the exam in your native language, so it's best to check their specific requirements."
+
+#: src/modules/faq/FAQPage.tsx:125
+msgid "Yes, unanswered or incomplete questions are marked as incorrect. It's important to answer all questions within the time limit."
+msgstr "Yes, unanswered or incomplete questions are marked as incorrect. It's important to answer all questions within the time limit."
+
+#: src/modules/faq/FAQPage.tsx:183
+msgid "Yes, you can obtain a certificate for any score earned within the past year. All exam results are stored in your profile for 12 months."
+msgstr "Yes, you can obtain a certificate for any score earned within the past year. All exam results are stored in your profile for 12 months."
+
+#: src/modules/faq/FAQPage.tsx:96
+msgid "Yes, you can request accommodations by contacting support before starting the exam. All requests are handled confidentially."
+msgstr "Yes, you can request accommodations by contacting support before starting the exam. All requests are handled confidentially."
+
+#: src/modules/faq/FAQPage.tsx:179
+msgid "Yes, you can share your personalized URL, which links directly to your live certificate page, or share your unique certificate ID number. Anyone with this information can verify your certification on the ACPT website."
+msgstr "Yes, you can share your personalized URL, which links directly to your live certificate page, or share your unique certificate ID number. Anyone with this information can verify your certification on the ACPT website."
+
+#: src/modules/faq/FAQPage.tsx:63
+msgid "Yes, you can update your profile information at any time through the settings menu."
+msgstr "Yes, you can update your profile information at any time through the settings menu."
+
+#: src/modules/faq/FAQPage.tsx:158
+msgid "Yes, your scores are automatically stored in your profile. You'll have the option to choose which score you want to share with others."
+msgstr "Yes, your scores are automatically stored in your profile. You'll have the option to choose which score you want to share with others."
+
+#: src/hooks/useAuthStatus.ts:35
+msgid "You are no longer able to login. Please contact support should you have any queries."
+msgstr "You are no longer able to login. Please contact support should you have any queries."
+
+#: src/modules/test/TestCompletion.tsx:230
+msgid "You can choose to retake the exam or save your results for later."
+msgstr "You can choose to retake the exam or save your results for later."
+
+#: src/modules/faq/FAQPage.tsx:80
+msgid "You can request the free ACPT Study Guide and practice with the sample questions included."
+msgstr "You can request the free ACPT Study Guide and practice with the sample questions included."
+
+#: src/modules/faq/FAQPage.tsx:146
+msgid "You can retake the exam once per day."
+msgstr "You can retake the exam once per day."
+
+#: src/contexts/TestProvider.tsx:56
+msgid "You can retake this assessment"
+msgstr "You can retake this assessment"
+
+#: src/modules/faq/FAQPage.tsx:171
+msgid "You can share your personalized URL, which links directly to your live certificate page; download a PDF version for printing or sending as an attachment; or share your certificate ID number, which can be verified through the ACPT website."
+msgstr "You can share your personalized URL, which links directly to your live certificate page; download a PDF version for printing or sending as an attachment; or share your certificate ID number, which can be verified through the ACPT website."
+
+#: src/modules/faq/FAQPage.tsx:154
+msgid "You can take the ACPT twice every 24 hours, regardless if you pass or fail. This allows you to improve your score or simply try again if you're not satisfied with your performance."
+msgstr "You can take the ACPT twice every 24 hours, regardless if you pass or fail. This allows you to improve your score or simply try again if you're not satisfied with your performance."
+
+#: src/modules/faq/FAQPage.tsx:38
+msgid "You can verify a certification by using the \"Verify a Certificate\" tool on the ACPT website or by accessing the unique certificate URL provided to the test taker."
+msgstr "You can verify a certification by using the \"Verify a Certificate\" tool on the ACPT website or by accessing the unique certificate URL provided to the test taker."
+
+#: src/modules/test/TestCompletion.tsx:222
+msgid "You did not meet the passing score for the ACPT this time. Your score is:"
+msgstr "You did not meet the passing score for the ACPT this time. Your score is:"
+
+#: src/modules/test/TestCompletion.tsx:282
+msgid "You have already attempted the exam twice today. You will need to wait until tomorrow until you can resit the test."
+msgstr "You have already attempted the exam twice today. You will need to wait until tomorrow until you can resit the test."
+
+#: src/modules/user/account/TestTable.tsx:230
+msgid "You have not taken any tests"
+msgstr "You have not taken any tests"
+
+#: src/contexts/TestProvider.tsx:253
+msgid "You have reached the maximum of 2 exam attempts in 24 hours. Please wait before trying again."
+msgstr "You have reached the maximum of 2 exam attempts in 24 hours. Please wait before trying again."
+
+#: src/modules/test/TestCompletion.tsx:130
+msgid "You have successfully passed ACPT. Your score is:"
+msgstr "You have successfully passed ACPT. Your score is:"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:40
+msgid "You may retake the exam once per day"
+msgstr "You may retake the exam once per day"
+
+#: src/contexts/TestProvider.tsx:55
+msgid "You must complete this exam in one session"
+msgstr "You must complete this exam in one session"
+
+#: src/modules/faq/FAQPage.tsx:150
+msgid "You will have the option to obtain a certificate, or save your score in your profile."
+msgstr "You will have the option to obtain a certificate, or save your score in your profile."
+
+#: src/modules/faq/FAQPage.tsx:138
+msgid "You will receive a score between 0 and 100 immediately after completing the exam. A score of 75 or higher is considered passing."
+msgstr "You will receive a score between 0 and 100 immediately after completing the exam. A score of 75 or higher is considered passing."
+
+#: src/modules/faq/FAQPage.tsx:142
+msgid "You will receive your results immediately after finishing the exam."
+msgstr "You will receive your results immediately after finishing the exam."
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:36
+msgid "You’ll need a stable internet connection, a supported browser, and an internet-connected device."
+msgstr "You’ll need a stable internet connection, a supported browser, and an internet-connected device."
+
+#: src/modules/user/account/AccountInfo.tsx:77
+msgid "Your account information has been updated successfully."
+msgstr "Your account information has been updated successfully."
+
+#: src/modules/auth/ResetPage.tsx:46
+#: src/modules/auth/ResetPage.tsx:74
+msgid "Your new password must be different to previously used passwords."
+msgstr "Your new password must be different to previously used passwords."
+
+#: src/modules/auth/ResetPage.tsx:56
+msgid "Your password has been successfully reset. Click below to log in."
+msgstr "Your password has been successfully reset. Click below to log in."

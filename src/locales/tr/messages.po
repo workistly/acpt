@@ -1,0 +1,1765 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-05-29 18:24+0700\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: tr\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/modules/test/TestCompletion.tsx:161
+msgid "(see example)"
+msgstr "(örneğe bakın)"
+
+#: src/contexts/TestProvider.tsx:51
+msgid "1 hour time limit"
+msgstr "1 saatlik zaman sınırı"
+
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:24
+msgid "100% fully online. Take the ACPT anytime, anywhere. No appointment required."
+msgstr "%100 tamamen çevrimiçi. ACPT'yi istediğiniz zaman, istediğiniz yerde alın. Randevu gerekmez."
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:24
+msgid "100% online. No appointment required."
+msgstr "%100 online. Randevuya gerek yok."
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:16
+msgid "40 minutes"
+msgstr "40 dakika"
+
+#: src/modules/test/TestWelcome.tsx:16
+msgid "40-minute time limit"
+msgstr "40 dakikalık zaman sınırı"
+
+#: src/modules/test/TestWelcome.tsx:17
+#: src/contexts/TestProvider.tsx:51
+msgid "50 multiple choice questions"
+msgstr "50 çoktan seçmeli soru"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:20
+msgid "50 multiple-choice questions"
+msgstr "50 çoktan seçmeli soru"
+
+#: src/modules/user/certificate/CertificateFile.tsx:47
+msgid "A certified ACPT tutor is a proven expert in academic support, having demonstrated excellence in subject matter knowledge, teaching strategies, and hands-on tutoring ability."
+msgstr "Sertifikalı bir ACPT öğretmeni, konu bilgisi, öğretim stratejileri ve uygulamalı ders verme becerisinde mükemmellik göstermiş, akademik destek konusunda kendini kanıtlamış bir uzmandır."
+
+#: src/modules/faq/FAQPage.tsx:26
+msgid "A computer-adaptive test adjusts the difficulty of questions based on your answers in real time for a more precise evaluation."
+msgstr "Bilgisayara uyarlanan bir test, daha kesin bir değerlendirme için gerçek zamanlı olarak cevaplarınıza göre soruların zorluğunu ayarlar."
+
+#: src/modules/faq/FAQPage.tsx:84
+msgid "A stable internet connection, an updated browser (such as Chrome, Firefox, or Safari), and any internet-connected device."
+msgstr "Sabit bir internet bağlantısı, güncel bir tarayıcı (Chrome, Firefox veya Safari gibi) ve internete bağlı herhangi bir cihaz."
+
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:45
+msgid "About the ACPT"
+msgstr "ACPT hakkında"
+
+#: src/modules/organization/OrgSubscribe/OrgSubscribe.tsx:30
+msgid "Academic Institution"
+msgstr "Akademik Kurum"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:51
+msgid "Accessibility"
+msgstr "Erişilebilirlik"
+
+#: src/modules/contact/ContactPage.tsx:39
+msgid "Accessibility Request"
+msgstr "Erişilebilirlik Talebi"
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:14
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:27
+msgid "Accessible"
+msgstr "Erişilebilir"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:52
+msgid "Accommodations are available upon request"
+msgstr "Hay alojamientos disponibles bajo petición."
+
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:28
+msgid "Accommodations are available upon request to test takers with disabilities, ensuring fairness and equality."
+msgstr "Engelli sınav katılımcılarına talepleri doğrultusunda adalet ve eşitliğin sağlanması için düzenlemeler yapılmaktadır."
+
+#: src/modules/landing/LandingBenefits/LandingBenefits.tsx:23
+msgid "According to industry data, certified tutors earn 30% more compared to tutors without formal certification."
+msgstr "Según datos de la industria, los tutores certificados ganan un 30% más en comparación con los tutores sin certificación formal."
+
+#: src/modules/auth/RegisterPage.tsx:72
+msgid "Account created but sign in failed. Please try logging in."
+msgstr "Hesap oluşturuldu ancak oturum açma başarısız oldu. Lütfen oturum açmayı deneyin."
+
+#: src/modules/auth/ForgotPage.tsx:52
+msgid "Account doesn't exist."
+msgstr "Hesap mevcut değil."
+
+#: src/modules/organization/OrgPage.tsx:22
+#: src/modules/organization/OrgBanner/OrgBanner.tsx:15
+msgid "ACPT for organizations"
+msgstr "Kuruluşlar için ACPT"
+
+#: src/modules/landing/LandingBanner/LandingBanner.tsx:40
+msgid "ACPT for your organization"
+msgstr "Kuruluşunuz için ACPT"
+
+#: src/modules/landing/LandingFormat/LandingFormat.tsx:23
+msgid "ACPT Format Changes"
+msgstr "ACPT Format Değişiklikleri"
+
+#: src/modules/landing/LandingGuide/LandingGuide.tsx:15
+msgid "ACPT Study Guide"
+msgstr "ACPT Çalışma Kılavuzu"
+
+#: src/modules/user/account/TestTable.tsx:158
+msgid "Action"
+msgstr "aksiyon"
+
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:35
+msgid "Adaptive"
+msgstr ""
+
+#: src/components/Header/UserMenu.tsx:55
+msgid "Admin"
+msgstr "Yönetici"
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:23
+msgid "Advanced security protocols and computer-adaptive technology work together to prevent cheating and deliver results you can trust."
+msgstr "Gelişmiş güvenlik protokolleri ve bilgisayara uyarlanabilir teknoloji, hileyi önlemek ve güvenebileceğiniz sonuçlar sunmak için birlikte çalışır."
+
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:19
+msgid "Affordable"
+msgstr "Ekonomik"
+
+#: src/modules/organization/OrgContact/OrgContact.tsx:23
+msgid "After registration, you’ll gain free access to our secure ACPT Score Verification System"
+msgstr "Kayıttan sonra, güvenli ACPT Puan Doğrulama Sistemimize ücretsiz erişim kazanacaksınız"
+
+#: src/modules/faq/FAQPage.tsx:134
+msgid "After the exam"
+msgstr "Sınavdan sonra"
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:31
+msgid "Align your organization with a globally recognized certification and demonstrate a commitment to educational quality and professionalism."
+msgstr "Kuruluşunuzu dünya çapında tanınan bir sertifika ile uyumlu hale getirin ve eğitim kalitesine ve profesyonelliğe olan bağlılığınızı gösterin."
+
+#: src/modules/test/TestPage.tsx:49
+msgid "All progress will be lost. Are you sure you want to quit?"
+msgstr "Tüm ilerleme kaybolacak. Çıkmak istediğinizden emin misiniz?"
+
+#: src/modules/auth/RegisterPage.tsx:96
+msgid "Already have an account?"
+msgstr "Zaten bir hesabınız var mı?"
+
+#: src/modules/auth/RegisterPage.tsx:58
+msgid "An account already exists with this E-mail address - please log in."
+msgstr "Bu E-posta adresiyle bir hesap zaten mevcut - lütfen giriş yapın."
+
+#: src/modules/auth/LoginPage.tsx:68
+#: src/modules/auth/LoginPage.tsx:70
+msgid "An error occurred during sign in"
+msgstr "Oturum açma sırasında bir hata oluştu"
+
+#: src/modules/user/account/TestTable.tsx:95
+#: src/modules/user/account/TestTable.tsx:102
+#: src/modules/test/TestCompletion.tsx:72
+#: src/modules/test/TestCompletion.tsx:78
+msgid "An error occurred while creating the certificate. Please try again."
+msgstr "Sertifika oluşturulurken bir hata oluştu. Lütfen tekrar deneyin."
+
+#: src/modules/auth/RegisterPage.tsx:60
+#: src/modules/auth/RegisterPage.tsx:79
+msgid "An error occurred while creating your account."
+msgstr "Hesabınız oluşturulurken bir hata oluştu."
+
+#: src/modules/certificate/CertificatePage.tsx:53
+msgid "An error occurred while fetching the certificate data"
+msgstr "Sertifika verileri alınırken bir hata oluştu"
+
+#: src/modules/user/account/AccountInfo.tsx:103
+msgid "An error occurred while updating your account information."
+msgstr "Hesap bilgileriniz güncellenirken bir hata oluştu."
+
+#: src/modules/test/TestCertificate.tsx:55
+msgid "An error occurred while uploading the certificate. Please try again."
+msgstr "Sertifika yüklenirken bir hata oluştu. Lütfen tekrar deneyin."
+
+#: src/modules/test/TestPage.tsx:111
+msgid "An exam of this language does not exist"
+msgstr "Bu dilin bir incelemesi mevcut değil"
+
+#: src/modules/test/TestCertificate.tsx:61
+#: src/modules/payment/PaymentForm.tsx:124
+msgid "An unknown error occurred."
+msgstr "Bilinmeyen bir hata oluştu."
+
+#: src/modules/auth/ResetPage.tsx:35
+#: src/modules/auth/ForgotPage.tsx:54
+#: src/modules/auth/ForgotPage.tsx:57
+#: src/modules/auth/ForgotPage.tsx:81
+msgid "An unknown error occurred. Try again later."
+msgstr "Bilinmeyen bir hata oluştu. Daha sonra tekrar deneyin."
+
+#: src/modules/organization/OrgContact/OrgContact.tsx:25
+msgid "and a streamlined API for receiving exam results directly."
+msgstr "ve sınav sonuçlarını doğrudan alabilmek için geliştirilmiş bir API."
+
+#: src/modules/landing/LandingBenefits/LandingBenefits.tsx:14
+msgid "Attract more clients"
+msgstr ""
+
+#: src/modules/auth/ForgotPage.tsx:127
+msgid "Back to Log In"
+msgstr "Oturum Açmaya Geri Dön"
+
+#: src/modules/faq/FAQPage.tsx:72
+msgid "Before the exam"
+msgstr "Sınavdan önce"
+
+#: src/modules/landing/LandingBenefits/LandingBenefits.tsx:32
+msgid "Benefits of ACPT certification"
+msgstr "ACPT sertifikasının faydaları"
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:30
+msgid "Brand Credibility"
+msgstr "Marka Güvenilirliği"
+
+#: src/modules/payment/PaymentPage.tsx:130
+msgid "Buy Now"
+msgstr "Şimdi al"
+
+#: src/modules/faq/FAQPage.tsx:182
+msgid "Can I get a certificate for an old score?"
+msgstr "Eski bir notum için belge alabilir miyim?"
+
+#: src/modules/faq/FAQPage.tsx:116
+msgid "Can I pause the exam after starting it?"
+msgstr "Sınava başladıktan sonra ara verebilir miyim?"
+
+#: src/modules/faq/FAQPage.tsx:87
+msgid "Can I take the ACPT on a tablet or smartphone?"
+msgstr "ACPT'yi tablet veya akıllı telefondan alabilir miyim?"
+
+#: src/modules/faq/FAQPage.tsx:62
+msgid "Can I update my profile information?"
+msgstr "Profil bilgilerimi güncelleyebilir miyim?"
+
+#: src/modules/faq/FAQPage.tsx:128
+msgid "Can I use notes or a calculator during the ACPT?"
+msgstr "ACPT sırasında not veya hesap makinesi kullanabilir miyim?"
+
+#: src/modules/faq/FAQPage.tsx:178
+msgid "Can others verify my certificate?"
+msgstr "Sertifikamı başkaları doğrulayabilir mi?"
+
+#: src/modules/test/TestWelcome.tsx:63
+#: src/modules/test/TestPage.tsx:52
+#: src/modules/test/ModalWebcam.tsx:54
+msgid "Cancel"
+msgstr "İptal etmek"
+
+#: src/modules/test/ModalWebcam.tsx:31
+msgid "Capture & upload picture directly from your webcam."
+msgstr "Resminizi doğrudan web kameranızdan yakalayın ve yükleyin."
+
+#: src/modules/test/ModalWebcam.tsx:58
+msgid "Capture Photo"
+msgstr "Fotoğraf Çek"
+
+#: src/modules/payment/PaymentForm.tsx:220
+msgid "Card Expiry"
+msgstr "Kartın Son Kullanma Tarihi"
+
+#: src/modules/payment/PaymentForm.tsx:200
+msgid "Card Number"
+msgstr "Kart Numarası"
+
+#: src/modules/user/certificate/UserCertificatePage.tsx:77
+#: src/modules/certificate/CertificatePage.tsx:65
+msgid "Certificate"
+msgstr "Sertifika"
+
+#: src/modules/test/TestCompletion.tsx:267
+msgid "Certificate Example"
+msgstr "Sertifika Örneği"
+
+#: src/modules/user/certificate/CertificateFile.tsx:60
+msgid "Certificate ID Number"
+msgstr "Sertifika Kimlik Numarası"
+
+#: src/modules/user/account/TestTable.tsx:142
+#: src/components/Footer/FooterCertificate.tsx:34
+msgid "Certificate Number"
+msgstr "Sertifika Numarası"
+
+#: src/modules/user/certificate/CertificateFile.tsx:63
+msgid "Certificate URL"
+msgstr "Sertifika URL'si"
+
+#: src/contexts/TestProvider.tsx:57
+msgid "Certificate will be created once you complete this exam"
+msgstr "Bu sınavı tamamladığınızda sertifika oluşturulacaktır"
+
+#: src/modules/faq/FAQPage.tsx:163
+msgid "Certificates"
+msgstr "Sertifikalar"
+
+#: src/modules/user/account/AccountInfo.tsx:131
+msgid "CHANGE PASSWORD"
+msgstr "ŞİFRE DEĞİŞTİR"
+
+#: src/modules/auth/ForgotPage.tsx:94
+msgid "Check your email"
+msgstr "E-postanızı kontrol edin"
+
+#: src/modules/faq/FAQPage.tsx:59
+msgid "Click the \"Register\" button, fill in your details, and verify your email."
+msgstr "\"Kayıt Ol\" butonuna tıklayın, bilgilerinizi girin ve e-postanızı doğrulayın."
+
+#: src/modules/auth/ForgotPage.tsx:119
+msgid "Click to resend"
+msgstr "Tekrar göndermek için tıklayın"
+
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:16
+msgid "Complete the ACPT exam in 40 minutes and receive your score immediately."
+msgstr "ACPT sınavını 40 dakikada tamamlayın ve puanınızı hemen alın."
+
+#: src/modules/auth/ResetPage.tsx:89
+#: src/modules/auth/RegisterPage.tsx:129
+msgid "Confirm Password"
+msgstr "Şifreyi Onayla"
+
+#: src/modules/test/TestCompletion.tsx:126
+msgid "Congratulations!"
+msgstr "Tebrikler!"
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:26
+msgid "Consistency"
+msgstr "Tutarlılık"
+
+#: src/modules/organization/OrgContact/OrgContact.tsx:38
+#: src/modules/contact/ContactPage.tsx:44
+#: src/modules/contact/ContactPage.tsx:48
+#: src/components/Footer/PublicFooter.tsx:34
+msgid "Contact Us"
+msgstr "Bize Ulaşın"
+
+#: src/modules/test/TestCertificate.tsx:78
+msgid "Continue"
+msgstr "Devam etmek!"
+
+#: src/modules/test/TestCertificate.tsx:73
+msgid "Continue to Payment"
+msgstr "Ödemeye Devam Et"
+
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:23
+msgid "Convenient"
+msgstr "Uygun"
+
+#: src/components/Footer/PublicFooter.tsx:26
+msgid "Cookie"
+msgstr "Çerez"
+
+#: src/modules/term/CookiePage.tsx:13
+msgid "Cookie Policy"
+msgstr "Çerez Politikası"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:27
+msgid "Cost"
+msgstr "Maliyet"
+
+#: src/modules/payment/PaymentForm.tsx:173
+msgid "Country"
+msgstr "ülke"
+
+#: src/modules/auth/RegisterPage.tsx:88
+#: src/modules/auth/RegisterPage.tsx:136
+msgid "Create Account"
+msgstr "Hesap oluşturmak"
+
+#: src/modules/auth/LoginPage.tsx:98
+msgid "Create an Account"
+msgstr "Bir hesap oluşturun"
+
+#: src/modules/auth/ResetPage.tsx:45
+#: src/modules/auth/ResetPage.tsx:69
+msgid "Create new password"
+msgstr "Yeni şifre oluştur"
+
+#: src/modules/auth/RegisterPage.tsx:88
+#: src/modules/auth/RegisterPage.tsx:91
+msgid "Create your account"
+msgstr "Hesabınızı oluşturun"
+
+#: src/modules/payment/PaymentForm.tsx:181
+msgid "Credit or Debit Card"
+msgstr "Kredi veya Banka Kartı"
+
+#: src/modules/faq/FAQPage.tsx:100
+msgid "Currently, the ACPT is available in English and Turkish, with additional languages planned for future release."
+msgstr "ACPT şu anda İngilizce ve Türkçe dillerinde mevcuttur; ileride daha fazla dilin yayınlanması planlanmaktadır."
+
+#: src/modules/admin/dashboard/DashboardPage.tsx:296
+msgid "Dashboard"
+msgstr "Kontrol Paneli"
+
+#: src/modules/user/account/TestTable.tsx:113
+msgid "Date"
+msgstr "tarih"
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:55
+msgid "Designed to set the global benchmark for tutor certification, the ACPT provides a comprehensive evaluation of each candidate’s subject knowledge, pedagogical skill, and practical tutoring ability—the core competencies required to deliver high-quality academic support. It’s more than a test—it’s a mark of excellence."
+msgstr "Öğretmenlik sertifikası için küresel bir ölçüt belirlemek üzere tasarlanan ACPT, her adayın konu bilgisi, pedagojik becerisi ve pratik öğretmenlik yeteneğinin kapsamlı bir değerlendirmesini sağlar; bunlar yüksek kaliteli akademik destek sunmak için gereken temel yeterliliklerdir. Bir testten daha fazlasıdır; bir mükemmellik işaretidir."
+
+#: src/modules/contact/ContactPage.tsx:87
+msgid "Details"
+msgstr "Detaylar"
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:19
+msgid "Developed using rigorous psychometric standards to eliminate regional, cultural, and ethnic bias—ensuring a fair and equitable evaluation for every test-taker."
+msgstr "Bölgesel, kültürel ve etnik önyargıları ortadan kaldırmak için titiz psikometrik standartlar kullanılarak geliştirildi ve her test katılımcısı için adil ve eşit bir değerlendirme sağlandı."
+
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:32
+msgid "Developed using the most rigorous vetting process to remove regional, ethnic, or cultural biases."
+msgstr "Bölgesel, etnik veya kültürel önyargıları ortadan kaldırmak için en titiz inceleme sürecinden geçirilerek geliştirilmiştir."
+
+#: src/modules/auth/ForgotPage.tsx:107
+msgid "Didn’t receive the email?"
+msgstr "E-postayı almadınız mı?"
+
+#: src/modules/faq/FAQPage.tsx:174
+msgid "Does ACPT certification expire?"
+msgstr "ACPT sertifikasının süresi doluyor mu?"
+
+#: src/modules/faq/FAQPage.tsx:112
+msgid "Does the ACPT have a time limit?"
+msgstr ""
+
+#: src/modules/user/certificate/CertificateFile.tsx:69
+msgid "Download PDF"
+msgstr ""
+
+#: src/modules/test/TestCompletion.tsx:135
+#: src/modules/payment/PaymentPage.tsx:50
+msgid "Downloadable as a PDF"
+msgstr "PDF olarak indirilebilir"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:15
+msgid "Duration"
+msgstr "Süre"
+
+#: src/modules/faq/FAQPage.tsx:109
+msgid "During the exam"
+msgstr "Sınav sırasında"
+
+#: src/modules/payment/PaymentForm.tsx:193
+msgid "e.g Jogn Smith"
+msgstr "örneğin John Smith"
+
+#: src/modules/organization/OrgWho/OrgWho.tsx:22
+msgid "EdTech Companies"
+msgstr "Eğitim Teknolojisi Şirketleri"
+
+#: src/modules/organization/OrgWho/OrgWho.tsx:14
+msgid "Educational Institutions"
+msgstr "Eğitim Kurumları"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:58
+msgid "Effective teaching strategies, and instructional best practices"
+msgstr "Etkili öğretim stratejileri ve öğretimde en iyi uygulamalar"
+
+#: src/modules/contact/ContactPage.tsx:83
+#: src/modules/auth/RegisterPage.tsx:123
+#: src/modules/auth/ForgotPage.tsx:148
+msgid "Email"
+msgstr "E-posta"
+
+#: src/modules/user/account/AccountInfo.tsx:128
+#: src/modules/organization/OrgSubscribe/OrgSubscribe.tsx:24
+#: src/modules/organization/OrgGuide/OrgGuide.tsx:22
+#: src/modules/landing/LandingSubscribe/LandingSubscribe.tsx:27
+#: src/modules/landing/LandingGuide/LandingGuide.tsx:25
+#: src/modules/auth/LoginPage.tsx:107
+msgid "Email Address"
+msgstr "E-posta Adresi"
+
+#: src/modules/landing/LandingWho/LandingWho.tsx:27
+msgid "Employed Tutors"
+msgstr "Çalışan Öğretmenler"
+
+#: src/modules/organization/OrgSubscribe/OrgSubscribe.tsx:26
+msgid "Employer"
+msgstr "İş veren"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:48
+msgid "English, Turkish"
+msgstr "İngilizce, Türkçe"
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:19
+msgid "Ensure that your hires meet a verified, research-backed standard of academic and instructional excellence."
+msgstr "İşe aldığınız kişilerin akademik ve öğretimsel mükemmellik açısından doğrulanmış, araştırmalarla desteklenen bir standarda sahip olduğundan emin olun."
+
+#: src/modules/auth/ForgotPage.tsx:138
+msgid "Enter the email address for your account and we’ll send you a temporary link to reset your password."
+msgstr "Hesabınızın e-posta adresini girin, size şifrenizi sıfırlamanız için geçici bir bağlantı gönderelim."
+
+#: src/modules/landing/LandingWho/LandingWho.tsx:23
+msgid "Entrepreneurs"
+msgstr "Girişimciler"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:55
+msgid "Exam Content"
+msgstr "Sınav İçeriği"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:77
+msgid "Exam Details"
+msgstr "Sınav Detayları"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:31
+msgid "Exam Results"
+msgstr ""
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:35
+msgid "Expand your recruitment pool to include certified professionals from around the world, all verified through a consistent benchmark."
+msgstr "İşe alım havuzunuzu, tutarlı bir ölçüt aracılığıyla doğrulanmış, dünyanın dört bir yanından sertifikalı profesyonelleri içerecek şekilde genişletin."
+
+#: src/modules/admin/user/UserEdit.tsx:55
+msgid "Failed to update user."
+msgstr "Kullanıcı güncellenemedi."
+
+#: src/components/Header/PublicHeader.tsx:33
+#: src/components/Footer/PublicFooter.tsx:30
+msgid "FAQ"
+msgstr "SSS"
+
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:15
+msgid "Fast"
+msgstr "Hızlı"
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:14
+msgid "Faster Onboarding"
+msgstr "Daha Hızlı Katılım"
+
+#: src/modules/contact/ContactPage.tsx:79
+msgid "First name"
+msgstr "İlk adı"
+
+#: src/modules/user/account/AccountInfo.tsx:124
+#: src/modules/organization/OrgSubscribe/OrgSubscribe.tsx:16
+#: src/modules/landing/LandingSubscribe/LandingSubscribe.tsx:23
+#: src/modules/auth/RegisterPage.tsx:115
+msgid "First Name"
+msgstr "İlk adı"
+
+#: src/modules/auth/RegisterPage.tsx:29
+msgid "First name is required"
+msgstr "Ad gerekli"
+
+#: src/modules/contact/ContactPage.tsx:16
+msgid "For all general questions, feedback, or support:"
+msgstr "Tüm genel sorular, geri bildirimler veya destek için:"
+
+#: src/modules/contact/ContactPage.tsx:31
+msgid "For legal notices, policy-related queries, or regulatory matters:"
+msgstr "Yasal bildirimler, politika ile ilgili sorular veya düzenleyici konular için:"
+
+#: src/modules/contact/ContactPage.tsx:21
+msgid "For press requests, interviews, or media kits:"
+msgstr "Basın talepleri, röportajlar veya medya kitleri için:"
+
+#: src/modules/auth/LoginPage.tsx:117
+#: src/modules/auth/ForgotPage.tsx:90
+msgid "Forgot password?"
+msgstr "Parolanızı mı unuttunuz?"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:23
+msgid "Format"
+msgstr "Biçim"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:28
+msgid "Free"
+msgstr "özgür"
+
+#: src/modules/test/TestCompletion.tsx:184
+#: src/modules/test/TestCompletion.tsx:240
+#: src/modules/test/TestCompletion.tsx:270
+msgid "FREE"
+msgstr "özgür"
+
+#: src/modules/landing/LandingWho/LandingWho.tsx:15
+msgid "Freelancers"
+msgstr "Serbest çalışanlar"
+
+#: src/modules/faq/FAQPage.tsx:192
+msgid "Frequently Asked Questions"
+msgstr "Sıkça Sorulan Sorular"
+
+#: src/modules/faq/FAQPage.tsx:18
+msgid "General"
+msgstr "Genel"
+
+#: src/modules/user/account/AccountInfo.tsx:121
+msgid "GENERAL INFO"
+msgstr "GENEL BİLGİ"
+
+#: src/modules/contact/ContactPage.tsx:39
+msgid "General Inquiry"
+msgstr "Genel Sorgulama"
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:34
+msgid "Global Talent Access"
+msgstr "Küresel Yetenek Erişimi"
+
+#: src/modules/organization/OrgSubscribe/OrgSubscribe.tsx:28
+msgid "Government"
+msgstr "Devlet"
+
+#: src/modules/organization/OrgWho/OrgWho.tsx:26
+msgid "Government Agencies"
+msgstr "Devlet Kurumları"
+
+#: src/modules/organization/OrgWho/OrgWho.tsx:27
+msgid "Government regulators that require a standardized, evidence-based framework to promote accountability and establish consistent oversight across the academic tutoring industry."
+msgstr "Akademik danışmanlık sektöründe hesap verebilirliği teşvik etmek ve tutarlı bir denetim oluşturmak için standartlaştırılmış, kanıta dayalı bir çerçeve gerektiren hükümet düzenleyicileri."
+
+#: src/modules/organization/OrgGuide/OrgGuide.tsx:15
+msgid "Guidebook for Professional Organizations"
+msgstr "Mesleki Örgütler İçin Rehber"
+
+#: src/modules/contact/ContactPage.tsx:15
+msgid "Help & Support"
+msgstr "Yardım ve Destek"
+
+#: src/modules/test/TestPage.tsx:89
+msgid "Hide Timer"
+msgstr "Zamanlayıcıyı Gizle"
+
+#: src/modules/landing/LandingWho/LandingWho.tsx:20
+msgid "High school or college students who want to gain real-world experience and build their academic credibility."
+msgstr ""
+
+#: src/modules/admin/history/HistoryPage.tsx:367
+msgid "History"
+msgstr ""
+
+#: src/modules/faq/FAQPage.tsx:170
+msgid "How can I share my certificate?"
+msgstr "Sertifikamı nasıl paylaşabilirim?"
+
+#: src/modules/faq/FAQPage.tsx:166
+msgid "How can I show that I passed the ACPT?"
+msgstr "ACPT'yi geçtiğimi nasıl gösterebilirim?"
+
+#: src/modules/faq/FAQPage.tsx:79
+msgid "How do I prepare for the exam?"
+msgstr "Sınava nasıl hazırlanabilirim?"
+
+#: src/modules/faq/FAQPage.tsx:58
+msgid "How do I register an account?"
+msgstr "Hesap nasıl oluştururum?"
+
+#: src/modules/faq/FAQPage.tsx:37
+msgid "How do I verify someone's ACPT certification?"
+msgstr "Birinin ACPT sertifikasını nasıl doğrulayabilirim?"
+
+#: src/modules/faq/FAQPage.tsx:137
+msgid "How is the ACPT scored?"
+msgstr "ACPT nasıl puanlanır?"
+
+#: src/modules/faq/FAQPage.tsx:75
+msgid "How many questions are on the exam?"
+msgstr "Sınavda kaç soru var?"
+
+#: src/modules/faq/FAQPage.tsx:46
+msgid "How much does the exam cost?"
+msgstr "Sınav ücreti ne kadar?"
+
+#: src/modules/faq/FAQPage.tsx:153
+msgid "How often can I take the exam?"
+msgstr "Sınava ne sıklıkla girebilirim?"
+
+#: src/modules/landing/LandingSubscribe/LandingSubscribe.tsx:29
+msgid "I agree to the Privacy policy"
+msgstr "Gizlilik politikasını kabul ediyorum"
+
+#: src/modules/faq/FAQPage.tsx:121
+msgid "If you lose your internet connection or close the browser, the session will end and your progress will be lost. You will need to retake the exam."
+msgstr "İnternet bağlantınız kesilirse veya tarayıcınızı kapatırsanız oturum sona erecek ve ilerlemeniz kaybolacaktır. Sınavı tekrar almanız gerekecektir."
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:22
+msgid "Improved Client Trust"
+msgstr "Geliştirilmiş Müşteri Güveni"
+
+#: src/components/Footer/FooterCertificate.tsx:27
+msgid "In order to verify a tutor’s certification, please enter the Certification number provided on the tutor’s certificate."
+msgstr "Bir eğitmenin sertifikasını doğrulamak için lütfen eğitmenin sertifikasında belirtilen Sertifika numarasını girin."
+
+#: src/modules/landing/LandingBenefits/LandingBenefits.tsx:19
+msgid "In the crowded tutoring industry, being certified sets you apart by proving you have the skills clients are looking for."
+msgstr "Kalabalık bir özel ders sektöründe, sertifikalı olmak, müşterilerin aradığı becerilere sahip olduğunuzu kanıtlayarak sizi farklı kılar."
+
+#: src/modules/landing/LandingBenefits/LandingBenefits.tsx:36
+msgid "In the ever-growing tutoring industry, tutors need a way to distinguish themselves as qualified, competent professionals. ACPT certification offers more than just validation—it provides a competitive edge in the growing and evolving tutoring industry. Here are some of the key benefits:"
+msgstr "Sürekli büyüyen özel ders sektöründe, özel ders verenlerin kendilerini nitelikli, yetenekli profesyoneller olarak öne çıkarmanın bir yoluna ihtiyaçları vardır. ACPT sertifikası yalnızca doğrulamadan fazlasını sunar; büyüyen ve gelişen özel ders sektöründe rekabet avantajı sağlar. İşte bazı temel avantajlar:"
+
+#: src/modules/payment/PaymentPage.tsx:52
+msgid "Includes certificate ID number"
+msgstr "Sertifika kimlik numarasını içerir"
+
+#: src/modules/landing/LandingBenefits/LandingBenefits.tsx:22
+msgid "Increase earning power"
+msgstr "Kazanma gücünü artırın"
+
+#: src/modules/landing/LandingWho/LandingWho.tsx:24
+msgid "Independent tutors running their own businesses who want to stand out in a competitive market."
+msgstr "Rekabetçi bir pazarda öne çıkmak isteyen, kendi işini yürüten bağımsız eğitmenler."
+
+#: src/modules/landing/LandingWho/LandingWho.tsx:32
+msgid "Individuals looking to strengthen their resumes and increase their job opportunities."
+msgstr "Özgeçmişlerini güçlendirmek ve iş olanaklarını artırmak isteyen kişiler."
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:30
+msgid "Innovative"
+msgstr "Yenilikçi"
+
+#: src/modules/contact/ContactPage.tsx:26
+msgid "Interested in recognizing the ACPT or integrating with our API?"
+msgstr "ACPT'yi tanımak veya API'mizle entegre olmak ister misiniz?"
+
+#: src/utils/const.ts:17
+msgid "Invalid email"
+msgstr "Geçersiz e-posta"
+
+#: src/modules/faq/FAQPage.tsx:95
+msgid "Is the ACPT accessible for test takers with disabilities?"
+msgstr "Engelli sınav katılımcıları ACPT'ye erişebilir mi?"
+
+#: src/modules/faq/FAQPage.tsx:103
+msgid "Is the ACPT valid in my country?"
+msgstr "ACPT ülkemde geçerli mi?"
+
+#: src/modules/landing/LandingWho/LandingWho.tsx:31
+msgid "Job Seekers"
+msgstr "İş Arayanlar"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:47
+msgid "Languages"
+msgstr "Diller"
+
+#: src/modules/contact/ContactPage.tsx:81
+msgid "Last name"
+msgstr "Soy isim"
+
+#: src/modules/user/account/AccountInfo.tsx:126
+#: src/modules/organization/OrgSubscribe/OrgSubscribe.tsx:18
+#: src/modules/landing/LandingSubscribe/LandingSubscribe.tsx:25
+#: src/modules/auth/RegisterPage.tsx:121
+msgid "Last Name"
+msgstr "Soy isim"
+
+#: src/modules/auth/RegisterPage.tsx:30
+msgid "Last name is required"
+msgstr "Soyadı gerekli"
+
+#: src/modules/term/PrivacyPage.tsx:13
+msgid "Last revised on February 24, 2025."
+msgstr "Son revizyon 24 Şubat 2025'te yapıldı."
+
+#: src/modules/contact/ContactPage.tsx:39
+msgid "Legal & Regulatory"
+msgstr "Yasal ve Düzenleyici"
+
+#: src/modules/contact/ContactPage.tsx:30
+msgid "Legal and Regulatory Affairs"
+msgstr "Hukuk ve Düzenleyici İşler"
+
+#: src/modules/auth/ResetPage.tsx:62
+msgid "Log In"
+msgstr "Giriş yapmak"
+
+#: src/api/auth.ts:101
+msgid "Login failed - this E-mail is associated with a Google Authentication account."
+msgstr "Giriş başarısız oldu - Bu E-posta bir Google Kimlik Doğrulama hesabıyla ilişkili."
+
+#: src/components/Header/UserMenu.tsx:64
+msgid "Logout"
+msgstr "Oturumu kapat"
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:27
+msgid "Maintain uniform standards of tutor quality across branches, franchises, or international markets."
+msgstr "Şubeler, franchise'lar veya uluslararası pazarlar genelinde eğitmen kalitesinin tekdüze standartlarını koruyun."
+
+#: src/modules/contact/ContactPage.tsx:20
+#: src/modules/contact/ContactPage.tsx:39
+msgid "Media Inquiries"
+msgstr "Medya Soruları"
+
+#: src/modules/faq/FAQPage.tsx:92
+msgid "Most modern browsers are supported, including Google Chrome, Mozilla Firefox, Safari, and Microsoft Edge. Make sure your browser is up to date for the best experience."
+msgstr "Google Chrome, Mozilla Firefox, Safari ve Microsoft Edge dahil olmak üzere çoğu modern tarayıcı desteklenmektedir. En iyi deneyim için tarayıcınızın güncel olduğundan emin olun."
+
+#: src/modules/user/account/AccountInfo.tsx:149
+msgid "Must be at least 8 characters"
+msgstr "En az 8 karakter olmalı"
+
+#: src/modules/user/account/UserAccountPage.tsx:45
+#: src/components/Header/UserMenu.tsx:60
+msgid "My Account"
+msgstr "Hesabım"
+
+#: src/modules/user/account/UserAccountPage.tsx:29
+#: src/modules/user/account/TestTable.tsx:220
+msgid "My Tests"
+msgstr "Testlerim"
+
+#: src/modules/payment/PaymentForm.tsx:192
+msgid "Name on Card"
+msgstr "Karttaki İsim"
+
+#: src/modules/user/account/AccountInfo.tsx:143
+msgid "New Password"
+msgstr "Yeni Şifre"
+
+#: src/modules/auth/LoginPage.tsx:87
+msgid "New to ACPT?"
+msgstr "ACPT’ye yeni misiniz?"
+
+#: src/modules/test/TestContent.tsx:108
+msgid "Next"
+msgstr ""
+
+#: src/modules/test/TestCompletion.tsx:253
+msgid "No limit on the number of retakes"
+msgstr ""
+
+#: src/components/Table/ReactTable.tsx:146
+msgid "No results"
+msgstr ""
+
+#: src/modules/faq/FAQPage.tsx:117
+msgid "No. Once you begin the ACPT, it must be completed in one uninterrupted 40-minute session. If the session is interrupted, your progress will be lost."
+msgstr "Hayır. ACPT'ye başladığınızda, kesintisiz 40 dakikalık bir seansta tamamlanması gerekir. Seans kesilirse, ilerlemeniz kaybolacaktır."
+
+#: src/modules/faq/FAQPage.tsx:129
+msgid "No. The use of notes, devices, or assistance from others is strictly prohibited."
+msgstr "Hayır. Notların, cihazların veya başkalarından yardım alınması kesinlikle yasaktır."
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:23
+msgid "Offer parents, students, and clients peace of mind knowing your tutors are certified and held to high standards."
+msgstr "Öğretmenlerinizin sertifikalı olduğunu ve yüksek standartlara sahip olduğunu bilerek velilere, öğrencilere ve müşterilere gönül rahatlığı sunun."
+
+#: src/modules/payment/PaymentPage.tsx:112
+msgid "Official Certificate"
+msgstr ""
+
+#: src/contexts/TestProvider.tsx:51
+msgid "Official certificate available"
+msgstr ""
+
+#: src/modules/user/account/AccountInfo.tsx:136
+msgid "Old Password"
+msgstr ""
+
+#: src/modules/user/account/AccountInfo.tsx:50
+msgid "Old password is incorrect"
+msgstr ""
+
+#: src/modules/user/account/AccountInfo.tsx:41
+msgid "Old password is required to change your password"
+msgstr ""
+
+#: src/modules/faq/FAQPage.tsx:167
+msgid "Once you pass the ACPT, you'll have the option to obtain an official certificate that you can download, share digitally, or present to employers, clients, or institutions as proof of your achievement."
+msgstr "ACPT sınavını geçtiğinizde, indirebileceğiniz, dijital olarak paylaşabileceğiniz veya işverenlerinize, müşterilerinize veya kurumlara başarınızın kanıtı olarak sunabileceğiniz resmi bir sertifika alma olanağına sahip olacaksınız."
+
+#: src/modules/organization/OrgSubscribe/OrgSubscribe.tsx:22
+msgid "Organization"
+msgstr ""
+
+#: src/modules/contact/ContactPage.tsx:25
+#: src/modules/contact/ContactPage.tsx:39
+#: src/components/Header/PublicHeader.tsx:29
+msgid "Organizations"
+msgstr "Organizasyonlar"
+
+#: src/modules/organization/OrgWho/OrgWho.tsx:23
+msgid "Organizations offering test prep services, educational apps, or other services that integrate human tutoring as part of the learning experience."
+msgstr "Öğrenme deneyiminin bir parçası olarak insan rehberliğini entegre eden test hazırlık hizmetleri, eğitim uygulamaları veya diğer hizmetler sunan kuruluşlar."
+
+#: src/modules/organization/OrgWho/OrgWho.tsx:19
+msgid "Organizations that hire online or in-house tutors, connect tutors with students, or operate tutoring marketplaces."
+msgstr "Çevrimiçi veya şirket içi eğitmenler kiralayan, eğitmenleri öğrencilerle buluşturan veya özel ders pazar yerleri işleten kuruluşlar."
+
+#: src/modules/organization/OrgWho/OrgWho.tsx:31
+msgid "Organizations that uphold professional standards and formally recognize qualified tutors."
+msgstr "Mesleki standartları koruyan ve nitelikli eğitmenleri resmen tanıyan kuruluşlar."
+
+#: src/modules/auth/ResetPage.tsx:82
+#: src/modules/auth/RegisterPage.tsx:125
+#: src/modules/auth/LoginPage.tsx:113
+msgid "Password"
+msgstr ""
+
+#: src/utils/const.ts:18
+msgid "Password must be at least 8 characters"
+msgstr ""
+
+#: src/modules/user/account/AccountInfo.tsx:36
+msgid "Password must be at least 8 characters long"
+msgstr ""
+
+#: src/modules/auth/ResetPage.tsx:23
+#: src/modules/auth/RegisterPage.tsx:32
+msgid "Password must have at least 8 characters"
+msgstr ""
+
+#: src/modules/auth/ResetPage.tsx:51
+msgid "Password reset"
+msgstr ""
+
+#: src/modules/auth/ForgotPage.tsx:48
+#: src/modules/auth/ForgotPage.tsx:77
+msgid "Password reset link has been sent to your email."
+msgstr ""
+
+#: src/modules/auth/ResetPage.tsx:24
+#: src/modules/auth/RegisterPage.tsx:33
+msgid "Passwords did not match"
+msgstr ""
+
+#: src/modules/payment/PaymentForm.tsx:116
+msgid "Payment failed. Please try again."
+msgstr ""
+
+#: src/modules/payment/PaymentPage.tsx:61
+#: src/modules/payment/PaymentPage.tsx:66
+msgid "Payment Information"
+msgstr ""
+
+#: src/modules/payment/PaymentForm.tsx:188
+msgid "Payment Method"
+msgstr ""
+
+#: src/modules/payment/PaymentPage.tsx:74
+msgid "Payment not found"
+msgstr ""
+
+#: src/modules/user/account/UserAccountPage.tsx:34
+msgid "Personal Info"
+msgstr ""
+
+#: src/modules/user/account/AccountInfo.tsx:116
+msgid "Personal Information"
+msgstr ""
+
+#: src/modules/payment/PaymentPage.tsx:53
+msgid "Personalized certificate URL"
+msgstr ""
+
+#: src/modules/test/TestCompletion.tsx:159
+msgid "Personalized URL linked to your live certificate page"
+msgstr ""
+
+#: src/modules/auth/ForgotPage.tsx:102
+msgid "Please click the verification link to access the password reset form."
+msgstr ""
+
+#: src/modules/test/TestContent.tsx:39
+msgid "Please select an option"
+msgstr ""
+
+#: src/modules/contact/ContactPage.tsx:62
+msgid "Please use the emails below to contact us, or submit your enquiry via the form provided."
+msgstr ""
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:63
+msgid "Policies"
+msgstr "Politikalar"
+
+#: src/modules/organization/OrgSubscribe/OrgSubscribe.tsx:20
+msgid "Position"
+msgstr ""
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:59
+msgid "Practical tutoring skills, including communication, adaptability, and real-world problem-solving in tutoring scenarios"
+msgstr "İletişim, uyum sağlama ve ders senaryolarında gerçek dünya problemlerini çözme gibi pratik ders verme becerileri"
+
+#: src/modules/test/TestContent.tsx:95
+msgid "Previous"
+msgstr ""
+
+#: src/components/Footer/PublicFooter.tsx:22
+msgid "Privacy"
+msgstr "Mahremiyet"
+
+#: src/modules/term/PrivacyPage.tsx:13
+msgid "Privacy Policy"
+msgstr ""
+
+#: src/modules/user/account/TestTable.tsx:183
+msgid "Processing..."
+msgstr ""
+
+#: src/modules/organization/OrgWho/OrgWho.tsx:30
+msgid "Professional & Industry Associations"
+msgstr "Mesleki ve Endüstri Dernekleri"
+
+#: src/modules/organization/OrgSubscribe/OrgSubscribe.tsx:32
+msgid "Professional Association"
+msgstr "Meslek Birliği"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:67
+msgid "Progress will be lost if the exam session is interrupted or disconnected."
+msgstr "Sınav oturumunun kesintiye uğraması veya bağlantısının kesilmesi durumunda ilerleme kaybedilir."
+
+#: src/modules/user/account/TestTable.tsx:183
+msgid "Purchase"
+msgstr ""
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:18
+msgid "Quality Assurance"
+msgstr "Kalite Güvencesi"
+
+#: src/modules/test/TestContent.tsx:55
+msgid "Question"
+msgstr ""
+
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:36
+msgid "Question difficulty dynamically adjusts based on your responses, ensuring an accurate evaluation."
+msgstr "Soru zorluğu, yanıtlarınıza göre dinamik olarak ayarlanır ve böylece doğru bir değerlendirme sağlanır."
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:19
+msgid "Question Type"
+msgstr "Soru Türü"
+
+#: src/modules/test/TestPage.tsx:48
+#: src/modules/test/TestPage.tsx:93
+msgid "Quit Test"
+msgstr ""
+
+#: src/modules/contact/ContactPage.tsx:85
+msgid "Reason for enquiry"
+msgstr ""
+
+#: src/modules/user/certificate/CertificateFile.tsx:54
+msgid "Recognized by leading organizations worldwide, the ACPT sets a global benchmark for tutoring quality. A certified ACPT tutor represents a trusted, top-tier educator committed to student success."
+msgstr ""
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:48
+msgid "Recognizing the ACPT isn’t just a mark of educational integrity—it’s a strategic advantage. Whether you’re a tutoring agency, educational platform, or academic institution, accepting ACPT-certified professionals ensures you’re working with individuals who meet the highest standards in tutoring excellence. From improving hiring efficiency to enhancing your brand’s credibility, the ACPT delivers measurable value across every stage of the recruitment and service process."
+msgstr "ACPT'yi tanımak sadece eğitimsel dürüstlüğün bir işareti değil, stratejik bir avantajdır. İster bir özel ders ajansı, ister eğitim platformu veya akademik kurum olun, ACPT sertifikalı profesyonelleri kabul etmek, özel ders mükemmelliğinde en yüksek standartları karşılayan kişilerle çalıştığınızdan emin olmanızı sağlar. İşe alım verimliliğini iyileştirmekten markanızın güvenilirliğini artırmaya kadar, ACPT işe alım ve hizmet sürecinin her aşamasında ölçülebilir değer sunar."
+
+#: src/modules/organization/OrgContact/OrgContact.tsx:21
+msgid "Register today to become an official ACPT-recognized organization."
+msgstr "Resmi olarak ACPT tarafından tanınan bir kuruluş olmak için bugün kaydolun."
+
+#: src/modules/faq/FAQPage.tsx:43
+msgid "Registration"
+msgstr "Kayıt"
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:26
+msgid "Reliable"
+msgstr "Güvenilir"
+
+#: src/modules/organization/OrgGuide/OrgGuide.tsx:26
+#: src/modules/landing/LandingGuide/LandingGuide.tsx:29
+msgid "Request Guide"
+msgstr "Talep Kılavuzu"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:35
+msgid "Requirements"
+msgstr "Gereksinimler"
+
+#: src/modules/auth/ForgotPage.tsx:113
+msgid "Resend link in"
+msgstr ""
+
+#: src/modules/auth/ResetPage.tsx:96
+msgid "Reset Password"
+msgstr ""
+
+#: src/modules/auth/ForgotPage.tsx:90
+#: src/modules/auth/ForgotPage.tsx:134
+msgid "Reset Your Password"
+msgstr ""
+
+#: src/modules/test/TestCompletion.tsx:302
+msgid "Restart Test"
+msgstr ""
+
+#: src/modules/test/TestWelcome.tsx:18
+msgid "Results are delivered immediately after finishing the exam."
+msgstr ""
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:32
+msgid "Results are delivered immediately upon completion of exam"
+msgstr "Sonuçlar sınav tamamlandıktan hemen sonra teslim edilir"
+
+#: src/modules/test/TestCompletion.tsx:194
+#: src/modules/test/TestCompletion.tsx:280
+msgid "Results are saved in your profile for 1 year"
+msgstr ""
+
+#: src/modules/test/TestCompletion.tsx:250
+msgid "Retake immediately after completion"
+msgstr ""
+
+#: src/modules/test/TestCompletion.tsx:261
+msgid "Retake now"
+msgstr ""
+
+#: src/modules/test/TestCompletion.tsx:245
+msgid "Retake the exam"
+msgstr ""
+
+#: src/modules/test/TestCompletion.tsx:283
+msgid "Retake the exam at any time"
+msgstr ""
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:39
+msgid "Retakes"
+msgstr "Tekrar çekimler"
+
+#: src/components/Table/TableTotal.tsx:16
+msgid "row(s)"
+msgstr ""
+
+#: src/modules/user/account/AccountInfo.tsx:154
+msgid "Save Changes"
+msgstr ""
+
+#: src/modules/test/TestCompletion.tsx:208
+#: src/modules/test/TestCompletion.tsx:295
+msgid "Save for later"
+msgstr ""
+
+#: src/modules/test/TestCompletion.tsx:189
+#: src/modules/test/TestCompletion.tsx:275
+msgid "Save your results for later"
+msgstr ""
+
+#: src/modules/user/account/TestTable.tsx:118
+msgid "Score"
+msgstr ""
+
+#: src/modules/organization/OrgScore/OrgScore.tsx:15
+msgid "Score Verification System"
+msgstr "Puan Doğrulama Sistemi"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:43
+msgid "Scoring"
+msgstr "Puanlama"
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:34
+msgid "Seamless"
+msgstr "Sin costura"
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:22
+msgid "Secure"
+msgstr "Güvenli"
+
+#: src/modules/payment/PaymentForm.tsx:239
+msgid "Security Code"
+msgstr ""
+
+#: src/modules/test/TestCompletion.tsx:140
+#: src/modules/test/TestCompletion.tsx:232
+msgid "Select an option below to continue."
+msgstr ""
+
+#: src/modules/contact/ContactPage.tsx:91
+msgid "Send an enquiry"
+msgstr ""
+
+#: src/modules/auth/ForgotPage.tsx:162
+msgid "Send Reset Email"
+msgstr ""
+
+#: src/modules/test/TestCompletion.tsx:168
+msgid "Shareable on LinkedIn"
+msgstr ""
+
+#: src/modules/test/TestPage.tsx:89
+msgid "Show Timer"
+msgstr ""
+
+#: src/modules/auth/RegisterPage.tsx:107
+#: src/modules/auth/LoginPage.tsx:79
+#: src/modules/auth/LoginPage.tsx:123
+#: src/modules/auth/ForgotPage.tsx:156
+msgid "Sign In"
+msgstr ""
+
+#: src/components/Header/PublicHeader.tsx:72
+msgid "Sign In / Register"
+msgstr ""
+
+#: src/modules/auth/LoginPage.tsx:79
+#: src/modules/auth/LoginPage.tsx:82
+msgid "Sign in to your account"
+msgstr ""
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:15
+msgid "Skip baseline training by hiring tutors who already meet core competency requirements—saving time and resources."
+msgstr "Temel yeterlilik gereksinimlerini zaten karşılayan eğitmenleri işe alarak temel eğitimi atlayın; böylece zamandan ve kaynaklardan tasarruf edin."
+
+#: src/modules/landing/LandingBenefits/LandingBenefits.tsx:18
+msgid "Stand out from the crowd"
+msgstr "Kalabalığın arasından sıyrılın"
+
+#: src/modules/organization/OrgContact/OrgContact.tsx:17
+msgid "Start Accepting Results"
+msgstr "Sonuçları Kabul Etmeye Başlayın"
+
+#: src/modules/test/TestWelcome.tsx:73
+msgid "Start Test"
+msgstr ""
+
+#: src/modules/landing/LandingWho/LandingWho.tsx:65
+#: src/modules/landing/LandingExam/LandingExam.tsx:109
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:71
+msgid "Start The Exam"
+msgstr "Sınavı Başlat"
+
+#: src/modules/landing/LandingSubscribe/LandingSubscribe.tsx:17
+msgid "Stay informed with the latest news, updates, and resources related to the ACPT, delivered directly to your inbox."
+msgstr "ACPT ile ilgili en son haberler, güncellemeler ve kaynaklarla doğrudan gelen kutunuza kadar bilgilendirilmeye devam edin."
+
+#: src/modules/landing/LandingWho/LandingWho.tsx:19
+msgid "Students"
+msgstr "Öğrenciler"
+
+#: src/modules/landing/LandingBenefits/LandingBenefits.tsx:15
+msgid "Studies show that certified tutors are 40% more likely to be chosen by clients seeking to hire a professional tutor."
+msgstr "Yapılan araştırmalar, profesyonel bir öğretmen tutmayı düşünen müşterilerin sertifikalı öğretmenleri seçme olasılığının %40 daha fazla olduğunu gösteriyor."
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:57
+msgid "Subject matter from core academic areas relevant to K–12 tutoring"
+msgstr "K-12 özel dersle ilgili temel akademik alanlardan konu içeriği"
+
+#: src/modules/test/TestContent.tsx:100
+#: src/modules/organization/OrgSubscribe/OrgSubscribe.tsx:36
+msgid "Submit"
+msgstr "Göndermek"
+
+#: src/modules/landing/LandingSubscribe/LandingSubscribe.tsx:33
+msgid "Subscribe"
+msgstr "Abone"
+
+#: src/modules/organization/OrgSubscribe/OrgSubscribe.tsx:13
+msgid "Subscribe to our organization newsletter"
+msgstr "Kuruluşumuzun bültenine abone olun"
+
+#: src/modules/landing/LandingSubscribe/LandingSubscribe.tsx:13
+msgid "Subscribe to the ACPT newsletter"
+msgstr "ACPT bültenine abone olun"
+
+#: src/modules/auth/LoginPage.tsx:54
+msgid "Successfully signed in!"
+msgstr ""
+
+#: src/modules/user/account/TestTable.tsx:224
+msgid "Take a Test"
+msgstr ""
+
+#: src/modules/test/TestImageUpload.tsx:93
+msgid "Take Photo"
+msgstr ""
+
+#: src/modules/landing/LandingBanner/LandingBanner.tsx:32
+msgid "Take the ACPT exam now"
+msgstr "ACPT sınavına şimdi girin"
+
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:20
+msgid "Taking the ACPT is absolutely free, and you can retake the exam once per day."
+msgstr "ACPT sınavına girmek tamamen ücretsizdir ve sınava günde bir kez tekrar girebilirsiniz."
+
+#: src/components/Footer/PublicFooter.tsx:18
+msgid "Terms"
+msgstr "Şartlar"
+
+#: src/modules/term/TermsPage.tsx:14
+msgid "Terms and Conditions of Service"
+msgstr ""
+
+#: src/modules/test/TestCompletion.tsx:218
+msgid "Test Completed"
+msgstr ""
+
+#: src/modules/user/account/TestTable.tsx:138
+msgid "Test Language"
+msgstr ""
+
+#: src/components/Header/PublicHeader.tsx:25
+msgid "Test Takers"
+msgstr "Test Katılımcıları"
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:35
+msgid "The ACPT API offers seamless integration, enabling fast and reliable score verification to streamline your recruitment process with confidence and efficiency."
+msgstr "ACPT API, sorunsuz entegrasyon sunarak işe alım sürecinizi güven ve verimlilikle hızlandırmak için hızlı ve güvenilir puan doğrulaması sağlar."
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:44
+msgid "The ACPT at a glance"
+msgstr "ACPT'ye genel bakış"
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:27
+msgid "The ACPT certifies tutors with proven expertise. Accepting it ensures you hire professionals who meet the highest standards in tutoring excellence."
+msgstr "ACPT kanıtlanmış uzmanlığa sahip eğitmenleri sertifikalandırır. Bunu kabul etmek, mükemmel öğretmenlik konusunda en yüksek standartları karşılayan profesyonelleri işe almanızı sağlar."
+
+#: src/modules/faq/FAQPage.tsx:76
+msgid "The ACPT consists of 50 multiple-choice questions."
+msgstr "ACPT 50 adet çoktan seçmeli sorudan oluşmaktadır."
+
+#: src/modules/faq/FAQPage.tsx:30
+msgid "The ACPT covers K–12 subject knowledge, effective teaching strategies, instructional best practices, and practical tutoring scenarios that test your communication skills, adaptability, and problem-solving abilities."
+msgstr "ACPT, K-12 konu bilgisini, etkili öğretim stratejilerini, öğretimdeki en iyi uygulamaları ve iletişim becerilerinizi, uyum yeteneğinizi ve problem çözme yeteneklerinizi test eden pratik ders senaryolarını kapsar."
+
+#: src/modules/landing/LandingFormat/LandingFormat.tsx:32
+msgid "The ACPT has transitioned from Paper-Based Testing (PBT) to Computer-Based Testing (CBT). Starting February 2025, all exams will be delivered exclusively in the CBT format. This shift enables faster results, stronger security, and a more accessible testing experience for all candidates."
+msgstr "ACPT, Kağıt Tabanlı Testlerden (PBT) Bilgisayar Tabanlı Testlere (CBT) geçiş yaptı. Şubat 2025'ten itibaren tüm sınavlar yalnızca CBT formatında sunulacak. Bu geçiş, tüm adaylar için daha hızlı sonuçlar, daha güçlü güvenlik ve daha erişilebilir bir test deneyimi sağlıyor."
+
+#: src/modules/organization/OrgPage.tsx:23
+msgid "The ACPT helps you identify and verify top-tier tutoring talent with ease. Built on advanced assessment science, the ACPT ensures tutors meet the highest standards in subject knowledge, pedagogy, and professionalism. Integrating ACPT into your hiring or recognition process means choosing excellence you can trust."
+msgstr "ACPT, en üst düzey öğretmenlik yeteneğini kolaylıkla belirlemenize ve doğrulamanıza yardımcı olur. Gelişmiş değerlendirme bilimi üzerine kurulu ACPT, öğretmenlerin konu bilgisi, pedagoji ve profesyonellik konusunda en yüksek standartları karşılamasını sağlar. ACPT'yi işe alma veya tanınma sürecinize entegre etmek, güvenebileceğiniz mükemmelliği seçmek anlamına gelir."
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:31
+msgid "The ACPT integrates the latest research in pedagogy, psychometrics and Al to deliver the most accurate and reliable assessment results."
+msgstr "ACPT, en doğru ve güvenilir değerlendirme sonuçlarını sunmak için pedagoji, psikometri ve yapay zeka alanındaki en son araştırmaları bir araya getirir."
+
+#: src/modules/landing/LandingWho/LandingWho.tsx:44
+msgid "The ACPT is designed for anyone looking to prove their tutoring ability, build professional credibility, and open doors to new opportunities in the education field. Whether you’re just starting out or already an experienced tutor, the ACPT gives you a proven way to set yourself apart and gain recognition in the tutoring profession. The ACPT is ideal for:"
+msgstr ""
+
+#: src/modules/faq/FAQPage.tsx:47
+msgid "The ACPT is entirely free, and you can retake the exam once per day at no charge."
+msgstr "ACPT tamamen ücretsizdir ve sınava günde bir kez ücretsiz olarak tekrar girebilirsiniz."
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:15
+msgid "The ACPT is free, fully online, and offered in multiple languages—expanding your applicant pool to include diverse, qualified candidates around the world."
+msgstr "ACPT ücretsizdir, tamamen çevrimiçidir ve birden fazla dilde sunulur; böylece başvuru havuzunuzu dünyanın dört bir yanından çeşitli ve nitelikli adayları içerecek şekilde genişletirsiniz."
+
+#: src/modules/faq/FAQPage.tsx:51
+msgid "The ACPT is now delivered exclusively online. The written version is no longer available. This shift allows for faster results, stronger security, and a more accessible experience for all test takers."
+msgstr "ACPT artık yalnızca çevrimiçi olarak sunuluyor. Yazılı versiyonu artık mevcut değil. Bu değişim, daha hızlı sonuçlar, daha güçlü güvenlik ve tüm sınav katılımcıları için daha erişilebilir bir deneyim sağlıyor."
+
+#: src/modules/faq/FAQPage.tsx:34
+msgid "The ACPT is recognized globally by academic institutions, tutoring companies, freelance platforms, government agencies, and professional associations."
+msgstr "ACPT, akademik kurumlar, özel ders şirketleri, serbest çalışma platformları, devlet kurumları ve meslek kuruluşları tarafından dünya çapında tanınmaktadır."
+
+#: src/modules/landing/LandingBanner/LandingBanner.tsx:22
+msgid "The ACPT is the gold standard for professional tutors worldwide. Backed by rigorous research, this 40-minute exam is completely free and verifies the skills, knowledge, and teaching ability needed to deliver exceptional academic tutoring."
+msgstr "ACPT, dünya çapındaki profesyonel eğitmenler için altın standarttır. Titiz araştırmalarla desteklenen bu 40 dakikalık sınav tamamen ücretsizdir ve olağanüstü akademik eğitim sunmak için gereken becerileri, bilgiyi ve öğretim yeteneğini doğrular."
+
+#: src/modules/organization/OrgScore/OrgScore.tsx:19
+msgid "The ACPT Score Verification System provides organizations with secure, real-time access to candidate results through our robust API. Designed for seamless integration, the API allows organizations to instantly verify a tutor’s certification status, score, and exam date. This streamlined process eliminates the need for manual checks."
+msgstr "ACPT Puan Doğrulama Sistemi, kuruluşlara sağlam API'miz aracılığıyla aday sonuçlarına güvenli, gerçek zamanlı erişim sağlar. Sorunsuz entegrasyon için tasarlanan API, kuruluşların bir öğretmenin sertifika durumunu, puanını ve sınav tarihini anında doğrulamasını sağlar. Bu kolaylaştırılmış süreç, manuel kontrollere olan ihtiyacı ortadan kaldırır."
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:48
+msgid "The Advanced Certified Professional Tutor (ACPT) exam is a computer-adaptive test backed by rigorous research in pedagogy, psychometrics, Al, and machine learning."
+msgstr "Advanced Certified Professional Tutor (ACPT) sınavı, pedagoji, psikometri, yapay zeka ve makine öğrenimi alanlarındaki titiz araştırmalarla desteklenen, bilgisayar uyarlamalı bir testtir."
+
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:49
+msgid "The Advanced Certified Professional Tutor (ACPT) exam is a computer-adaptive test that customizes the assessment to your individual proficiency level. It covers key areas including subject matter knowledge, teaching methods, and practical tutoring skills, ensuring a comprehensive evaluation of your skills. Here are its key attributes:"
+msgstr "Advanced Certified Professional Tutor (ACPT) sınavı, değerlendirmeyi bireysel yeterlilik seviyenize göre özelleştiren bilgisayar uyarlamalı bir testtir. Konu bilgisi, öğretim yöntemleri ve pratik öğretmenlik becerileri gibi temel alanları kapsar ve becerilerinizin kapsamlı bir şekilde değerlendirilmesini sağlar. İşte temel nitelikleri:"
+
+#: src/modules/faq/FAQPage.tsx:22
+msgid "The Advanced Certified Professional Tutor (ACPT) exam is a globally recognized exam that evaluates tutors' subject knowledge, teaching ability, and professional skills through a computer-adaptive test."
+msgstr "Advanced Certified Professional Tutor (ACPT) sınavı, öğretmenlerin konu bilgisini, öğretme yeteneğini ve mesleki becerilerini bilgisayar tabanlı bir test aracılığıyla değerlendiren, dünya çapında tanınan bir sınavdır."
+
+#: src/modules/test/TestWelcome.tsx:25
+msgid "The exam must be completed in a single session. If you disconnect or exit early, your progress will not be saved."
+msgstr ""
+
+#: src/modules/faq/FAQPage.tsx:55
+msgid "The platform is accessible 24/7, except during scheduled maintenance periods. You can take the exam at any time. No appointment is needed."
+msgstr "Platform, planlı bakım dönemleri haricinde 7/24 erişilebilirdir. Sınava istediğiniz zaman girebilirsiniz. Randevuya gerek yoktur."
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:44
+msgid "The score range is 0–100. A passing score is 75"
+msgstr "Puan aralığı 0-100'dür. Geçme puanı 75'tir"
+
+#: src/modules/landing/LandingBanner/LandingBanner.tsx:18
+msgid "The Standard of Excellence"
+msgstr "Mükemmellik Standardı"
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:65
+msgid "The use of notes, devices, or assistance from others is prohibited."
+msgstr "Notların, cihazların veya başkalarından yardım alınması yasaktır."
+
+#: src/modules/term/TermsPage.tsx:15
+msgid "These Terms were last revised on October 14th, 2024."
+msgstr ""
+
+#: src/contexts/TestProvider.tsx:52
+msgid "Things to Remember"
+msgstr ""
+
+#: src/modules/test/TestWelcome.tsx:48
+msgid "Things to Remember:"
+msgstr ""
+
+#: src/utils/const.ts:16
+msgid "This field is required"
+msgstr ""
+
+#: src/modules/test/TestWelcome.tsx:27
+msgid "This is a closed-book exam. The use of notes, websites, devices, or assistance from others is prohibited."
+msgstr ""
+
+#: src/hooks/useAuthStatus.ts:23
+msgid "This user has been deleted."
+msgstr ""
+
+#: src/modules/test/TestCompletion.tsx:297
+msgid "Time Expired. Please retake the exam."
+msgstr ""
+
+#: src/contexts/TestProvider.tsx:259
+msgid "Time remaining: {timeUntilRetake}"
+msgstr ""
+
+#: src/modules/payment/PaymentPage.tsx:122
+msgid "Total"
+msgstr ""
+
+#: src/modules/organization/OrgWho/OrgWho.tsx:18
+msgid "Tutoring Agencies & Platforms"
+msgstr "Ders Verme Ajansları ve Platformları"
+
+#: src/modules/landing/LandingWho/LandingWho.tsx:28
+msgid "Tutors employed by organizations that require the ACPT as part of their hiring or training process."
+msgstr "İşe alım veya eğitim süreçlerinin bir parçası olarak ACPT'yi gerektiren kuruluşlar tarafından istihdam edilen eğitmenler."
+
+#: src/modules/landing/LandingWho/LandingWho.tsx:16
+msgid "Tutors on freelance tutoring platforms who want to boost their profiles and attract more clients."
+msgstr "Profillerini öne çıkarmak ve daha fazla müşteri çekmek isteyen serbest eğitim platformlarındaki eğitmenler."
+
+#: src/modules/test/TestWelcome.tsx:26
+msgid "Unanswered or incomplete questions are marked as incorrect. It's important to answer all questions within the time limit."
+msgstr ""
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:66
+msgid "Unanswered or incomplete questions are scored as incorrect."
+msgstr "Las preguntas sin respuesta o incompletas se califican como incorrectas."
+
+#: src/modules/organization/OrgAbout/OrgAbout.tsx:18
+#: src/modules/landing/LandingAbout/LandingAbout.tsx:31
+msgid "Unbiased"
+msgstr "Tarafsız"
+
+#: src/modules/test/TestCompletion.tsx:156
+msgid "Unique certificate ID number"
+msgstr ""
+
+#: src/modules/organization/OrgWho/OrgWho.tsx:15
+msgid "Universities, colleges, and schools that provide tutoring services."
+msgstr "Ders verme hizmeti veren üniversiteler, kolejler ve okullar."
+
+#: src/modules/test/TestCompletion.tsx:138
+msgid "Unlock your personalized certificate now or save your results for later."
+msgstr ""
+
+#: src/modules/admin/user/ModalUpdateExam.tsx:70
+msgid "Update"
+msgstr ""
+
+#: src/modules/admin/user/ModalUpdateExam.tsx:70
+msgid "Update"
+msgstr ""
+
+#: src/modules/test/TestCompletion.tsx:176
+msgid "Upgrade now"
+msgstr ""
+
+#: src/modules/test/TestCompletion.tsx:151
+msgid "Upgrade to a certificate"
+msgstr ""
+
+#: src/modules/test/TestCompletion.tsx:197
+msgid "Upgrade to a certificate at any time"
+msgstr ""
+
+#: src/modules/test/TestImageUpload.tsx:89
+msgid "Upload Image"
+msgstr ""
+
+#: src/modules/faq/FAQPage.tsx:67
+msgid "Use the \"Forgot Password\" link on the login page to reset your password via email."
+msgstr "Giriş sayfamızdaki \"Şifremi Unuttum\" bağlantısını kullanarak şifrenizi e-posta yoluyla sıfırlayabilirsiniz."
+
+#: src/modules/auth/LoginPage.tsx:43
+msgid "User not found"
+msgstr ""
+
+#: src/modules/admin/user/UserEdit.tsx:49
+msgid "User updated successfully!"
+msgstr ""
+
+#: src/modules/admin/user/UsersPage.tsx:172
+msgid "Users"
+msgstr ""
+
+#: src/modules/payment/PaymentPage.tsx:50
+msgid "Valid for 2 years"
+msgstr ""
+
+#: src/components/Footer/FooterCertificate.tsx:38
+msgid "Verify"
+msgstr "Doğrulamak"
+
+#: src/components/Footer/FooterCertificate.tsx:23
+msgid "Verify A Certificate"
+msgstr "Bir Sertifikayı Doğrulayın"
+
+#: src/modules/user/account/TestTable.tsx:171
+msgid "View"
+msgstr ""
+
+#: src/modules/test/TestCompletion.tsx:290
+msgid "View My Results"
+msgstr ""
+
+#: src/modules/contact/ContactPage.tsx:58
+msgid "We are here to help"
+msgstr ""
+
+#: src/modules/user/certificate/UserCertificatePage.tsx:84
+#: src/modules/certificate/CertificatePage.tsx:77
+msgid "We had an issue retrieving your exam information - please reach out to support for assistance."
+msgstr ""
+
+#: src/modules/auth/ForgotPage.tsx:98
+msgid "We sent a verification link to"
+msgstr ""
+
+#: src/modules/test/TestImageUpload.tsx:97
+msgid "Webcam"
+msgstr ""
+
+#: src/modules/test/TestWelcome.tsx:36
+#: src/modules/test/TestPage.tsx:69
+#: src/contexts/TestProvider.tsx:50
+msgid "Welcome to the ACPT"
+msgstr ""
+
+#: src/modules/faq/FAQPage.tsx:91
+msgid "What browsers are supported?"
+msgstr "Hangi tarayıcılar destekleniyor?"
+
+#: src/modules/faq/FAQPage.tsx:66
+msgid "What happens if I forget my password?"
+msgstr "Şifremi unutursam ne olur?"
+
+#: src/modules/faq/FAQPage.tsx:120
+msgid "What happens if I lose internet connection during the test?"
+msgstr "Test sırasında internet bağlantım kesilirse ne olur?"
+
+#: src/modules/faq/FAQPage.tsx:149
+msgid "What happens if I pass the ACPT?"
+msgstr "ACPT’yi geçersem ne olur?"
+
+#: src/modules/faq/FAQPage.tsx:145
+msgid "What if I fail the ACPT?"
+msgstr "ACPT’de başarısız olursam ne olur?"
+
+#: src/modules/faq/FAQPage.tsx:25
+msgid "What is a computer-adaptive test?"
+msgstr "Bilgisayar uyarlamalı test nedir?"
+
+#: src/modules/faq/FAQPage.tsx:21
+msgid "What is the ACPT?"
+msgstr "ACPT nedir?"
+
+#: src/modules/faq/FAQPage.tsx:99
+msgid "What languages is the exam available in?"
+msgstr "Sınav hangi dillerde yapılıyor?"
+
+#: src/modules/faq/FAQPage.tsx:83
+msgid "What technical requirements are there?"
+msgstr "Hangi teknik gereksinimler var?"
+
+#: src/modules/faq/FAQPage.tsx:29
+msgid "What topics are covered in the exam?"
+msgstr "Sınavda hangi konular işleniyor?"
+
+#: src/modules/faq/FAQPage.tsx:54
+msgid "When can I take the exam?"
+msgstr "Sınava ne zaman girebilirim?"
+
+#: src/modules/faq/FAQPage.tsx:141
+msgid "When will I get my results?"
+msgstr "Sonuçlarımı ne zaman alacağım?"
+
+#: src/modules/faq/FAQPage.tsx:50
+msgid "Where can I take the exam?"
+msgstr "Sınava nerede girebilirim?"
+
+#: src/modules/organization/OrgWho/OrgWho.tsx:40
+msgid "Who accepts the ACPT?"
+msgstr "ACPT’yi kimler kabul ediyor?"
+
+#: src/modules/landing/LandingWho/LandingWho.tsx:41
+msgid "Who is the ACPT for?"
+msgstr "ACPT kimler içindir?"
+
+#: src/modules/faq/FAQPage.tsx:33
+msgid "Who recognizes the ACPT certification?"
+msgstr "ACPT sertifikasını kim tanır?"
+
+#: src/modules/organization/OrgBenefits/OrgBenefits.tsx:44
+msgid "Why accept the ACPT"
+msgstr "ACPT'yi neden kabul etmelisiniz?"
+
+#: src/modules/faq/FAQPage.tsx:157
+msgid "Will my scores be saved?"
+msgstr "Puanlarım kaydedilecek mi?"
+
+#: src/modules/faq/FAQPage.tsx:124
+msgid "Will unanswered or incomplete questions affect my score?"
+msgstr "Cevaplanmayan veya eksik sorular puanımı etkiler mi?"
+
+#: src/modules/auth/LoginPage.tsx:47
+msgid "Wrong email or password"
+msgstr ""
+
+#: src/modules/auth/LoginPage.tsx:45
+msgid "Wrong password"
+msgstr ""
+
+#: src/modules/faq/FAQPage.tsx:175
+msgid "Yes, ACPT certification is valid for two years. After that, you'll need to retake the exam to maintain your certified status and ensure your skills remain up to date."
+msgstr "Evet, ACPT sertifikası iki yıl geçerlidir. Bundan sonra, sertifikalı statünüzü korumak ve becerilerinizin güncel kalmasını sağlamak için sınava tekrar girmeniz gerekecektir."
+
+#: src/modules/faq/FAQPage.tsx:88
+msgid "Yes, as long as your device has a supported browser and a stable internet connection."
+msgstr "Evet, cihazınızda desteklenen bir tarayıcı ve istikrarlı bir internet bağlantısı olduğu sürece."
+
+#: src/modules/test/TestPage.tsx:51
+msgid "Yes, Quit Test"
+msgstr ""
+
+#: src/modules/faq/FAQPage.tsx:113
+msgid "Yes, the ACPT has a 40-minute time limit. A timer is displayed during the exam, but you can hide it if you find it distracting."
+msgstr "Evet, ACPT'nin 40 dakikalık bir zaman sınırı vardır. Sınav sırasında bir zamanlayıcı görüntülenir, ancak dikkat dağıttığını düşünüyorsanız gizleyebilirsiniz."
+
+#: src/modules/faq/FAQPage.tsx:104
+msgid "Yes, the ACPT is globally recognized and accepted across all regions and education systems. However, some organizations may require you to take the exam in your native language, so it's best to check their specific requirements."
+msgstr "Evet, ACPT küresel olarak tanınır ve tüm bölgelerde ve eğitim sistemlerinde kabul edilir. Ancak bazı kuruluşlar sınava kendi ana dilinizde girmenizi isteyebilir, bu nedenle onların özel gereksinimlerini kontrol etmeniz en iyisidir."
+
+#: src/modules/faq/FAQPage.tsx:125
+msgid "Yes, unanswered or incomplete questions are marked as incorrect. It's important to answer all questions within the time limit."
+msgstr ""
+
+#: src/modules/faq/FAQPage.tsx:183
+msgid "Yes, you can obtain a certificate for any score earned within the past year. All exam results are stored in your profile for 12 months."
+msgstr "Evet, geçen yıl içinde kazanılan herhangi bir puan için sertifika alabilirsiniz. Tüm sınav sonuçları profilinizde 12 ay boyunca saklanır."
+
+#: src/modules/faq/FAQPage.tsx:96
+msgid "Yes, you can request accommodations by contacting support before starting the exam. All requests are handled confidentially."
+msgstr "Evet, sınava başlamadan önce destekle iletişime geçerek düzenleme talebinde bulunabilirsiniz. Tüm talepler gizli bir şekilde işlenir."
+
+#: src/modules/faq/FAQPage.tsx:179
+msgid "Yes, you can share your personalized URL, which links directly to your live certificate page, or share your unique certificate ID number. Anyone with this information can verify your certification on the ACPT website."
+msgstr "Evet, doğrudan canlı sertifika sayfanıza bağlanan kişiselleştirilmiş URL'nizi paylaşabilir veya benzersiz sertifika kimlik numaranızı paylaşabilirsiniz. Bu bilgiye sahip olan herkes sertifikanızı ACPT web sitesinde doğrulayabilir."
+
+#: src/modules/faq/FAQPage.tsx:63
+msgid "Yes, you can update your profile information at any time through the settings menu."
+msgstr "Evet, profil bilgilerinizi dilediğiniz zaman ayarlar menüsünden güncelleyebilirsiniz."
+
+#: src/modules/faq/FAQPage.tsx:158
+msgid "Yes, your scores are automatically stored in your profile. You'll have the option to choose which score you want to share with others."
+msgstr "Evet, puanlarınız otomatik olarak profilinizde saklanır. Başkalarıyla hangi puanı paylaşmak istediğinizi seçme seçeneğiniz olacak."
+
+#: src/hooks/useAuthStatus.ts:35
+msgid "You are no longer able to login. Please contact support should you have any queries."
+msgstr ""
+
+#: src/modules/test/TestCompletion.tsx:230
+msgid "You can choose to retake the exam or save your results for later."
+msgstr ""
+
+#: src/modules/faq/FAQPage.tsx:80
+msgid "You can request the free ACPT Study Guide and practice with the sample questions included."
+msgstr "Ücretsiz ACPT Çalışma Rehberini talep edebilir ve içinde bulunan örnek sorularla pratik yapabilirsiniz."
+
+#: src/modules/faq/FAQPage.tsx:146
+msgid "You can retake the exam once per day."
+msgstr "Sınava günde bir kez tekrar girebilirsiniz."
+
+#: src/contexts/TestProvider.tsx:56
+msgid "You can retake this assessment"
+msgstr ""
+
+#: src/modules/faq/FAQPage.tsx:171
+msgid "You can share your personalized URL, which links directly to your live certificate page; download a PDF version for printing or sending as an attachment; or share your certificate ID number, which can be verified through the ACPT website."
+msgstr "Doğrudan canlı sertifika sayfanıza bağlanan kişiselleştirilmiş URL'nizi paylaşabilir; yazdırmak veya ek olarak göndermek için PDF sürümünü indirebilir; veya ACPT web sitesi üzerinden doğrulanabilen sertifika kimlik numaranızı paylaşabilirsiniz."
+
+#: src/modules/faq/FAQPage.tsx:154
+msgid "You can take the ACPT twice every 24 hours, regardless if you pass or fail. This allows you to improve your score or simply try again if you're not satisfied with your performance."
+msgstr "ACPT'yi her 24 saatte iki kez alabilirsiniz, geçmeniz veya kalmanız önemli değildir. Bu, puanınızı iyileştirmenize veya performansınızdan memnun değilseniz tekrar denemenize olanak tanır."
+
+#: src/modules/faq/FAQPage.tsx:38
+msgid "You can verify a certification by using the \"Verify a Certificate\" tool on the ACPT website or by accessing the unique certificate URL provided to the test taker."
+msgstr "Sertifikanızı, ACPT web sitesinde bulunan \"Sertifikayı Doğrula\" aracını kullanarak veya sınava giren kişiye sağlanan benzersiz sertifika URL'sine erişerek doğrulayabilirsiniz."
+
+#: src/modules/test/TestCompletion.tsx:222
+msgid "You did not meet the passing score for the ACPT this time. Your score is:"
+msgstr ""
+
+#: src/modules/test/TestCompletion.tsx:282
+msgid "You have already attempted the exam twice today. You will need to wait until tomorrow until you can resit the test."
+msgstr ""
+
+#: src/modules/user/account/TestTable.tsx:230
+msgid "You have not taken any tests"
+msgstr ""
+
+#: src/contexts/TestProvider.tsx:253
+msgid "You have reached the maximum of 2 exam attempts in 24 hours. Please wait before trying again."
+msgstr ""
+
+#: src/modules/test/TestCompletion.tsx:130
+msgid "You have successfully passed ACPT. Your score is:"
+msgstr ""
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:40
+msgid "You may retake the exam once per day"
+msgstr "Sınava günde bir kez tekrar girebilirsiniz"
+
+#: src/contexts/TestProvider.tsx:55
+msgid "You must complete this exam in one session"
+msgstr ""
+
+#: src/modules/faq/FAQPage.tsx:150
+msgid "You will have the option to obtain a certificate, or save your score in your profile."
+msgstr "Sertifika alma seçeneğiniz olacak veya puanınızı profilinize kaydedebileceksiniz."
+
+#: src/modules/faq/FAQPage.tsx:138
+msgid "You will receive a score between 0 and 100 immediately after completing the exam. A score of 75 or higher is considered passing."
+msgstr "Sınavı tamamladıktan hemen sonra 0 ile 100 arasında bir puan alacaksınız. 75 veya daha yüksek bir puan geçme olarak kabul edilir."
+
+#: src/modules/faq/FAQPage.tsx:142
+msgid "You will receive your results immediately after finishing the exam."
+msgstr "Sınavı bitirdikten hemen sonra sonuçlarınızı alacaksınız."
+
+#: src/modules/landing/LandingExam/LandingExam.tsx:36
+msgid "You’ll need a stable internet connection, a supported browser, and an internet-connected device."
+msgstr "Sabit bir internet bağlantısına, desteklenen bir tarayıcıya ve internete bağlı bir cihaza ihtiyacınız olacak."
+
+#: src/modules/user/account/AccountInfo.tsx:77
+msgid "Your account information has been updated successfully."
+msgstr ""
+
+#: src/modules/auth/ResetPage.tsx:46
+#: src/modules/auth/ResetPage.tsx:74
+msgid "Your new password must be different to previously used passwords."
+msgstr ""
+
+#: src/modules/auth/ResetPage.tsx:56
+msgid "Your password has been successfully reset. Click below to log in."
+msgstr ""
