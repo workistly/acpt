@@ -11,7 +11,9 @@ concurrency:
 
 jobs:
   verify:
-    name: typecheck · lint · test · build
+    # This name is what appears as the status check on a PR, and what you select as the required
+    # check in branch protection. Keep it stable.
+    name: verify
     runs-on: ubuntu-latest
     timeout-minutes: 20
 
