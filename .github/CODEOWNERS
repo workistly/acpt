@@ -1,0 +1,15 @@
+# Code owners for workistly/acpt.
+#
+# ⚠️ Fill in the real GitHub handles before turning on "Require review from Code Owners" in branch
+# protection — an unknown handle here makes the rule un-satisfiable and blocks every PR.
+
+# Default owner for everything.
+# *                          @<product-owner-handle>
+
+# Areas where a wrong change costs money or leaks data. Keep these on a tighter review than the rest.
+# /functions/                @<product-owner-handle>
+# /firestore.rules           @<product-owner-handle>
+# /storage.rules             @<product-owner-handle>
+# /src/modules/payment/      @<product-owner-handle>
+# /src/pages/api/            @<product-owner-handle>
+# /.github/                  @<product-owner-handle>

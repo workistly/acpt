@@ -1,0 +1,8 @@
+# The index is LF throughout. Pin it so the checkout does not depend on each developer's
+# core.autocrlf setting — a CRLF .husky hook or .nvmrc breaks on macOS, Linux and CI.
+* text=auto eol=lf
+
+# Collapsed by default in GitHub PR diffs, but still a normal text file to git, so conflicts
+# stay resolvable.
+yarn.lock linguist-generated=true
+functions/package-lock.json linguist-generated=true

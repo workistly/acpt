@@ -7,6 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "upgrade": "ncu -u && yarn",
     "extract": "lingui extract --clean",
     "compile": "lingui compile",
@@ -52,16 +55,21 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
     "@tailwindcss/postcss": "^4.1.8",
+    "@testing-library/dom": "^10",
+    "@testing-library/jest-dom": "6.9.1",
+    "@testing-library/react": "^16",
     "@types/bcryptjs": "^3.0.0",
     "@types/lodash": "^4.17.17",
     "@types/node": "^22.15.24",
     "@types/react": "19.1.6",
     "@types/react-dom": "^19.1.5",
+    "@vitejs/plugin-react": "^4",
     "autoprefixer": "^10.4.21",
     "eslint": "^9.27.0",
     "eslint-config-next": "^15.3.2",
     "eslint-plugin-lingui": "^0.10.1",
     "husky": "^9.1.7",
+    "jsdom": "^26",
     "lint-staged": "^16.1.0",
     "postcss": "^8.5.4",
     "postcss-import": "^16.1.0",
@@ -70,6 +78,7 @@
     "prettier": "^3.5.3",
     "tailwind-preset-mantine": "^2.1.0",
     "tailwindcss": "^4.1.8",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "vitest": "^3"
   }
 }
