@@ -64,6 +64,15 @@ recorded in the card text and are to be applied when each fix is implemented.
 
 Each card also now opens with a short plain-English paragraph for a non-technical reader.
 
+## Fixed
+
+Findings closed since the review. The register below is kept as written so the numbering stays
+stable; this table is the status overlay. Each Trello card carries the verification note.
+
+| # | Area | Issue | Where |
+|---|---|---|---|
+| MF-4 | Build/Deploy | Compile Lingui catalogs during build | branch `fix/lingui-build` |
+
 ## Must Fix Now
 
 | # | Severity | Area | Issue | Effort |
@@ -71,7 +80,7 @@ Each card also now opens with a short plain-English paragraph for a non-technica
 | 1 | - | Auth | Give the browser a Firebase identity — Firestore rules cannot work without one | - |
 | 2 | - | Data/Rules | Production database is open to the internet - deploy real Firestore rules | - |
 | 3 | - | Exam | Fix inverted pass/fail branches on the exam result screen ✅ | - |
-| 4 | - | Build/Deploy | Compile Lingui catalogs during build - every page currently returns HTTP 500 ✅ | - |
+| 4 | - | Build/Deploy | ~~Compile Lingui catalogs during build - every page currently returns HTTP 500~~ ✅ **fixed** | - |
 | 5 | - | Certificates | Clients create certificates and set paid=true directly in Firestore | - |
 | 6 | - | Payments | Compute the charge amount server-side in processPayment and require auth | - |
 | 7 | - | Payments | Verify payment on the server instead of letting the browser set certificates.paid | - |

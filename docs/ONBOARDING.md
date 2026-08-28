@@ -37,16 +37,15 @@ cd acpt
 npm i -g yarn          # Yarn Classic; corepack needs an elevated shell on Windows
 yarn
 cp .env.example .env   # then fill in the real values from the password manager
-yarn compile           # generates src/locales/**/*.ts — git-ignored and REQUIRED
 yarn dev               # http://localhost:3060
 ```
 
 Node 22 (see `.nvmrc`). `.env.example` is currently missing `NEXTAUTH_URL` and `NEXTAUTH_SECRET`;
 the app needs both.
 
-**If every page returns HTTP 500, you skipped `yarn compile`.** `_app.tsx` imports the compiled
-Lingui catalogs at request time and they are not in git. This is the single most common way to lose
-an hour on this codebase.
+`yarn dev` and `yarn build` both run `lingui compile` first, which generates the git-ignored
+`src/locales/**/*.ts` catalogs. If you ever invoke `next dev` or `next build` directly and every
+page returns HTTP 500, that is why — run `yarn compile` and try again.
 
 Then check the rest works:
 
