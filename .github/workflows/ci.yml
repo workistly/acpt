@@ -52,6 +52,9 @@ jobs:
       - name: Lint
         run: yarn lint
 
+      - name: Format
+        run: yarn format:check
+
       - name: Test
         run: yarn test
 

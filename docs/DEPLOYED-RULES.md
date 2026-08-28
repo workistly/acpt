@@ -21,14 +21,16 @@ service cloud.firestore {
 
 **The database is fully open to the public internet — read AND write, no authentication, no expiry.**
 
-Note this is *worse* than the file committed at `firestore.rules`, which is the Firebase starter
+Note this is _worse_ than the file committed at `firestore.rules`, which is the Firebase starter
 template whose `if request.time < timestamp.date(2024, 4, 25)` clause would now DENY everything.
 The deployed version has had that time limit removed and is dated after it — i.e. an open ruleset
 was deliberately deployed, not merely left un-updated. The committed file has never matched production.
 
 ### What this means concretely
+
 The project ID is public (it ships in the client bundle as `NEXT_PUBLIC_FIREBASE_PROJECT_ID`), so
 anyone on the internet can use the public Firebase SDK against this database and:
+
 - **Read** every `users` document — names, emails, and the **bcrypt password hashes** stored there
 - **Read** all `transactions` (payment records), `certificates`, and `exams_completed` (scores)
 - **Read** `exams_questions` including the `correctAnswer` field for every exam question
@@ -39,6 +41,7 @@ Combined with the unauthenticated `updateUser` Cloud Function (which can set any
 password), the platform currently has no meaningful access control at any layer.
 
 ### Status
+
 This is a **live exposure today**, independent of whether the website is up — the database is
 reachable regardless of acpt.org being down. It is the single highest-priority item on the board.
 No user data was extracted while confirming this; the deployed ruleset text above is sufficient proof.

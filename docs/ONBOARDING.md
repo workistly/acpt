@@ -18,10 +18,14 @@ Ask the product owner for each of these; none of them can be self-served.
 Stripe dashboard access is not currently granted to the team. If you need to confirm whether a
 payment is live or test mode, that has to go through the product owner.
 
-## 2. There is only one Firebase project, and it is live
+## 2. Work against the emulators, not production
 
-`tutorcert-324d6` holds real users, real certificates and real transactions. There is no staging
-project yet. Until there is:
+`tutorcert-324d6` holds real users, real certificates and real transactions, and there is no cloud
+staging project yet. Your default should be the local Firebase emulator suite, which is set up and
+documented in [ENVIRONMENTS.md](ENVIRONMENTS.md) — it needs JDK 21+ and one `firebase experiments`
+command, and then nothing you do can reach the cloud.
+
+When you do have to touch production:
 
 - **Reads are fine.** Writes are not routine — think before each one.
 - Label every test record you create with a `zz-test-` prefix so it can be found and removed later.
@@ -36,12 +40,14 @@ git clone https://github.com/workistly/acpt.git
 cd acpt
 npm i -g yarn          # Yarn Classic; corepack needs an elevated shell on Windows
 yarn
-cp .env.example .env   # then fill in the real values from the password manager
-yarn dev               # http://localhost:3060
+cp .env.development.example .env.local   # local emulator setup; see ENVIRONMENTS.md
+yarn dev                                # http://localhost:3060
 ```
 
-Node 22 (see `.nvmrc`). `.env.example` is currently missing `NEXTAUTH_URL` and `NEXTAUTH_SECRET`;
-the app needs both.
+To point at production instead, use `.env.example` -> `.env` and fill in the real values from the
+password manager.
+
+Node 22 (see `.nvmrc`) and JDK 21+ for the emulators.
 
 `yarn dev` and `yarn build` both run `lingui compile` first, which generates the git-ignored
 `src/locales/**/*.ts` catalogs. If you ever invoke `next dev` or `next build` directly and every

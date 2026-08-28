@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "tutorcert-324d6"
+    "default": "tutorcert-324d6",
+    "prod": "tutorcert-324d6"
   }
 }

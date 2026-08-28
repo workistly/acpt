@@ -7,6 +7,7 @@ This file is the canonical instructions for both humans and coding agents. `CLAU
 ## Read first
 
 - [docs/ONBOARDING.md](docs/ONBOARDING.md) — day one: access, environment, first run. Start here if you just joined.
+- [docs/ENVIRONMENTS.md](docs/ENVIRONMENTS.md) — local emulators vs production, and the `firebase.json` rules landmine that would take the site down.
 - [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) — how the app actually fits together: routes, auth, exam engine, payments, certificates, data model, and the deployed Cloud Functions.
 - [docs/FINDINGS.md](docs/FINDINGS.md) — the code review register: 77 issues, 14 must-fix, with the split between launch blockers and post-MVP work. Ten are confirmed by a manual end-to-end run (2026-08-28); that run also found **payments have been dead since 2026-06-26** — the Stripe key was rotated but `processPayment`/`refundPayment` are still pinned to the now-disabled secret version 1, so both 500 on every request. Fix is a redeploy, not re-enabling v1.
 - [docs/DEPLOYED-RULES.md](docs/DEPLOYED-RULES.md) — the security rules actually deployed to production, which differ from the ones committed here.
@@ -15,7 +16,8 @@ This file is the canonical instructions for both humans and coding agents. `CLAU
 
 - **Never commit `.env`.** It is git-ignored; keep it that way. Never paste its values into code, docs, logs, or issue trackers — reference variable _names_ only.
 - **Stripe stays in test mode** for all development (`4242 4242 4242 4242`). The frontend key is `pk_test…`.
-- The Firebase project is **live and may hold real user data**. Reads are fine; be deliberate about writes, label test records clearly (`zz-test-*`), and never run bulk deletes.
+- The Firebase project is **live and may hold real user data**. Reads are fine; be deliberate about writes, label test records clearly (`zz-test-*`), and never run bulk deletes. Prefer the local emulators — see docs/ENVIRONMENTS.md.
+- **Never add a `firestore` or `storage` target to `firebase.json`** until the rules in this repo are the ones you actually want live. A bare `firebase deploy` would push the expired starter ruleset over production and lock every user out.
 - `firestore.rules` and `storage.rules` in this repo **do not match production** and `firebase.json` declares no rules targets, so `firebase deploy` never updates them. Check the console before reasoning about security. See docs/DEPLOYED-RULES.md.
 
 ## Commands
@@ -27,7 +29,9 @@ yarn                                  # install (corepack may need an elevated s
 yarn dev                              # dev server on http://localhost:3060 (compiles i18n first)
 yarn build                            # production build (compiles i18n first)
 yarn typecheck                        # tsc --noEmit
-yarn lint                             # manual only; the pre-commit hook is prettier-only
+yarn lint                             # eslint; warnings do not fail, errors do
+yarn format                           # prettier --write .
+yarn format:check                     # what CI runs
 yarn test                             # vitest, single run
 yarn test:watch                       # vitest, watch mode
 yarn extract                          # only after adding or changing UI strings; rewrites the .po files
@@ -36,7 +40,7 @@ yarn extract                          # only after adding or changing UI strings
 **Do not take `lingui compile` back out of `dev` and `build`.** `_app.tsx` imports the compiled
 catalogs (`src/locales/<locale>/messages.ts`) at request time, and those files are git-ignored.
 Until 2026-08-28 neither script generated them, so a clean checkout built successfully and then
-returned HTTP 500 on *every* page — the state acpt.org was left in. See docs/FINDINGS.md #4.
+returned HTTP 500 on _every_ page — the state acpt.org was left in. See docs/FINDINGS.md #4.
 
 ## How we work
 
@@ -65,3 +69,5 @@ Every page under `src/pages/` is a thin wrapper around a module in `src/modules/
 - `.env.example` is missing `NEXTAUTH_URL` and `NEXTAUTH_SECRET`, which the app requires. README calls the file `.env.sample`; it is `.env.example`.
 - i18n is Lingui with locale-prefixed routing (`/es/...`). Spanish is ~50% untranslated, Turkish ~29%; missing strings silently fall back to English.
 - `reactStrictMode` is off and several ESLint safety rules are disabled, so a class of bugs will not surface locally.
+- Node 22 (`.nvmrc`), and the functions codebase now targets nodejs22 — the previous nodejs18 pin can no longer be deployed at all.
+- `yarn lint` reports ~59 pre-existing warnings. They do not fail CI; the expectation is that the number goes down, not up.

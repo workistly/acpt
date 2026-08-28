@@ -1,4 +1,4 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
   reactStrictMode: false,
@@ -12,6 +12,6 @@ const nextConfig: NextConfig = {
     swcPlugins: [['@lingui/swc-plugin', {}]],
   },
   pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
-};
+}
 
-export default nextConfig;
+export default nextConfig

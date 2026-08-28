@@ -24,8 +24,11 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# local env files
-.env*.local
+# local env files — everything except the checked-in templates
+.env
+.env.*
+!.env.example
+!.env.development.example
 
 # vercel
 .vercel
@@ -37,7 +40,6 @@ yarn-error.log*
 
 .npmrc
 .idea
-.env
 
 src/locales/_build/
 src/locales/**/*.js
@@ -47,3 +49,8 @@ src/locales/**/*.mo
 certificates
 
 .yarn
+
+# firebase emulators
+*-debug.log
+.firebase/
+emu.log
