@@ -111,7 +111,7 @@ const TestCompletion: FC<Props> = () => {
     <Container size="md">
       {!timerExpired && (!limitExceeded || examCompleted) ? (
         <Stack className="text-center gap-xl">
-          {!hasPassed ? (
+          {hasPassed ? (
             <>
               {/* PASSED - Show congratulations and certificate options */}
               <Title className="text-[32px] sm:text-[48px]">

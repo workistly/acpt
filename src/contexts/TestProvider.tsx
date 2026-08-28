@@ -285,7 +285,7 @@ const useContextHook = () => {
     setTimer(null)
     setTimerExpired(false)
     setAnswers({})
-    // setCompleted(false)
+    setCompleted(false)
     setCreatedExamDocId('')
     setCompletionData({})
 
@@ -293,9 +293,10 @@ const useContextHook = () => {
     sessionStorage.removeItem('examCompleted')
     sessionStorage.removeItem('completionData')
 
-    // Fetch exam again
+    // Fetch exam again. getExam() drives its own `spinner`; `loading` must be cleared or
+    // TestPage renders PageLoader forever.
     getExam()
-    setLoading(true)
+    setLoading(false)
   }
 
   const getCert = () => {

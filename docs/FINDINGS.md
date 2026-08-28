@@ -33,7 +33,7 @@ other Cloud Function answered normally, and did so with **no auth header of any 
 independently confirms the unauthenticated-endpoint findings below as deployed.
 
 **The inverted results screen is worse than the static read suggested.** A deliberate fail (24/100)
-produced *"Congratulations! You have successfully passed ACPT"* together with the $50 certificate
+produced _"Congratulations! You have successfully passed ACPT"_ together with the $50 certificate
 upsell, and clicking it created a real certificate. Firestore had stored `passed: false` correctly.
 So the platform currently **sells certificates to candidates who failed** and, by the same inverted
 branch, **never offers one to candidates who passed** — which is the symptom you reported.
@@ -69,115 +69,117 @@ Each card also now opens with a short plain-English paragraph for a non-technica
 Findings closed since the review. The register below is kept as written so the numbering stays
 stable; this table is the status overlay. Each Trello card carries the verification note.
 
-| # | Area | Issue | Where |
-|---|---|---|---|
-| MF-4 | Build/Deploy | Compile Lingui catalogs during build | branch `fix/lingui-build` |
+| #    | Area         | Issue                                                 | Where                           |
+| ---- | ------------ | ----------------------------------------------------- | ------------------------------- |
+| MF-4 | Build/Deploy | Lingui catalogs not compiled during build             | branch `fix/lingui-build`       |
+| MF-3 | Exam         | Inverted pass/fail branches on the exam result screen | branch `fix/exam-result-screen` |
+| AM-6 | Exam         | "Retake now" hangs on an infinite loading spinner     | branch `fix/exam-result-screen` |
 
 ## Must Fix Now
 
-| # | Severity | Area | Issue | Effort |
-|---|---|---|---|---|
-| 1 | - | Auth | Give the browser a Firebase identity — Firestore rules cannot work without one | - |
-| 2 | - | Data/Rules | Production database is open to the internet - deploy real Firestore rules | - |
-| 3 | - | Exam | Fix inverted pass/fail branches on the exam result screen ✅ | - |
-| 4 | - | Build/Deploy | ~~Compile Lingui catalogs during build - every page currently returns HTTP 500~~ ✅ **fixed** | - |
-| 5 | - | Certificates | Clients create certificates and set paid=true directly in Firestore | - |
-| 6 | - | Payments | Compute the charge amount server-side in processPayment and require auth | - |
-| 7 | - | Payments | Verify payment on the server instead of letting the browser set certificates.paid | - |
-| 8 | - | Payments | Restrict refundPayment to authenticated admins and to this app's own charges | - |
-| 9 | - | Auth | Stop storing bcrypt password hashes in a browser-readable collection | - |
-| 10 | - | Admin | Enforce an admin role check on every /admin page ✅ | - |
-| 11 | - | Auth | Authenticate updateUser — anyone can set any account's email and password | - |
-| 12 | - | Exam | Stop a stale localStorage flag from hijacking the /welcome exam page ✅ | - |
-| 13 | - | Auth | Build a working password reset for Firestore-only accounts ✅ | - |
-| 14 | - | Payments | Payments have been dead since 26 June — functions pinned to a retired Stripe key ✅ | - |
+| #   | Severity | Area         | Issue                                                                                         | Effort |
+| --- | -------- | ------------ | --------------------------------------------------------------------------------------------- | ------ |
+| 1   | -        | Auth         | Give the browser a Firebase identity — Firestore rules cannot work without one                | -      |
+| 2   | -        | Data/Rules   | Production database is open to the internet - deploy real Firestore rules                     | -      |
+| 3   | -        | Exam         | ~~Fix inverted pass/fail branches on the exam result screen~~ ✅ **fixed**                    | -      |
+| 4   | -        | Build/Deploy | ~~Compile Lingui catalogs during build - every page currently returns HTTP 500~~ ✅ **fixed** | -      |
+| 5   | -        | Certificates | Clients create certificates and set paid=true directly in Firestore                           | -      |
+| 6   | -        | Payments     | Compute the charge amount server-side in processPayment and require auth                      | -      |
+| 7   | -        | Payments     | Verify payment on the server instead of letting the browser set certificates.paid             | -      |
+| 8   | -        | Payments     | Restrict refundPayment to authenticated admins and to this app's own charges                  | -      |
+| 9   | -        | Auth         | Stop storing bcrypt password hashes in a browser-readable collection                          | -      |
+| 10  | -        | Admin        | Enforce an admin role check on every /admin page ✅                                           | -      |
+| 11  | -        | Auth         | Authenticate updateUser — anyone can set any account's email and password                     | -      |
+| 12  | -        | Exam         | Stop a stale localStorage flag from hijacking the /welcome exam page ✅                       | -      |
+| 13  | -        | Auth         | Build a working password reset for Firestore-only accounts ✅                                 | -      |
+| 14  | -        | Payments     | Payments have been dead since 26 June — functions pinned to a retired Stripe key ✅           | -      |
 
 ## After MVP Release
 
-| # | Severity | Area | Issue | Effort |
-|---|---|---|---|---|
-| 1 | - | Data/Rules | The admin role field lives in a user document the client must be able to write | - |
-| 2 | - | Certificates | Check ownership before rendering or selling a certificate by URL id | - |
-| 3 | - | Admin | Every row of a user's exam table shows the first attempt - refunds hit the wrong record | - |
-| 4 | - | Backend | Lock down sendFrontEndMail — it is an unauthenticated open email relay | - |
-| 5 | - | Exam | Grade and record the attempt when the exam timer expires | - |
-| 6 | - | Exam | Fix "Retake now" - it hangs on an infinite loading spinner | - |
-| 7 | - | Certificates | Certificates created from a re-entered result screen have empty examId, score and price ✅ | - |
-| 8 | - | Payments | Make the certificate price single-sourced and remove the $1 fallback | - |
-| 9 | - | Payments | Guard the payment page on paid/owner and add idempotency to stop repeat charges | - |
-| 10 | high | Admin | Stop treating a failed refund as success before deleting the certificate | S |
-| 11 | high | Auth | updateUser silently does nothing for every account created by the current signup flow | M |
-| 12 | high | Admin | Fix the null-deref race that white-screens the admin dashboard on load | S |
-| 13 | high | Admin | Clear loading state when a Firestore query returns zero rows or throws | S |
-| 14 | high | Exam | The Hide Timer button switches off the exam time limit ✅ | S |
-| 15 | high | Certificates | Reuse an existing unpaid certificate instead of creating a duplicate on every click | S |
-| 16 | high | Certificates | Show the certificate's real issue and expiry dates instead of the page-load date | M |
-| 17 | high | Certificates | The Certificate URL sold to paying users renders as .../certificate/undefined | S |
-| 18 | medium | Auth | Block archived users at login and end their live sessions | S |
-| 19 | medium | Auth | Return one generic error instead of confirming which emails are registered | S |
-| 20 | medium | Auth | Validate the post-login redirect target | S |
-| 21 | medium | Backend | Delete addIncompleteExam — unauthenticated writes to any user document | S |
-| 22 | medium | Payments | Soft-delete refunds instead of destroying the certificate and transaction records | S |
-| 23 | medium | Privacy | Account deletion leaves certificates, transactions and the Auth record behind | M |
-| 24 | high | Privacy | Privacy policy describes device monitoring and analytics the app never performs | S |
-| 25 | medium | Backend | resetAttemptedExams breaks at 500 users and locks everyone out of retakes | S |
-| 26 | medium | Backend | Authenticate and cap the analytics endpoints — unauthenticated full-collection scans | S |
-| 27 | medium | Exam | Retake limiting is implemented three ways and the UI promises no limit | M |
-| 28 | medium | Exam | Countdown starts when the page loads, not when the candidate clicks Start | S |
-| 29 | low | Certificates | Make the certificate number unique and stop trusting the first query hit | M |
-| 30 | high | Admin | Registered-Accounts metric is permanently zero: createdAt format mismatch | S |
-| 31 | medium | UX | A transient query error tells a paying user they have taken no tests | S |
-| 32 | medium | Certificates | Distinguish unknown, unpaid and expired certificates in the verification result | S |
-| 33 | medium | Admin | onSnapshot listeners on whole collections are never unsubscribed | S |
-| 34 | medium | Privacy | Nothing records that a user ever accepted the Terms or Privacy Policy | S |
-| 35 | medium | Privacy | No working channel for privacy requests; policy points at features that do not exist | S |
-| 36 | low | Build/Deploy | Remove debug console.log calls, including one that prints a plaintext password | S |
-| 37 | low | Backend | Cloud Functions write names and email addresses into Cloud Logging | S |
-| 38 | medium | Backend | sendFrontEndMail sends every recipient a template addressed "Test Test" | S |
-| 39 | medium | Certificates | Print the certificate ID number on the certificate itself | S |
-| 40 | low | Backend | Stop returning raw internal error objects to unauthenticated callers | S |
-| 41 | low | Backend | Remove checkAccountExists — an unused, unauthenticated account-existence oracle | S |
-| 42 | medium | Auth | Normalize email addresses at signup and login | S |
-| 43 | low | Admin | Join certificates by exam attempt, not by user, in the admin lists | S |
-| 44 | low | Performance | Certificate lookups run one Firestore query per exam row (N+1) | S |
-| 45 | low | Exam | Question shuffle is biased, so candidates keep seeing the same questions | S |
-| 46 | medium | Exam | Welcome screen shows hardcoded rules instead of the admin's exam config | S |
-| 47 | low | Exam | Exam clock drops the hours, so long exams show the wrong time | S |
-| 48 | low | Admin | Nightly analytics job duplicates the day's registrations document | S |
-| 49 | low | Admin | Exam analytics never match a user — docId is not a stored field | S |
-| 50 | low | Admin | Earnings chart merges every year into the same twelve month buckets | S |
-| 51 | low | Build/Deploy | Add NEXTAUTH_SECRET and NEXTAUTH_URL to .env.example | S |
-| 52 | low | Build/Deploy | functions/package.json is missing the cors dependency it requires at runtime | S |
-| 53 | low | Build/Deploy | No tests, no CI, and the lint rules that would catch these bugs are disabled | M |
-| 54 | low | Performance | App-level getInitialProps disables static optimization for every page | M |
-| 55 | low | Build/Deploy | Delete dead modules that imply features the product does not have | S |
-| 56 | low | UX | Spanish and Turkish sites are largely untranslated and the certificate is English-only | L |
-| 57 | low | UX | Name fields reject input with the message "Invalid email" | S |
-| 58 | low | Payments | Remove the unused stripe.createToken round trip before every purchase | S |
-| 59 | low | Admin | Stray "0" rendered in the History page toolbar | S |
-| 60 | low | Backend | Retire or fix verifyCertificate - unwired and validates unpaid certificates ✅ | S |
-| 61 | medium | Exam | The abandoned-exam record is written from an unload handler, so it usually never lands ✅ | S |
-| 62 | - | Payments | Every failed payment shows the same generic error, with Stripe's reason discarded | - |
-| 63 | - | Build/Deploy | Dependency upgrade pass before launch (next, next-auth, firebase, lodash) | - |
+| #   | Severity | Area         | Issue                                                                                      | Effort |
+| --- | -------- | ------------ | ------------------------------------------------------------------------------------------ | ------ |
+| 1   | -        | Data/Rules   | The admin role field lives in a user document the client must be able to write             | -      |
+| 2   | -        | Certificates | Check ownership before rendering or selling a certificate by URL id                        | -      |
+| 3   | -        | Admin        | Every row of a user's exam table shows the first attempt - refunds hit the wrong record    | -      |
+| 4   | -        | Backend      | Lock down sendFrontEndMail — it is an unauthenticated open email relay                     | -      |
+| 5   | -        | Exam         | Grade and record the attempt when the exam timer expires                                   | -      |
+| 6   | -        | Exam         | ~~Fix "Retake now" - it hangs on an infinite loading spinner~~ **fixed**                   | -      |
+| 7   | -        | Certificates | Certificates created from a re-entered result screen have empty examId, score and price ✅ | -      |
+| 8   | -        | Payments     | Make the certificate price single-sourced and remove the $1 fallback                       | -      |
+| 9   | -        | Payments     | Guard the payment page on paid/owner and add idempotency to stop repeat charges            | -      |
+| 10  | high     | Admin        | Stop treating a failed refund as success before deleting the certificate                   | S      |
+| 11  | high     | Auth         | updateUser silently does nothing for every account created by the current signup flow      | M      |
+| 12  | high     | Admin        | Fix the null-deref race that white-screens the admin dashboard on load                     | S      |
+| 13  | high     | Admin        | Clear loading state when a Firestore query returns zero rows or throws                     | S      |
+| 14  | high     | Exam         | The Hide Timer button switches off the exam time limit ✅                                  | S      |
+| 15  | high     | Certificates | Reuse an existing unpaid certificate instead of creating a duplicate on every click        | S      |
+| 16  | high     | Certificates | Show the certificate's real issue and expiry dates instead of the page-load date           | M      |
+| 17  | high     | Certificates | The Certificate URL sold to paying users renders as .../certificate/undefined              | S      |
+| 18  | medium   | Auth         | Block archived users at login and end their live sessions                                  | S      |
+| 19  | medium   | Auth         | Return one generic error instead of confirming which emails are registered                 | S      |
+| 20  | medium   | Auth         | Validate the post-login redirect target                                                    | S      |
+| 21  | medium   | Backend      | Delete addIncompleteExam — unauthenticated writes to any user document                     | S      |
+| 22  | medium   | Payments     | Soft-delete refunds instead of destroying the certificate and transaction records          | S      |
+| 23  | medium   | Privacy      | Account deletion leaves certificates, transactions and the Auth record behind              | M      |
+| 24  | high     | Privacy      | Privacy policy describes device monitoring and analytics the app never performs            | S      |
+| 25  | medium   | Backend      | resetAttemptedExams breaks at 500 users and locks everyone out of retakes                  | S      |
+| 26  | medium   | Backend      | Authenticate and cap the analytics endpoints — unauthenticated full-collection scans       | S      |
+| 27  | medium   | Exam         | Retake limiting is implemented three ways and the UI promises no limit                     | M      |
+| 28  | medium   | Exam         | Countdown starts when the page loads, not when the candidate clicks Start                  | S      |
+| 29  | low      | Certificates | Make the certificate number unique and stop trusting the first query hit                   | M      |
+| 30  | high     | Admin        | Registered-Accounts metric is permanently zero: createdAt format mismatch                  | S      |
+| 31  | medium   | UX           | A transient query error tells a paying user they have taken no tests                       | S      |
+| 32  | medium   | Certificates | Distinguish unknown, unpaid and expired certificates in the verification result            | S      |
+| 33  | medium   | Admin        | onSnapshot listeners on whole collections are never unsubscribed                           | S      |
+| 34  | medium   | Privacy      | Nothing records that a user ever accepted the Terms or Privacy Policy                      | S      |
+| 35  | medium   | Privacy      | No working channel for privacy requests; policy points at features that do not exist       | S      |
+| 36  | low      | Build/Deploy | Remove debug console.log calls, including one that prints a plaintext password             | S      |
+| 37  | low      | Backend      | Cloud Functions write names and email addresses into Cloud Logging                         | S      |
+| 38  | medium   | Backend      | sendFrontEndMail sends every recipient a template addressed "Test Test"                    | S      |
+| 39  | medium   | Certificates | Print the certificate ID number on the certificate itself                                  | S      |
+| 40  | low      | Backend      | Stop returning raw internal error objects to unauthenticated callers                       | S      |
+| 41  | low      | Backend      | Remove checkAccountExists — an unused, unauthenticated account-existence oracle            | S      |
+| 42  | medium   | Auth         | Normalize email addresses at signup and login                                              | S      |
+| 43  | low      | Admin        | Join certificates by exam attempt, not by user, in the admin lists                         | S      |
+| 44  | low      | Performance  | Certificate lookups run one Firestore query per exam row (N+1)                             | S      |
+| 45  | low      | Exam         | Question shuffle is biased, so candidates keep seeing the same questions                   | S      |
+| 46  | medium   | Exam         | Welcome screen shows hardcoded rules instead of the admin's exam config                    | S      |
+| 47  | low      | Exam         | Exam clock drops the hours, so long exams show the wrong time                              | S      |
+| 48  | low      | Admin        | Nightly analytics job duplicates the day's registrations document                          | S      |
+| 49  | low      | Admin        | Exam analytics never match a user — docId is not a stored field                            | S      |
+| 50  | low      | Admin        | Earnings chart merges every year into the same twelve month buckets                        | S      |
+| 51  | low      | Build/Deploy | Add NEXTAUTH_SECRET and NEXTAUTH_URL to .env.example                                       | S      |
+| 52  | low      | Build/Deploy | functions/package.json is missing the cors dependency it requires at runtime               | S      |
+| 53  | low      | Build/Deploy | No tests, no CI, and the lint rules that would catch these bugs are disabled               | M      |
+| 54  | low      | Performance  | App-level getInitialProps disables static optimization for every page                      | M      |
+| 55  | low      | Build/Deploy | Delete dead modules that imply features the product does not have                          | S      |
+| 56  | low      | UX           | Spanish and Turkish sites are largely untranslated and the certificate is English-only     | L      |
+| 57  | low      | UX           | Name fields reject input with the message "Invalid email"                                  | S      |
+| 58  | low      | Payments     | Remove the unused stripe.createToken round trip before every purchase                      | S      |
+| 59  | low      | Admin        | Stray "0" rendered in the History page toolbar                                             | S      |
+| 60  | low      | Backend      | Retire or fix verifyCertificate - unwired and validates unpaid certificates ✅             | S      |
+| 61  | medium   | Exam         | The abandoned-exam record is written from an unload handler, so it usually never lands ✅  | S      |
+| 62  | -        | Payments     | Every failed payment shows the same generic error, with Stripe's reason discarded          | -      |
+| 63  | -        | Build/Deploy | Dependency upgrade pass before launch (next, next-auth, firebase, lodash)                  | -      |
 
 ## Runtime evidence for the ✅ issues
 
 Recorded so the fixes can be verified against what was actually observed, and so nobody re-derives
 these from the code.
 
-| Issue | What was observed on 2026-08-28 |
-|---|---|
-| Payments dead since 26 June | HTTP 500 on GET *and* OPTIONS from Google Frontend; logs: `Secret Version [STRIPE_API_KEY/versions/1] is in DISABLED state. Instance startup will now abort`. All other functions: 204 preflight / 200 GET, with no auth header. |
-| Inverted pass/fail | Score 24 → "Congratulations! You have successfully passed ACPT" + $50 upsell → certificate `294998712` created. `exams_completed` stored `score:24, passed:false, status:Complete`. |
-| Lingui build blocker | Clean checkout, plain `yarn dev`: `/`, `/login`, `/signup`, `/faq` all HTTP 500; server error `_app.tsx:41 Module not found: Can't resolve '../locales/' <dynamic> '/messages.ts'`. After `yarn compile`: all 200. |
-| /admin role check | Plain `type:'user'` account reached `/admin/dashboard` and `/admin/users` with no redirect — earnings, exam counts and the full user roster (real names + emails) rendered. |
-| localStorage `/welcome` hijack | After "Upgrade now", a fresh visit to `/welcome` showed the stale result screen instead of the exam; the user could not start another attempt. Clearing `isShowResultScreen` restored it. |
-| Password reset | `/forgot-password` on a signup-created account reported "Password reset link has been sent" — but the account has no Firebase Auth record, so no mail can ever be sent. `/reset-password` submit handler is `console.log(values); setSuccess(true)`. |
-| Hide Timer disables the limit | Clicking "Hide Timer" removed the countdown from the DOM entirely; `TestTimer` owns the only `useTimer`/`onExpire`, so no expiry can fire while hidden. |
-| Duplicate / empty certificates | Clicking Upgrade from the re-entered result screen minted a **second** certificate (`330173150`) with empty `examId`, `score` and `price`; its payment page then crashed with `IntegrationError: Invalid value for elements() amount: value must be greater than 0`. |
-| verifyCertificate ignores payment | The deployed endpoint returned `{"status":true}` for an **unpaid** certificate. (Correction to the original card: the composite index it needs *does* exist in production — that part was repo-vs-prod drift, not a runtime break.) |
-| Certificate sold at two prices | All 60 transactions split 39 @ $100 / 21 @ $50, interleaved on the same days for the same exam. `TestTable.tsx:65` hard-codes `price: 50` on the My Account path; the results-screen path uses the exam's configured price. |
-| Abandoned-exam record | Baseline 0 `exams_completed`; started an exam, navigated away, re-checked twice over ~12 s: still 0. The `unload` write does not land. |
+| Issue                             | What was observed on 2026-08-28                                                                                                                                                                                                                                      |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Payments dead since 26 June       | HTTP 500 on GET _and_ OPTIONS from Google Frontend; logs: `Secret Version [STRIPE_API_KEY/versions/1] is in DISABLED state. Instance startup will now abort`. All other functions: 204 preflight / 200 GET, with no auth header.                                     |
+| Inverted pass/fail                | Score 24 → "Congratulations! You have successfully passed ACPT" + $50 upsell → certificate `294998712` created. `exams_completed` stored `score:24, passed:false, status:Complete`.                                                                                  |
+| Lingui build blocker              | Clean checkout, plain `yarn dev`: `/`, `/login`, `/signup`, `/faq` all HTTP 500; server error `_app.tsx:41 Module not found: Can't resolve '../locales/' <dynamic> '/messages.ts'`. After `yarn compile`: all 200.                                                   |
+| /admin role check                 | Plain `type:'user'` account reached `/admin/dashboard` and `/admin/users` with no redirect — earnings, exam counts and the full user roster (real names + emails) rendered.                                                                                          |
+| localStorage `/welcome` hijack    | After "Upgrade now", a fresh visit to `/welcome` showed the stale result screen instead of the exam; the user could not start another attempt. Clearing `isShowResultScreen` restored it.                                                                            |
+| Password reset                    | `/forgot-password` on a signup-created account reported "Password reset link has been sent" — but the account has no Firebase Auth record, so no mail can ever be sent. `/reset-password` submit handler is `console.log(values); setSuccess(true)`.                 |
+| Hide Timer disables the limit     | Clicking "Hide Timer" removed the countdown from the DOM entirely; `TestTimer` owns the only `useTimer`/`onExpire`, so no expiry can fire while hidden.                                                                                                              |
+| Duplicate / empty certificates    | Clicking Upgrade from the re-entered result screen minted a **second** certificate (`330173150`) with empty `examId`, `score` and `price`; its payment page then crashed with `IntegrationError: Invalid value for elements() amount: value must be greater than 0`. |
+| verifyCertificate ignores payment | The deployed endpoint returned `{"status":true}` for an **unpaid** certificate. (Correction to the original card: the composite index it needs _does_ exist in production — that part was repo-vs-prod drift, not a runtime break.)                                  |
+| Certificate sold at two prices    | All 60 transactions split 39 @ $100 / 21 @ $50, interleaved on the same days for the same exam. `TestTable.tsx:65` hard-codes `price: 50` on the My Account path; the results-screen path uses the exam's configured price.                                          |
+| Abandoned-exam record             | Baseline 0 `exams_completed`; started an exam, navigated away, re-checked twice over ~12 s: still 0. The `unload` write does not land.                                                                                                                               |
 
 Two further observations, already covered by existing cards, were confirmed in passing: the exam
 countdown is created at page fetch rather than at Start (clicking Start after ~70 s on the welcome
@@ -242,7 +244,7 @@ Updated after the end-to-end run — items the run closed have been removed or n
 
 - **Stripe mode is still unconfirmed.** The frontend key is `pk_test…`. The backend key could not be
   checked because the `STRIPE_API_KEY` secret is disabled and `processPayment` never starts. Re-check
-  test-vs-live as soon as the secret is restored, before go-live (report env var *names* only).
+  test-vs-live as soon as the secret is restored, before go-live (report env var _names_ only).
 - **SCA / 3D Secure is untested and unhandled.** `confirmCardPayment` can return `requires_action`;
   PaymentForm treats anything other than `succeeded` as a generic failure, so European and UK
   cardholders would silently fail to pay. Now its own Must Fix card, but it could not be exercised
@@ -284,11 +286,12 @@ fit on a card.
 Firestore rules can only evaluate `request.auth`, which is populated **only** by a Firebase Auth ID
 token. This app authenticates with NextAuth (JWT cookie) and never signs the Firebase JS SDK in, so
 `request.auth` is null on every client-side Firestore call. Any ruleset stricter than `allow read,
-write: if true` therefore denies the entire application — which is very likely *why* the open ruleset
+write: if true` therefore denies the entire application — which is very likely _why_ the open ruleset
 is deployed. **The "deploy real Firestore rules" card cannot be completed on its own; this is its
 prerequisite.**
 
 Two routes, decision needed:
+
 - **A (bridge, ~half a day):** keep NextAuth; add an API route that verifies the session and returns
   `getAuth().createCustomToken(uid, {admin})` via firebase-admin; client calls `signInWithCustomToken()`.
   Mint with `uid` == the Firestore users doc id so `users/{uid}` rules line up.
@@ -307,11 +310,11 @@ Being accurate here matters more than the card looking urgent.
 
 **What genuinely applies**
 
-| Package | Installed | Issue | Fixed in |
-|---|---|---|---|
-| next (`next/image`) | 15.3.8 | Image Optimization DoS and unbounded optimiser disk-cache growth. `NextImage.tsx` wraps next/image on ~13 screens and the App Hosting frameworks backend runs the optimiser on your own instance. | 15.5.21 |
-| protobufjs, @grpc/grpc-js | transitive | critical / high, under the Firebase client SDK which the API routes use server-side | bump firebase |
-| firebase-admin, firebase-functions (in `functions/`) | 11.x / 4.x | a full major version behind; this is the real server-side surface | current majors |
+| Package                                              | Installed  | Issue                                                                                                                                                                                             | Fixed in       |
+| ---------------------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
+| next (`next/image`)                                  | 15.3.8     | Image Optimization DoS and unbounded optimiser disk-cache growth. `NextImage.tsx` wraps next/image on ~13 screens and the App Hosting frameworks backend runs the optimiser on your own instance. | 15.5.21        |
+| protobufjs, @grpc/grpc-js                            | transitive | critical / high, under the Firebase client SDK which the API routes use server-side                                                                                                               | bump firebase  |
+| firebase-admin, firebase-functions (in `functions/`) | 11.x / 4.x | a full major version behind; this is the real server-side surface                                                                                                                                 | current majors |
 
 **What does NOT apply — do not present these as exposure**
 
@@ -323,5 +326,5 @@ Being accurate here matters more than the card looking urgent.
   all of them are inert here.
 - The lodash `_.template` injection: the app imports only `padStart`.
 
-All within-major bumps. Sequence them *after* the launch blockers so any regression is easy to
+All within-major bumps. Sequence them _after_ the launch blockers so any regression is easy to
 attribute, and re-run the full user journey afterwards — there is no test suite to catch a break.
