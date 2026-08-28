@@ -1,45 +1,51 @@
-## Getting Started
+# ACPT — Tutor Certification Platform
 
-### Install
+Next.js 15 (pages router) + Firebase. Prospective tutors take a certification exam and buy a
+certificate; anyone can verify a certificate by its ID number or URL.
+
+- **[AGENTS.md](AGENTS.md)** — how to work in this repo (also what coding agents read).
+- **[docs/ONBOARDING.md](docs/ONBOARDING.md)** — start here if you just joined.
+- **[docs/ENVIRONMENTS.md](docs/ENVIRONMENTS.md)** — local emulators vs production.
+- **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)** — how the app actually fits together.
+- **[docs/FINDINGS.md](docs/FINDINGS.md)** — the open issue register.
+
+## Getting started
+
+Requires **Node 22** (see `.nvmrc`), Yarn Classic, and **JDK 21+** if you want the Firebase
+emulators.
 
 ```bash
 yarn
+cp .env.development.example .env.local   # local emulators — see docs/ENVIRONMENTS.md
+yarn dev                                 # http://localhost:3060
 ```
 
-### Setup env var
+To run against production Firebase instead, copy `.env.example` to `.env` and fill it in from the
+team password manager. Never commit either file.
 
-Copy `.env.sample` into `.env` and fill in appropriate variables. Refer to Vercel's project settings, environment variables, to find out. Do **NOT** push this file to git.
-
-### Run the development server
+## Scripts
 
 ```bash
-yarn dev
+yarn dev            # dev server (compiles i18n catalogs first)
+yarn build          # production build (compiles i18n catalogs first)
+yarn start          # serve the production build
+yarn typecheck      # tsc --noEmit
+yarn lint           # eslint
+yarn format         # prettier --write .
+yarn test           # vitest
 ```
 
-Open [http://localhost:3060](http://localhost:3060) with your browser to see the result.
+`yarn extract` pulls new translatable strings out of the code into `src/locales/**/*.po`. Run it
+after adding UI text, translate the `.po` files, and commit them. `yarn compile` turns them into
+the catalogs the app loads — `dev` and `build` already do this for you.
 
-## Deployment
+Regenerate the Tailwind colour tokens with:
 
-### Build the application for production usage:
+```bash
+npx tailwind-preset-mantine src/styles/colors.ts -o src/styles/colors.css
+```
 
-`lingui extract && lingui compile && next build`
+## Contributing
 
-### Start a Next.js production server:
-
-`yarn run start`
-
-## Available Scripts
-
-Extract texts from code to i18n files if there are new translations, then translate the `.po` files in `/src/locales` and push to git:
-
-`yarn run extract`
-
-Compile i18n files for production after all texts have been translated:
-
-`yarn run compile`
-
-Generate custom tailwind CSS colors:
-
-`npx tailwind-preset-mantine src/styles/colors.ts -o src/styles/colors.css`
-
-#
+One Trello card per pull request, CI green before merge, and every PR says how the change was
+verified. The details are in [AGENTS.md](AGENTS.md).
