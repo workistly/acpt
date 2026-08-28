@@ -67,13 +67,16 @@ Each card also now opens with a short plain-English paragraph for a non-technica
 ## Fixed
 
 Findings closed since the review. The register below is kept as written so the numbering stays
-stable; this table is the status overlay. Each Trello card carries the verification note.
+stable; this table is the status overlay. The matching Trello cards sit in the Completed list.
 
-| #    | Area         | Issue                                                 | Where                           |
-| ---- | ------------ | ----------------------------------------------------- | ------------------------------- |
-| MF-4 | Build/Deploy | Lingui catalogs not compiled during build             | branch `fix/lingui-build`       |
-| MF-3 | Exam         | Inverted pass/fail branches on the exam result screen | branch `fix/exam-result-screen` |
-| AM-6 | Exam         | "Retake now" hangs on an infinite loading spinner     | branch `fix/exam-result-screen` |
+| #     | Area         | Issue                                                                     | Where                                |
+| ----- | ------------ | ------------------------------------------------------------------------- | ------------------------------------ |
+| MF-4  | Build/Deploy | Lingui catalogs not compiled during build                                 | branch `fix/lingui-build`            |
+| MF-3  | Exam         | Inverted pass/fail branches on the exam result screen                     | branch `fix/exam-result-screen`      |
+| AM-6  | Exam         | "Retake now" hangs on an infinite loading spinner                         | branch `fix/exam-result-screen`      |
+| AM-51 | Build/Deploy | NEXTAUTH_SECRET / NEXTAUTH_URL missing from .env.example (and the README) | branch `chore/environments-and-deps` |
+| AM-52 | Build/Deploy | functions/package.json missing its cors dependency                        | branch `chore/environments-and-deps` |
+| AM-63 | Build/Deploy | Dependency upgrade pass                                                   | branch `chore/environments-and-deps` |
 
 ## Must Fix Now
 
@@ -148,8 +151,8 @@ stable; this table is the status overlay. Each Trello card carries the verificat
 | 48  | low      | Admin        | Nightly analytics job duplicates the day's registrations document                          | S      |
 | 49  | low      | Admin        | Exam analytics never match a user — docId is not a stored field                            | S      |
 | 50  | low      | Admin        | Earnings chart merges every year into the same twelve month buckets                        | S      |
-| 51  | low      | Build/Deploy | Add NEXTAUTH_SECRET and NEXTAUTH_URL to .env.example                                       | S      |
-| 52  | low      | Build/Deploy | functions/package.json is missing the cors dependency it requires at runtime               | S      |
+| 51  | low      | Build/Deploy | ~~Add NEXTAUTH_SECRET and NEXTAUTH_URL to .env.example~~ **fixed**                         | S      |
+| 52  | low      | Build/Deploy | ~~functions/package.json is missing the cors dependency it requires at runtime~~ **fixed** | S      |
 | 53  | low      | Build/Deploy | No tests, no CI, and the lint rules that would catch these bugs are disabled               | M      |
 | 54  | low      | Performance  | App-level getInitialProps disables static optimization for every page                      | M      |
 | 55  | low      | Build/Deploy | Delete dead modules that imply features the product does not have                          | S      |
@@ -160,7 +163,7 @@ stable; this table is the status overlay. Each Trello card carries the verificat
 | 60  | low      | Backend      | Retire or fix verifyCertificate - unwired and validates unpaid certificates ✅             | S      |
 | 61  | medium   | Exam         | The abandoned-exam record is written from an unload handler, so it usually never lands ✅  | S      |
 | 62  | -        | Payments     | Every failed payment shows the same generic error, with Stripe's reason discarded          | -      |
-| 63  | -        | Build/Deploy | Dependency upgrade pass before launch (next, next-auth, firebase, lodash)                  | -      |
+| 63  | -        | Build/Deploy | ~~Dependency upgrade pass before launch (next, next-auth, firebase, lodash)~~ **fixed**    | -      |
 
 ## Runtime evidence for the ✅ issues
 
