@@ -1,0 +1,18 @@
+node_modules
+.next
+out
+build
+coverage
+
+# Generated
+yarn.lock
+functions/package-lock.json
+functions/lib
+next-env.d.ts
+src/locales/**/*.ts
+src/locales/**/*.js
+src/locales/**/*.mo
+.husky/_
+
+# Third-party formatting, left as authored
+public

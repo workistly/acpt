@@ -6,10 +6,15 @@
     "outDir": "lib",
     "sourceMap": true,
     "strict": true,
-    "target": "es2017"
+    "target": "es2020",
+    "lib": ["es2020"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    // Scoped to this package. The repo root has its own node_modules/@types and tsc would
+    // otherwise pull conflicting ambient types from it — which broke `npm run build`, and with
+    // it the firebase.json predeploy hook, whenever the root deps were installed.
+    "typeRoots": ["./node_modules/@types"]
   },
   "compileOnSave": true,
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }

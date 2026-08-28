@@ -10,6 +10,10 @@ const compat = new FlatCompat({
 })
 
 const eslintConfig = [
+  {
+    // `next lint` applied these implicitly; the ESLint CLI does not.
+    ignores: ['.next/**', 'out/**', 'build/**', 'functions/**', 'src/locales/**', 'next-env.d.ts'],
+  },
   ...compat.extends('next/core-web-vitals', 'next/typescript', 'plugin:lingui/recommended'),
   {
     rules: {
