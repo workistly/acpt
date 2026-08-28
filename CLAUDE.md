@@ -5,7 +5,7 @@ Next.js 15 (pages router) + Firebase (project `tutorcert-324d6`). Prospective tu
 ## Read first
 
 - [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) — how the app actually fits together: routes, auth, exam engine, payments, certificates, data model, and the deployed Cloud Functions.
-- [docs/FINDINGS.md](docs/FINDINGS.md) — the code review register: 79 issues, 16 must-fix, with the split between launch blockers and post-MVP work. Ten are confirmed by a manual end-to-end run (2026-08-28); that run also found **payments have been dead since 2026-06-26** — the Stripe key was rotated but `processPayment`/`refundPayment` are still pinned to the now-disabled secret version 1, so both 500 on every request. Fix is a redeploy, not re-enabling v1.
+- [docs/FINDINGS.md](docs/FINDINGS.md) — the code review register: 77 issues, 14 must-fix, with the split between launch blockers and post-MVP work. Ten are confirmed by a manual end-to-end run (2026-08-28); that run also found **payments have been dead since 2026-06-26** — the Stripe key was rotated but `processPayment`/`refundPayment` are still pinned to the now-disabled secret version 1, so both 500 on every request. Fix is a redeploy, not re-enabling v1.
 - [docs/DEPLOYED-RULES.md](docs/DEPLOYED-RULES.md) — the security rules actually deployed to production, which differ from the ones committed here.
 
 ## Hard rules
