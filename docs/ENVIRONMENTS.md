@@ -37,14 +37,32 @@ fails loudly instead of quietly writing to production. Do not replace it with th
   `hosting` block, and the emulator refuses to start without this even when you ask only for
   Firestore.
 
-### Known failure on some Windows machines
+### If the Firestore emulator dies on startup
 
-The Firestore emulator can die immediately with `Unable to establish loopback connection` /
-`SocketException: Invalid argument: connect` in `firestore-debug.log`. That is the JVM failing to
-open its internal loopback pipe, usually because security software is intercepting local sockets.
-It is not a configuration problem — the same config works elsewhere. If you hit it, work against
-production **reads** only, keep writes to `zz-test-*` records, and flag it so we can sort the
-machine out.
+Symptom: it exits immediately, and `firestore-debug.log` ends with
+`Unable to establish loopback connection` / `SocketException: Invalid argument: connect`. That is
+the JVM failing to open its internal loopback pipe over an AF_UNIX socket, before any Firebase code
+runs — so it tells you nothing about your Firebase config.
+
+Reproduce it without Firebase in the picture. Save this as `Probe.java` and run
+`java Probe.java`:
+
+```java
+import java.nio.channels.Selector;
+
+public class Probe {
+  public static void main(String[] a) throws Exception {
+    try (Selector s = Selector.open()) {
+      System.out.println("OK");
+    }
+  }
+}
+```
+
+If that prints `OK`, the JVM is fine and the emulator is failing for some other reason. If it throws
+the same error, the restriction is on the process or environment you launched it from — we hit this
+once inside a sandboxed agent process, where the identical probe passed in an ordinary terminal on
+the same machine seconds later. Try a plain terminal before suspecting your security software.
 
 ### Secrets in the functions emulator
 
