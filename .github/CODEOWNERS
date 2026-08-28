@@ -1,15 +1,18 @@
 # Code owners for workistly/acpt.
 #
-# ⚠️ Fill in the real GitHub handles before turning on "Require review from Code Owners" in branch
-# protection — an unknown handle here makes the rule un-satisfiable and blocks every PR.
+# Do NOT turn on "Require review from Code Owners" in branch protection while there is only one
+# owner — a sole owner cannot approve their own pull request, so every PR they open becomes
+# unmergeable. Enable it once the other developers are on the repo and listed here.
 
 # Default owner for everything.
-# *                          @<product-owner-handle>
+*                          @frangiskos
 
-# Areas where a wrong change costs money or leaks data. Keep these on a tighter review than the rest.
-# /functions/                @<product-owner-handle>
-# /firestore.rules           @<product-owner-handle>
-# /storage.rules             @<product-owner-handle>
-# /src/modules/payment/      @<product-owner-handle>
-# /src/pages/api/            @<product-owner-handle>
-# /.github/                  @<product-owner-handle>
+# Areas where a wrong change costs money or leaks data. Keep these on a tighter review than the
+# rest, and do not hand them to a new joiner unreviewed.
+/functions/                @frangiskos
+/firestore.rules           @frangiskos
+/storage.rules             @frangiskos
+/firebase.json             @frangiskos
+/src/modules/payment/      @frangiskos
+/src/pages/api/            @frangiskos
+/.github/                  @frangiskos
