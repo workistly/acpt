@@ -132,6 +132,46 @@ the site down.
 This is also why the Storage emulator is not configured: it requires a `storage` rules target,
 which is the same landmine.
 
+## Deploying
+
+Firebase Hosting already serves this app and has since June 2025 - `tutorcert-324d6.web.app`
+returns the built site today. It uses Firebase's **framework-aware Hosting**: `firebase.json`
+declares `hosting.source: "."` with a `frameworksBackend`, so the CLI builds the Next.js app,
+uploads the static output to the CDN, and deploys the server half to a Cloud Function named
+`ssrtutorcert324d6` (v2, us-central1, **nodejs20**).
+
+**No adapter is involved.** Cloud Functions v2 runs on Cloud Run - a real Node container - so the
+standard Next.js server runs unmodified. This is the difference from Cloudflare Workers, which is a
+V8 isolate rather than Node and therefore needs a build-time adapter (`next-on-pages`, OpenNext).
+The constraint there is the runtime, not the hosting provider.
+
+Confirmed against the live site rather than assumed: `/`, `/login` and `/welcome` come from the CDN
+with a June 2025 `Last-Modified` and a cache HIT, while `/faq` and `/certificate/123` are generated
+per request with no `Last-Modified` at all - so the SSR function is genuinely handling dynamic
+routes.
+
+```bash
+firebase use prod
+yarn build                      # never deploy without this - see finding MF-4
+firebase deploy --only hosting
+```
+
+**Three things to know before relying on this:**
+
+- Framework-aware Hosting is still behind the `webframeworks` experiment flag - the same flag the
+  emulators need. Google's GA answer for SSR frameworks is now **App Hosting** (`apphosting.yaml`,
+  git-connected, per-PR preview builds), which this repo does not use. Migrating is a deliberate
+  decision, not a default.
+- The deployed build is from **June 2025**, and `/es/faq` returns **404** while `/faq` returns 200.
+  Locale-prefixed routing must be re-tested on the first fresh deploy; if it stays broken, Spanish
+  and Turkish visitors get nothing. Both languages are partly untranslated anyway (see Gotchas in
+  AGENTS.md).
+- `ssrtutorcert324d6` runs nodejs20, so unlike the fourteen backend functions it is **not** blocked
+  by the nodejs18 decommission.
+
+Note that acpt.org does not point here - it still points at Vercel, which has disabled the
+deployment. See docs/FINDINGS.md.
+
 ## Adding a cloud dev project
 
 When the product owner decides who owns it and where billing sits:

@@ -60,8 +60,13 @@ request with **HTTP 402 / `X-Vercel-Error: DEPLOYMENT_DISABLED`** - the deployme
 off at the account level, which is billing, not code. So the outage has two independent layers: the
 disabled Vercel deployment in front, and the Lingui build defect (MF-4, now fixed) that would have
 produced site-wide 500s from any clean deploy behind it. Bringing the site back means deploying to
-Firebase Hosting (the `ssrtutorcert324d6` SSR function already exists) and repointing DNS at
-GoDaddy - not reviving Vercel.
+Firebase Hosting and repointing DNS at GoDaddy - not reviving Vercel.
+
+Firebase Hosting is confirmed working for this app: `tutorcert-324d6.web.app` serves it today, with
+static routes cached at the CDN and dynamic ones (`/faq`, `/certificate/:id`) rendered per request
+by the `ssrtutorcert324d6` Cloud Function (nodejs20). One caveat found while checking: on that
+June 2025 build `/es/faq` returns 404 while `/faq` returns 200, so locale-prefixed routing needs
+re-testing on the first fresh deploy. Deployment details in docs/ENVIRONMENTS.md.
 
 ## Card audit (2026-08-28)
 
