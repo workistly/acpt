@@ -28,6 +28,7 @@ Yarn Classic — this is not an npm or pnpm project; never generate a `package-l
 yarn                                  # install (corepack may need an elevated shell; npm i -g yarn also works)
 yarn dev                              # dev server on http://localhost:3060 (compiles i18n first)
 yarn build                            # production build (compiles i18n first)
+yarn emulators                        # local Firebase suite (firestore, auth, functions) - docs/ENVIRONMENTS.md
 yarn typecheck                        # tsc --noEmit
 yarn lint                             # eslint; warnings do not fail, errors do
 yarn format                           # prettier --write .

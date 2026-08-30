@@ -53,6 +53,16 @@ and the admin refund. Both need re-running once the secret is fixed — and the 
 **test-vs-live mode is still unknown** (the frontend key is `pk_test…`, and we deliberately never
 read the secret's value; `transactions` records no mode flag, so only the Stripe dashboard can say).
 
+## Why acpt.org is down (2026-08-30)
+
+Settled by probing the domain: `acpt.org` still points at **Vercel**, and Vercel answers every
+request with **HTTP 402 / `X-Vercel-Error: DEPLOYMENT_DISABLED`** - the deployment has been switched
+off at the account level, which is billing, not code. So the outage has two independent layers: the
+disabled Vercel deployment in front, and the Lingui build defect (MF-4, now fixed) that would have
+produced site-wide 500s from any clean deploy behind it. Bringing the site back means deploying to
+Firebase Hosting (the `ssrtutorcert324d6` SSR function already exists) and repointing DNS at
+GoDaddy - not reviving Vercel.
+
 ## Card audit (2026-08-28)
 
 Because this register is going to a non-technical reader, every card was independently re-checked

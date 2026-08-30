@@ -54,3 +54,4 @@ certificates
 *-debug.log
 .firebase/
 emu.log
+.emulator-data/

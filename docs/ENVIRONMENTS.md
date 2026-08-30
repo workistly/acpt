@@ -18,7 +18,7 @@ the cloud.
 
 ```bash
 cp .env.development.example .env.local   # Next loads .env.local ahead of .env
-firebase emulators:start --only firestore,auth,functions --project demo-acpt
+yarn emulators                           # builds functions/, then starts the suite
 yarn dev                                 # second terminal
 ```
 
@@ -30,12 +30,52 @@ fails loudly instead of quietly writing to production. Do not replace it with th
 
 ### Prerequisites
 
+- **firebase-tools** (`npm i -g firebase-tools`) and the functions dependencies
+  (`npm --prefix functions install`, once). No `firebase login` is needed for the demo project.
 - **JDK 21 or newer.** firebase-tools rejects anything older. `java -version` must report 21+ —
   having it installed is not enough if an older JDK comes first on `PATH`.
 - **The `webframeworks` experiment**, once per machine:
   `firebase experiments:enable webframeworks`. `firebase.json` declares a framework-aware
   `hosting` block, and the emulator refuses to start without this even when you ask only for
   Firestore.
+
+### First start and expected warnings
+
+The first start downloads the emulator jars and the UI. These messages are normal:
+
+- `Did not find a Cloud Firestore rules file ... allowing all reads and writes` - deliberate; see
+  "The rules landmine" below.
+- `package.json indicates an outdated version of firebase-functions` - spurious; functions are on
+  v6, the CLI version check is just blunt.
+- `Your requested "node" version "22" doesn't match your global version` - the emulator runs the
+  functions with your host Node, which is fine locally.
+- `function ignored because the pubsub emulator does not exist` - the three scheduled jobs do not
+  run locally. Add `pubsub` to the `--only` list in the script if you ever need them.
+
+`yarn emulators` recompiles `functions/` before starting, so TypeScript changes there are picked up
+on restart. While iterating on functions, `npm --prefix functions run build:watch` in a third
+terminal keeps the emulator loading fresh output.
+
+The emulators hold data in memory only. To keep what you create across restarts:
+
+```bash
+yarn emulators --import=./.emulator-data --export-on-exit
+```
+
+`.emulator-data/` is git-ignored.
+
+### Seeding local data
+
+The emulators start empty, so the candidate journey dead-ends at "An exam of this language does not
+exist" until an exam exists. Fastest path is the app's own admin pages:
+
+1. Sign up at http://localhost:3060/signup - any details; it writes only to the emulator.
+2. If `/admin` redirects you (today it does not - finding MF-10), open the emulator UI's Firestore
+   tab (http://localhost:4000/firestore) and set `type` to `"admin"` on your `users` document.
+3. Create questions in http://localhost:3060/admin/question-bank (language English), then the exam
+   in http://localhost:3060/admin/exams, and mark it active.
+
+Run with `--import`/`--export-on-exit` (above) so you only do this once.
 
 ### If the Firestore emulator dies on startup
 

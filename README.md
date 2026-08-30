@@ -11,13 +11,14 @@ certificate; anyone can verify a certificate by its ID number or URL.
 
 ## Getting started
 
-Requires **Node 22** (see `.nvmrc`), Yarn Classic, and **JDK 21+** if you want the Firebase
-emulators.
+Requires **Node 22** (see `.nvmrc`) and Yarn Classic - plus **JDK 21+** and `firebase-tools` for
+the local Firebase emulators.
 
 ```bash
 yarn
 cp .env.development.example .env.local   # local emulators — see docs/ENVIRONMENTS.md
-yarn dev                                 # http://localhost:3060
+yarn emulators                           # Firebase emulator suite (one terminal)
+yarn dev                                 # http://localhost:3060 (another terminal)
 ```
 
 To run against production Firebase instead, copy `.env.example` to `.env` and fill it in from the
@@ -29,6 +30,7 @@ team password manager. Never commit either file.
 yarn dev            # dev server (compiles i18n catalogs first)
 yarn build          # production build (compiles i18n catalogs first)
 yarn start          # serve the production build
+yarn emulators      # local Firebase suite - see docs/ENVIRONMENTS.md
 yarn typecheck      # tsc --noEmit
 yarn lint           # eslint
 yarn format         # prettier --write .

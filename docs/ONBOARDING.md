@@ -38,10 +38,13 @@ When you do have to touch production:
 ```bash
 git clone https://github.com/workistly/acpt.git
 cd acpt
-npm i -g yarn          # Yarn Classic; corepack needs an elevated shell on Windows
-yarn
-cp .env.development.example .env.local   # local emulator setup; see ENVIRONMENTS.md
-yarn dev                                # http://localhost:3060
+npm i -g yarn firebase-tools    # Yarn Classic + Firebase CLI (corepack needs an elevated shell)
+yarn                            # app dependencies
+npm --prefix functions install  # Cloud Functions dependencies, for the emulator
+firebase experiments:enable webframeworks   # once per machine
+cp .env.development.example .env.local      # local emulator setup; see ENVIRONMENTS.md
+yarn emulators                  # Firebase emulator suite - keep this terminal open
+yarn dev                        # second terminal -> http://localhost:3060
 ```
 
 To point at production instead, use `.env.example` -> `.env` and fill in the real values from the

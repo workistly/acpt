@@ -6,6 +6,7 @@
     "dev": "lingui compile && next dev -p 3060 --turbopack",
     "build": "lingui compile && next build",
     "start": "next start",
+    "emulators": "npm --prefix functions run build && firebase emulators:start --only firestore,auth,functions --project demo-acpt",
     "lint": "eslint .",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
